@@ -1,3 +1,4 @@
+// URL_Server/background.js
 chrome.tabs.onUpdated.addListener(async (tabId, changeInfo, tab) => {
   // Check if the page has finished loading
   if (changeInfo.status === 'complete') {

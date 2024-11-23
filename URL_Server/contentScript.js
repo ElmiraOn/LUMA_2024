@@ -1,3 +1,4 @@
+// URL_Server/contentScript.js
 function extractUrls() {
   // Get all links from the page
   const linkElements = document.querySelectorAll('a');

@@ -1,3 +1,4 @@
+// URL_Server/popup.js
 document.addEventListener('DOMContentLoaded', async function() {
   // Get the current active tab
   const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });

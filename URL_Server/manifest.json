@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "URL Extractor",
+  "version": "1.0",
+  "description": "Extracts current URL and all URLs from webpage",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "http://localhost:5000/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

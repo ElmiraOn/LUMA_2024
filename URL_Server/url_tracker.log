@@ -2415,3 +2415,2790 @@ You can also visit their "Contact Us" page on the website for more information.
 2024-11-24 04:24:44,018 - INFO - Listening for wake words: hey vista, hi vista, hello vista
 2024-11-24 04:24:44,135 - INFO - Listening...
 2024-11-24 04:24:46,539 - INFO - Could not understand audio
+2024-11-24 05:25:34,651 - INFO - Voice assistant thread started
+2024-11-24 05:25:34,651 - INFO - 
+==================================================
+2024-11-24 05:25:34,651 - INFO - Server starting on http://localhost:50001
+2024-11-24 05:25:34,651 - INFO - ==================================================
+
+2024-11-24 05:25:34,652 - INFO - Voice Assistant initialized
+2024-11-24 05:25:34,652 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:25:34,661 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://172.20.33.252:50001
+2024-11-24 05:25:34,661 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 05:25:34,749 - INFO - Listening...
+2024-11-24 05:25:38,120 - INFO - Could not understand audio
+2024-11-24 05:25:38,382 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:25:38,501 - INFO - Listening...
+2024-11-24 05:25:40,442 - INFO - Received request to process links
+2024-11-24 05:25:40,443 - INFO - 
+==================================================
+2024-11-24 05:25:40,443 - INFO - Updated Browser Data:
+2024-11-24 05:25:40,443 - INFO - ==================================================
+2024-11-24 05:25:40,443 - INFO - Current URL: https://www.google.com/search?q=srt&oq=srt+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhBMgYIAhBFGEEyBggDEEUYQTIGCAQQRRhBMgYIBRBFGEEyBggGEEUYQTIGCAcQLhhA0gEIMTAwN2owajGoAgCwAgA&sourceid=chrome&ie=UTF-8
+2024-11-24 05:25:40,443 - INFO - Token: '0'
+2024-11-24 05:25:40,443 - INFO - URLs found: 80
+2024-11-24 05:25:40,443 - INFO - ==================================================
+
+2024-11-24 05:25:40,444 - INFO - 127.0.0.1 - - [24/Nov/2024 05:25:40] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 05:25:41,145 - INFO - Received request to process links
+2024-11-24 05:25:41,146 - INFO - 
+==================================================
+2024-11-24 05:25:41,146 - INFO - Updated Browser Data:
+2024-11-24 05:25:41,146 - INFO - ==================================================
+2024-11-24 05:25:41,146 - INFO - Current URL: https://www.tmcdocs.info/
+2024-11-24 05:25:41,146 - INFO - Token: '0'
+2024-11-24 05:25:41,146 - INFO - URLs found: 39
+2024-11-24 05:25:41,146 - INFO - ==================================================
+
+2024-11-24 05:25:41,147 - INFO - 127.0.0.1 - - [24/Nov/2024 05:25:41] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 05:25:44,375 - INFO - Recognized: turn off the
+2024-11-24 05:25:44,613 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:25:44,735 - INFO - Listening...
+2024-11-24 05:25:47,848 - INFO - Recognized: hi vista
+2024-11-24 05:25:47,985 - INFO - Wake word detected!
+2024-11-24 05:25:50,796 - INFO - Listening for command...
+2024-11-24 05:25:50,910 - INFO - Listening...
+2024-11-24 05:25:57,618 - INFO - Recognized: tell me about this website is talking about and can you give me some important contacts i can contact you
+2024-11-24 05:25:57,757 - INFO - Command received: tell me about this website is talking about and can you give me some important contacts i can contact you
+2024-11-24 05:25:57,757 - INFO - 
+==================================================
+2024-11-24 05:25:57,757 - INFO - DATA SENT TO BACKEND:
+2024-11-24 05:25:57,757 - INFO - ==================================================
+2024-11-24 05:25:57,757 - INFO - COMMAND: tell me about this website is talking about and can you give me some important contacts i can contact you
+2024-11-24 05:25:57,758 - INFO - TOKEN: '0'
+2024-11-24 05:25:57,758 - INFO - CURRENT URL: https://www.tmcdocs.info/
+2024-11-24 05:25:57,758 - INFO - 
+ALL URLS:
+2024-11-24 05:25:57,758 - INFO - 1. https://www.tmcdocs.info/#content
+2024-11-24 05:25:57,758 - INFO - 2. https://www.tmcdocs.info/
+2024-11-24 05:25:57,758 - INFO - 3. https://www.tmcdocs.info/news-updates/
+2024-11-24 05:25:57,758 - INFO - 4. https://www.tmcdocs.info/covid-cold-and-flu/
+2024-11-24 05:25:57,758 - INFO - 5. https://www.tmcdocs.info/resources-for-respiratory-illnesses/
+2024-11-24 05:25:57,758 - INFO - 6. https://www.tmcdocs.info/covid-vaccine-booking-sites/
+2024-11-24 05:25:57,758 - INFO - 7. https://www.tmcdocs.info/resources-and-links/
+2024-11-24 05:25:57,758 - INFO - 8. https://www.tmcdocs.info/post-covid-resources/
+2024-11-24 05:25:57,758 - INFO - 9. https://www.tmcdocs.info/resources-for-patients/
+2024-11-24 05:25:57,758 - INFO - 10. https://www.tmcdocs.info/resources-for-grief-and-bereavement/
+2024-11-24 05:25:57,758 - INFO - 11. https://www.tmcdocs.info/resources-for-mental-health/
+2024-11-24 05:25:57,758 - INFO - 12. https://www.tmcdocs.info/vaccine-information-for-adults/
+2024-11-24 05:25:57,758 - INFO - 13. https://www.tmcdocs.info/clinic-info/
+2024-11-24 05:25:57,758 - INFO - 14. https://www.tmcdocs.info/clinic-info/services/
+2024-11-24 05:25:57,759 - INFO - 15. https://www.tmcdocs.info/clinic-info/office-hours/
+2024-11-24 05:25:57,759 - INFO - 16. https://www.tmcdocs.info/clinic-info/appointments/
+2024-11-24 05:25:57,759 - INFO - 17. https://www.tmcdocs.info/clinic-info/tips-faqs/
+2024-11-24 05:25:57,759 - INFO - 18. https://www.tmcdocs.info/our-staff/
+2024-11-24 05:25:57,759 - INFO - 19. https://www.tmcdocs.info/clinic-info/uninsured-services/
+2024-11-24 05:25:57,759 - INFO - 20. https://www.tmcdocs.info/clinic-info/travel-advice/
+2024-11-24 05:25:57,759 - INFO - 21. https://www.tmcdocs.info/resources/
+2024-11-24 05:25:57,759 - INFO - 22. https://www.tmcdocs.info/virtual-video-visits/
+2024-11-24 05:25:57,759 - INFO - 23. https://www.tmcdocs.info/resources/email-policy/
+2024-11-24 05:25:57,759 - INFO - 24. https://www.tmcdocs.info/resources/privacy-policy/
+2024-11-24 05:25:57,759 - INFO - 25. https://www.tmcdocs.info/links/
+2024-11-24 05:25:57,759 - INFO - 26. https://www.tmcdocs.info/contact/
+2024-11-24 05:25:57,759 - INFO - 27. http://www.tmcdocs.info/?p=607/
+2024-11-24 05:25:57,759 - INFO - 28. https://www.tmcdocs.info/flu-shots-2021-2022/
+2024-11-24 05:25:57,759 - INFO - 29. https://www.tmcdocs.info/immunizations-for-measles/
+2024-11-24 05:25:57,759 - INFO - 30. https://www.tmcdocs.info/email-spam-alert/
+2024-11-24 05:25:57,759 - INFO - 31. https://www.tmcdocs.info/change-in-masking-policy-in-office/
+2024-11-24 05:25:57,759 - INFO - 32. https://www.tmcdocs.info/important-messaging-changes/
+2024-11-24 05:25:57,759 - INFO - 33. https://www.tmcdocs.info/emails-from-thornhill-medical-centre/
+2024-11-24 05:25:57,759 - INFO - 34. http://www.tmcdocs.info/clinic-info/tips-faqs/#PR
+2024-11-24 05:25:57,759 - INFO - 35. http://www.tmcdocs.info/clinic-info/uninsured-services/
+2024-11-24 05:25:57,759 - INFO - 36. http://www.tmcdocs.info/contact/
+2024-11-24 05:25:57,760 - INFO - 37. https://twitter.com/ThornhillMed
+2024-11-24 05:25:57,760 - INFO - 38. https://cyberchimps.com/store/responsivepro/
+2024-11-24 05:25:57,760 - INFO - 39. https://cyberchimps.com/
+2024-11-24 05:25:57,760 - INFO - ==================================================
+2024-11-24 05:28:28,461 - INFO - 
+==================================================
+2024-11-24 05:28:28,463 - INFO - BACKEND RESPONSE:
+2024-11-24 05:28:28,463 - INFO - ==================================================
+2024-11-24 05:28:28,463 - INFO - The website is discussing Thornhill Medical Centre, a healthcare provider located in Thornhill, Ontario, Canada. The website provides information on various aspects of the medical centre, including:
+
+1. **Services**: They offer various medical services, including primary care, vaccinations, and specialized clinics.
+2. **Clinic Info**: You can find information on their office hours, after-hours care, appointments, and tips for patients.
+3. **Staff**: Their website lists their physicians and staff members, along with contact details.
+4. **Resources**: They offer resources for patients, including email policy, privacy policy, and online appointment booking through Health Myself/Pomelo (although this is no longer available as of April 30, 2023).
+5. **News and Updates**: The website periodically publishes news and updates on various topics related to the medical centre.
+
+As for important contacts, you can reach out to Thornhill Medical Centre through:
+
+1. **Phone**: Call them at 905-889-3634.
+2. **Email**: For general inquiries, use `info@tmcdocs.info`. (Please note that this email is not secure or regularly monitored and should not be used for confidential information.)
+3. **Book an Appointment**: You can book an appointment online through their website by clicking the "Click here to Book an Appointment" link.
+
+If you need help with anything specific, such as requesting a prescription renewal, you may want to ask your pharmacist to fax a refill request to the medical centre.
+2024-11-24 05:28:28,464 - INFO - ==================================================
+
+2024-11-24 05:30:41,499 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:30:41,664 - INFO - Listening...
+2024-11-24 05:30:44,752 - INFO - Recognized: speech to text google
+2024-11-24 05:30:44,988 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:30:45,110 - INFO - Listening...
+2024-11-24 05:30:48,594 - INFO - Recognized: and speech recognition
+2024-11-24 05:30:48,840 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:30:48,962 - INFO - Listening...
+2024-11-24 05:30:52,124 - INFO - Recognized: hi vista
+2024-11-24 05:30:52,257 - INFO - Wake word detected!
+2024-11-24 05:30:55,135 - INFO - Listening for command...
+2024-11-24 05:30:55,255 - INFO - Listening...
+2024-11-24 05:30:59,190 - INFO - Recognized: pacific telephone number i can contact them on
+2024-11-24 05:30:59,322 - INFO - Command received: pacific telephone number i can contact them on
+2024-11-24 05:30:59,323 - INFO - 
+==================================================
+2024-11-24 05:30:59,323 - INFO - DATA SENT TO BACKEND:
+2024-11-24 05:30:59,323 - INFO - ==================================================
+2024-11-24 05:30:59,323 - INFO - COMMAND: pacific telephone number i can contact them on
+2024-11-24 05:30:59,323 - INFO - TOKEN: '1'
+2024-11-24 05:30:59,323 - INFO - CURRENT URL: https://www.tmcdocs.info/
+2024-11-24 05:30:59,323 - INFO - 
+ALL URLS:
+2024-11-24 05:30:59,323 - INFO - 1. https://www.tmcdocs.info/#content
+2024-11-24 05:30:59,323 - INFO - 2. https://www.tmcdocs.info/
+2024-11-24 05:30:59,323 - INFO - 3. https://www.tmcdocs.info/news-updates/
+2024-11-24 05:30:59,324 - INFO - 4. https://www.tmcdocs.info/covid-cold-and-flu/
+2024-11-24 05:30:59,324 - INFO - 5. https://www.tmcdocs.info/resources-for-respiratory-illnesses/
+2024-11-24 05:30:59,324 - INFO - 6. https://www.tmcdocs.info/covid-vaccine-booking-sites/
+2024-11-24 05:30:59,324 - INFO - 7. https://www.tmcdocs.info/resources-and-links/
+2024-11-24 05:30:59,324 - INFO - 8. https://www.tmcdocs.info/post-covid-resources/
+2024-11-24 05:30:59,324 - INFO - 9. https://www.tmcdocs.info/resources-for-patients/
+2024-11-24 05:30:59,324 - INFO - 10. https://www.tmcdocs.info/resources-for-grief-and-bereavement/
+2024-11-24 05:30:59,324 - INFO - 11. https://www.tmcdocs.info/resources-for-mental-health/
+2024-11-24 05:30:59,324 - INFO - 12. https://www.tmcdocs.info/vaccine-information-for-adults/
+2024-11-24 05:30:59,324 - INFO - 13. https://www.tmcdocs.info/clinic-info/
+2024-11-24 05:30:59,324 - INFO - 14. https://www.tmcdocs.info/clinic-info/services/
+2024-11-24 05:30:59,324 - INFO - 15. https://www.tmcdocs.info/clinic-info/office-hours/
+2024-11-24 05:30:59,324 - INFO - 16. https://www.tmcdocs.info/clinic-info/appointments/
+2024-11-24 05:30:59,324 - INFO - 17. https://www.tmcdocs.info/clinic-info/tips-faqs/
+2024-11-24 05:30:59,324 - INFO - 18. https://www.tmcdocs.info/our-staff/
+2024-11-24 05:30:59,324 - INFO - 19. https://www.tmcdocs.info/clinic-info/uninsured-services/
+2024-11-24 05:30:59,324 - INFO - 20. https://www.tmcdocs.info/clinic-info/travel-advice/
+2024-11-24 05:30:59,324 - INFO - 21. https://www.tmcdocs.info/resources/
+2024-11-24 05:30:59,324 - INFO - 22. https://www.tmcdocs.info/virtual-video-visits/
+2024-11-24 05:30:59,324 - INFO - 23. https://www.tmcdocs.info/resources/email-policy/
+2024-11-24 05:30:59,325 - INFO - 24. https://www.tmcdocs.info/resources/privacy-policy/
+2024-11-24 05:30:59,325 - INFO - 25. https://www.tmcdocs.info/links/
+2024-11-24 05:30:59,325 - INFO - 26. https://www.tmcdocs.info/contact/
+2024-11-24 05:30:59,325 - INFO - 27. http://www.tmcdocs.info/?p=607/
+2024-11-24 05:30:59,325 - INFO - 28. https://www.tmcdocs.info/flu-shots-2021-2022/
+2024-11-24 05:30:59,325 - INFO - 29. https://www.tmcdocs.info/immunizations-for-measles/
+2024-11-24 05:30:59,325 - INFO - 30. https://www.tmcdocs.info/email-spam-alert/
+2024-11-24 05:30:59,325 - INFO - 31. https://www.tmcdocs.info/change-in-masking-policy-in-office/
+2024-11-24 05:30:59,325 - INFO - 32. https://www.tmcdocs.info/important-messaging-changes/
+2024-11-24 05:30:59,325 - INFO - 33. https://www.tmcdocs.info/emails-from-thornhill-medical-centre/
+2024-11-24 05:30:59,325 - INFO - 34. http://www.tmcdocs.info/clinic-info/tips-faqs/#PR
+2024-11-24 05:30:59,325 - INFO - 35. http://www.tmcdocs.info/clinic-info/uninsured-services/
+2024-11-24 05:30:59,325 - INFO - 36. http://www.tmcdocs.info/contact/
+2024-11-24 05:30:59,325 - INFO - 37. https://twitter.com/ThornhillMed
+2024-11-24 05:30:59,325 - INFO - 38. https://cyberchimps.com/store/responsivepro/
+2024-11-24 05:30:59,325 - INFO - 39. https://cyberchimps.com/
+2024-11-24 05:30:59,325 - INFO - ==================================================
+2024-11-24 05:31:00,931 - INFO - 
+==================================================
+2024-11-24 05:31:00,931 - INFO - BACKEND RESPONSE:
+2024-11-24 05:31:00,931 - INFO - ==================================================
+2024-11-24 05:31:00,931 - INFO - Based on the provided text, I found the following Pacific Telephone number:
+
+`905-889-3634`
+
+This is a phone number you can use to contact Thornhill Medical Centre.
+2024-11-24 05:31:00,931 - INFO - ==================================================
+
+2024-11-24 05:31:18,456 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:31:18,579 - INFO - Listening...
+2024-11-24 05:31:21,823 - INFO - Recognized: do you have an
+2024-11-24 05:31:22,061 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:31:22,181 - INFO - Listening...
+2024-11-24 05:31:25,098 - INFO - Recognized: hi vista
+2024-11-24 05:31:25,237 - INFO - Wake word detected!
+2024-11-24 05:31:28,004 - INFO - Listening for command...
+2024-11-24 05:31:28,124 - INFO - Listening...
+2024-11-24 05:31:32,031 - INFO - Recognized: email i can contact them to
+2024-11-24 05:31:32,169 - INFO - Command received: email i can contact them to
+2024-11-24 05:31:32,170 - INFO - 
+==================================================
+2024-11-24 05:31:32,170 - INFO - DATA SENT TO BACKEND:
+2024-11-24 05:31:32,170 - INFO - ==================================================
+2024-11-24 05:31:32,170 - INFO - COMMAND: email i can contact them to
+2024-11-24 05:31:32,170 - INFO - TOKEN: '1'
+2024-11-24 05:31:32,170 - INFO - CURRENT URL: https://www.tmcdocs.info/
+2024-11-24 05:31:32,170 - INFO - 
+ALL URLS:
+2024-11-24 05:31:32,170 - INFO - 1. https://www.tmcdocs.info/#content
+2024-11-24 05:31:32,170 - INFO - 2. https://www.tmcdocs.info/
+2024-11-24 05:31:32,170 - INFO - 3. https://www.tmcdocs.info/news-updates/
+2024-11-24 05:31:32,170 - INFO - 4. https://www.tmcdocs.info/covid-cold-and-flu/
+2024-11-24 05:31:32,170 - INFO - 5. https://www.tmcdocs.info/resources-for-respiratory-illnesses/
+2024-11-24 05:31:32,170 - INFO - 6. https://www.tmcdocs.info/covid-vaccine-booking-sites/
+2024-11-24 05:31:32,171 - INFO - 7. https://www.tmcdocs.info/resources-and-links/
+2024-11-24 05:31:32,171 - INFO - 8. https://www.tmcdocs.info/post-covid-resources/
+2024-11-24 05:31:32,171 - INFO - 9. https://www.tmcdocs.info/resources-for-patients/
+2024-11-24 05:31:32,171 - INFO - 10. https://www.tmcdocs.info/resources-for-grief-and-bereavement/
+2024-11-24 05:31:32,171 - INFO - 11. https://www.tmcdocs.info/resources-for-mental-health/
+2024-11-24 05:31:32,171 - INFO - 12. https://www.tmcdocs.info/vaccine-information-for-adults/
+2024-11-24 05:31:32,171 - INFO - 13. https://www.tmcdocs.info/clinic-info/
+2024-11-24 05:31:32,171 - INFO - 14. https://www.tmcdocs.info/clinic-info/services/
+2024-11-24 05:31:32,171 - INFO - 15. https://www.tmcdocs.info/clinic-info/office-hours/
+2024-11-24 05:31:32,171 - INFO - 16. https://www.tmcdocs.info/clinic-info/appointments/
+2024-11-24 05:31:32,171 - INFO - 17. https://www.tmcdocs.info/clinic-info/tips-faqs/
+2024-11-24 05:31:32,171 - INFO - 18. https://www.tmcdocs.info/our-staff/
+2024-11-24 05:31:32,171 - INFO - 19. https://www.tmcdocs.info/clinic-info/uninsured-services/
+2024-11-24 05:31:32,171 - INFO - 20. https://www.tmcdocs.info/clinic-info/travel-advice/
+2024-11-24 05:31:32,171 - INFO - 21. https://www.tmcdocs.info/resources/
+2024-11-24 05:31:32,172 - INFO - 22. https://www.tmcdocs.info/virtual-video-visits/
+2024-11-24 05:31:32,172 - INFO - 23. https://www.tmcdocs.info/resources/email-policy/
+2024-11-24 05:31:32,172 - INFO - 24. https://www.tmcdocs.info/resources/privacy-policy/
+2024-11-24 05:31:32,172 - INFO - 25. https://www.tmcdocs.info/links/
+2024-11-24 05:31:32,172 - INFO - 26. https://www.tmcdocs.info/contact/
+2024-11-24 05:31:32,172 - INFO - 27. http://www.tmcdocs.info/?p=607/
+2024-11-24 05:31:32,172 - INFO - 28. https://www.tmcdocs.info/flu-shots-2021-2022/
+2024-11-24 05:31:32,172 - INFO - 29. https://www.tmcdocs.info/immunizations-for-measles/
+2024-11-24 05:31:32,172 - INFO - 30. https://www.tmcdocs.info/email-spam-alert/
+2024-11-24 05:31:32,172 - INFO - 31. https://www.tmcdocs.info/change-in-masking-policy-in-office/
+2024-11-24 05:31:32,172 - INFO - 32. https://www.tmcdocs.info/important-messaging-changes/
+2024-11-24 05:31:32,172 - INFO - 33. https://www.tmcdocs.info/emails-from-thornhill-medical-centre/
+2024-11-24 05:31:32,172 - INFO - 34. http://www.tmcdocs.info/clinic-info/tips-faqs/#PR
+2024-11-24 05:31:32,172 - INFO - 35. http://www.tmcdocs.info/clinic-info/uninsured-services/
+2024-11-24 05:31:32,172 - INFO - 36. http://www.tmcdocs.info/contact/
+2024-11-24 05:31:32,172 - INFO - 37. https://twitter.com/ThornhillMed
+2024-11-24 05:31:32,172 - INFO - 38. https://cyberchimps.com/store/responsivepro/
+2024-11-24 05:31:32,172 - INFO - 39. https://cyberchimps.com/
+2024-11-24 05:31:32,172 - INFO - ==================================================
+2024-11-24 05:31:33,902 - INFO - 
+==================================================
+2024-11-24 05:31:33,902 - INFO - BACKEND RESPONSE:
+2024-11-24 05:31:33,902 - INFO - ==================================================
+2024-11-24 05:31:33,902 - INFO - According to the text, you can contact Thornhill Medical Centre through their email address:
+
+`info@tmcdocs.info`
+
+This email is for general administrative inquiries and is not secure or regularly monitored. If you have confidential information to share, please review their Email Policy (http://www.tmcdocs.info/resources/email-policy) for more information.
+2024-11-24 05:31:33,902 - INFO - ==================================================
+
+2024-11-24 05:32:09,118 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:32:09,245 - INFO - Listening...
+2024-11-24 05:32:12,540 - INFO - Recognized: hi
+2024-11-24 05:32:12,779 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:32:12,898 - INFO - Listening...
+2024-11-24 05:32:15,990 - INFO - Recognized: hi vista
+2024-11-24 05:32:16,127 - INFO - Wake word detected!
+2024-11-24 05:32:19,088 - INFO - Listening for command...
+2024-11-24 05:32:19,205 - INFO - Listening...
+2024-11-24 05:32:23,265 - INFO - Recognized: do they have a specific medicines they talked about
+2024-11-24 05:32:23,400 - INFO - Command received: do they have a specific medicines they talked about
+2024-11-24 05:32:23,400 - INFO - 
+==================================================
+2024-11-24 05:32:23,401 - INFO - DATA SENT TO BACKEND:
+2024-11-24 05:32:23,401 - INFO - ==================================================
+2024-11-24 05:32:23,401 - INFO - COMMAND: do they have a specific medicines they talked about
+2024-11-24 05:32:23,401 - INFO - TOKEN: '1'
+2024-11-24 05:32:23,401 - INFO - CURRENT URL: https://www.tmcdocs.info/
+2024-11-24 05:32:23,401 - INFO - 
+ALL URLS:
+2024-11-24 05:32:23,401 - INFO - 1. https://www.tmcdocs.info/#content
+2024-11-24 05:32:23,401 - INFO - 2. https://www.tmcdocs.info/
+2024-11-24 05:32:23,401 - INFO - 3. https://www.tmcdocs.info/news-updates/
+2024-11-24 05:32:23,401 - INFO - 4. https://www.tmcdocs.info/covid-cold-and-flu/
+2024-11-24 05:32:23,401 - INFO - 5. https://www.tmcdocs.info/resources-for-respiratory-illnesses/
+2024-11-24 05:32:23,401 - INFO - 6. https://www.tmcdocs.info/covid-vaccine-booking-sites/
+2024-11-24 05:32:23,401 - INFO - 7. https://www.tmcdocs.info/resources-and-links/
+2024-11-24 05:32:23,402 - INFO - 8. https://www.tmcdocs.info/post-covid-resources/
+2024-11-24 05:32:23,402 - INFO - 9. https://www.tmcdocs.info/resources-for-patients/
+2024-11-24 05:32:23,402 - INFO - 10. https://www.tmcdocs.info/resources-for-grief-and-bereavement/
+2024-11-24 05:32:23,402 - INFO - 11. https://www.tmcdocs.info/resources-for-mental-health/
+2024-11-24 05:32:23,402 - INFO - 12. https://www.tmcdocs.info/vaccine-information-for-adults/
+2024-11-24 05:32:23,402 - INFO - 13. https://www.tmcdocs.info/clinic-info/
+2024-11-24 05:32:23,402 - INFO - 14. https://www.tmcdocs.info/clinic-info/services/
+2024-11-24 05:32:23,402 - INFO - 15. https://www.tmcdocs.info/clinic-info/office-hours/
+2024-11-24 05:32:23,402 - INFO - 16. https://www.tmcdocs.info/clinic-info/appointments/
+2024-11-24 05:32:23,402 - INFO - 17. https://www.tmcdocs.info/clinic-info/tips-faqs/
+2024-11-24 05:32:23,402 - INFO - 18. https://www.tmcdocs.info/our-staff/
+2024-11-24 05:32:23,402 - INFO - 19. https://www.tmcdocs.info/clinic-info/uninsured-services/
+2024-11-24 05:32:23,402 - INFO - 20. https://www.tmcdocs.info/clinic-info/travel-advice/
+2024-11-24 05:32:23,402 - INFO - 21. https://www.tmcdocs.info/resources/
+2024-11-24 05:32:23,402 - INFO - 22. https://www.tmcdocs.info/virtual-video-visits/
+2024-11-24 05:32:23,402 - INFO - 23. https://www.tmcdocs.info/resources/email-policy/
+2024-11-24 05:32:23,402 - INFO - 24. https://www.tmcdocs.info/resources/privacy-policy/
+2024-11-24 05:32:23,402 - INFO - 25. https://www.tmcdocs.info/links/
+2024-11-24 05:32:23,402 - INFO - 26. https://www.tmcdocs.info/contact/
+2024-11-24 05:32:23,402 - INFO - 27. http://www.tmcdocs.info/?p=607/
+2024-11-24 05:32:23,403 - INFO - 28. https://www.tmcdocs.info/flu-shots-2021-2022/
+2024-11-24 05:32:23,403 - INFO - 29. https://www.tmcdocs.info/immunizations-for-measles/
+2024-11-24 05:32:23,403 - INFO - 30. https://www.tmcdocs.info/email-spam-alert/
+2024-11-24 05:32:23,403 - INFO - 31. https://www.tmcdocs.info/change-in-masking-policy-in-office/
+2024-11-24 05:32:23,403 - INFO - 32. https://www.tmcdocs.info/important-messaging-changes/
+2024-11-24 05:32:23,403 - INFO - 33. https://www.tmcdocs.info/emails-from-thornhill-medical-centre/
+2024-11-24 05:32:23,403 - INFO - 34. http://www.tmcdocs.info/clinic-info/tips-faqs/#PR
+2024-11-24 05:32:23,403 - INFO - 35. http://www.tmcdocs.info/clinic-info/uninsured-services/
+2024-11-24 05:32:23,403 - INFO - 36. http://www.tmcdocs.info/contact/
+2024-11-24 05:32:23,403 - INFO - 37. https://twitter.com/ThornhillMed
+2024-11-24 05:32:23,403 - INFO - 38. https://cyberchimps.com/store/responsivepro/
+2024-11-24 05:32:23,403 - INFO - 39. https://cyberchimps.com/
+2024-11-24 05:32:23,403 - INFO - ==================================================
+2024-11-24 05:32:25,166 - INFO - 
+==================================================
+2024-11-24 05:32:25,166 - INFO - BACKEND RESPONSE:
+2024-11-24 05:32:25,166 - INFO - ==================================================
+2024-11-24 05:32:25,166 - INFO - Yes, the text mentions several medications:
+
+1. "Flu Shots Winter 2024-2025" ( likely referring to influenza vaccinations)
+2. "Immunizations for Measles"
+3. "Vaccine records"
+
+No specific medicines are mentioned by name in the provided text, only the general topic of vaccinations and immunizations.
+2024-11-24 05:32:25,166 - INFO - ==================================================
+
+2024-11-24 05:32:56,122 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:32:56,241 - INFO - Listening...
+2024-11-24 05:33:00,765 - INFO - Could not understand audio
+2024-11-24 05:33:01,007 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:33:01,128 - INFO - Listening...
+2024-11-24 05:34:50,607 - INFO - Voice assistant thread started
+2024-11-24 05:34:50,608 - INFO - 
+==================================================
+2024-11-24 05:34:50,608 - INFO - Server starting on http://localhost:50001
+2024-11-24 05:34:50,608 - INFO - ==================================================
+
+2024-11-24 05:34:50,608 - INFO - Voice Assistant initialized
+2024-11-24 05:34:50,608 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:34:50,618 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://172.20.33.252:50001
+2024-11-24 05:34:50,618 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 05:34:50,700 - INFO - Listening...
+2024-11-24 05:34:54,091 - INFO - Received request to process links
+2024-11-24 05:34:54,091 - INFO - 
+==================================================
+2024-11-24 05:34:54,091 - INFO - Updated Browser Data:
+2024-11-24 05:34:54,091 - INFO - ==================================================
+2024-11-24 05:34:54,091 - INFO - Current URL: https://www.tmcdocs.info/
+2024-11-24 05:34:54,091 - INFO - Token: '0'
+2024-11-24 05:34:54,091 - INFO - URLs found: 39
+2024-11-24 05:34:54,091 - INFO - ==================================================
+
+2024-11-24 05:34:54,092 - INFO - 127.0.0.1 - - [24/Nov/2024 05:34:54] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 05:34:54,475 - INFO - Could not understand audio
+2024-11-24 05:34:54,713 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:34:54,845 - INFO - Listening...
+2024-11-24 05:34:57,084 - INFO - Could not understand audio
+2024-11-24 05:34:57,324 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:34:57,455 - INFO - Listening...
+2024-11-24 05:35:00,610 - INFO - Recognized: i'm looking to similar stuff
+2024-11-24 05:35:00,847 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:35:00,966 - INFO - Listening...
+2024-11-24 05:35:04,441 - INFO - Recognized: hi vista
+2024-11-24 05:35:04,579 - INFO - Wake word detected!
+2024-11-24 05:35:04,883 - ERROR - Error in text to speech: Music isn't playing
+2024-11-24 05:35:05,008 - INFO - Listening for command...
+2024-11-24 05:35:05,126 - INFO - Listening...
+2024-11-24 05:35:15,348 - INFO - Could not understand audio
+2024-11-24 05:40:34,514 - INFO - Voice assistant thread started
+2024-11-24 05:40:34,514 - INFO - 
+==================================================
+2024-11-24 05:40:34,514 - INFO - Server starting on http://localhost:50001
+2024-11-24 05:40:34,514 - INFO - ==================================================
+
+2024-11-24 05:40:34,515 - INFO - Voice Assistant initialized
+2024-11-24 05:40:34,515 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:40:34,524 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://172.20.33.252:50001
+2024-11-24 05:40:34,524 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 05:40:34,613 - INFO - Listening...
+2024-11-24 05:40:38,613 - INFO - Recognized: i want to i can't
+2024-11-24 05:40:38,851 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:40:38,973 - INFO - Listening...
+2024-11-24 05:40:42,375 - INFO - Received request to process links
+2024-11-24 05:40:42,376 - INFO - 
+==================================================
+2024-11-24 05:40:42,376 - INFO - Updated Browser Data:
+2024-11-24 05:40:42,376 - INFO - ==================================================
+2024-11-24 05:40:42,376 - INFO - Current URL: https://www.tmcdocs.info/
+2024-11-24 05:40:42,376 - INFO - Token: '0'
+2024-11-24 05:40:42,376 - INFO - URLs found: 39
+2024-11-24 05:40:42,376 - INFO - ==================================================
+
+2024-11-24 05:40:42,377 - INFO - 127.0.0.1 - - [24/Nov/2024 05:40:42] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 05:40:42,785 - INFO - Could not understand audio
+2024-11-24 05:40:43,026 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:40:43,184 - INFO - Listening...
+2024-11-24 05:40:46,306 - INFO - Could not understand audio
+2024-11-24 05:40:46,550 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:40:46,671 - INFO - Listening...
+2024-11-24 05:40:49,840 - INFO - Recognized: hi vista
+2024-11-24 05:40:49,976 - INFO - Wake word detected!
+2024-11-24 05:40:50,761 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 429 Too Many Requests"
+2024-11-24 05:40:50,763 - INFO - Retrying request to /audio/speech in 0.438083 seconds
+2024-11-24 05:40:51,579 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 429 Too Many Requests"
+2024-11-24 05:40:51,580 - INFO - Retrying request to /audio/speech in 0.959496 seconds
+2024-11-24 05:40:52,806 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 429 Too Many Requests"
+2024-11-24 05:40:52,810 - ERROR - Error in text to speech: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2024-11-24 05:40:52,913 - INFO - Listening for command...
+2024-11-24 05:40:53,032 - INFO - Listening...
+2024-11-24 05:41:05,299 - INFO - Could not understand audio
+2024-11-24 05:41:05,542 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:41:05,659 - INFO - Listening...
+2024-11-24 05:41:09,607 - INFO - Could not understand audio
+2024-11-24 05:41:09,846 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:41:09,966 - INFO - Listening...
+2024-11-24 05:41:13,017 - INFO - Could not understand audio
+2024-11-24 05:41:13,251 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:41:13,362 - INFO - Listening...
+2024-11-24 05:44:55,132 - INFO - Voice assistant thread started
+2024-11-24 05:44:55,132 - INFO - 
+==================================================
+2024-11-24 05:44:55,132 - INFO - Server starting on http://localhost:50001
+2024-11-24 05:44:55,132 - INFO - ==================================================
+
+2024-11-24 05:44:55,136 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://172.20.33.252:50001
+2024-11-24 05:44:55,136 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 05:44:55,150 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:44:55,337 - INFO - Listening...
+2024-11-24 05:45:00,924 - INFO - Could not understand audio
+2024-11-24 05:45:01,167 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:45:01,287 - INFO - Listening...
+2024-11-24 05:45:04,477 - INFO - Recognized: hi vista
+2024-11-24 05:45:04,614 - INFO - Wake word detected!
+2024-11-24 05:45:04,750 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 429 Too Many Requests"
+2024-11-24 05:45:04,750 - INFO - Retrying request to /audio/speech in 0.465114 seconds
+2024-11-24 05:45:05,532 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 429 Too Many Requests"
+2024-11-24 05:45:05,533 - INFO - Retrying request to /audio/speech in 0.851866 seconds
+2024-11-24 05:45:06,760 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 429 Too Many Requests"
+2024-11-24 05:45:06,764 - ERROR - Error in text to speech: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2024-11-24 05:45:06,764 - INFO - Listening for command...
+2024-11-24 05:45:06,878 - INFO - Listening...
+2024-11-24 05:45:10,756 - INFO - Could not understand audio
+2024-11-24 05:45:10,992 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:45:11,113 - INFO - Listening...
+2024-11-24 05:45:15,001 - INFO - Could not understand audio
+2024-11-24 05:45:15,239 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:45:15,330 - INFO - Listening...
+2024-11-24 05:45:17,854 - INFO - Could not understand audio
+2024-11-24 05:45:18,093 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:45:18,197 - INFO - Listening...
+2024-11-24 05:45:22,032 - INFO - Could not understand audio
+2024-11-24 05:45:22,271 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:45:22,390 - INFO - Listening...
+2024-11-24 05:45:25,648 - INFO - Could not understand audio
+2024-11-24 05:45:25,886 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:45:25,992 - INFO - Listening...
+2024-11-24 05:45:28,911 - INFO - Could not understand audio
+2024-11-24 05:45:29,150 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:45:29,257 - INFO - Listening...
+2024-11-24 05:45:32,342 - INFO - Recognized: i will stop
+2024-11-24 05:45:32,582 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:45:32,678 - INFO - Listening...
+2024-11-24 05:45:36,151 - INFO - Recognized: hi vista
+2024-11-24 05:45:36,285 - INFO - Wake word detected!
+2024-11-24 05:45:36,665 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 429 Too Many Requests"
+2024-11-24 05:45:36,666 - INFO - Retrying request to /audio/speech in 0.423603 seconds
+2024-11-24 05:45:37,688 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 429 Too Many Requests"
+2024-11-24 05:45:37,689 - INFO - Retrying request to /audio/speech in 0.796325 seconds
+2024-11-24 05:45:38,565 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 429 Too Many Requests"
+2024-11-24 05:45:38,567 - ERROR - Error in text to speech: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2024-11-24 05:45:38,568 - INFO - Listening for command...
+2024-11-24 05:45:38,683 - INFO - Listening...
+2024-11-24 05:45:45,851 - INFO - Voice assistant thread started
+2024-11-24 05:45:45,852 - INFO - 
+==================================================
+2024-11-24 05:45:45,852 - INFO - Server starting on http://localhost:50001
+2024-11-24 05:45:45,852 - INFO - ==================================================
+
+2024-11-24 05:45:45,852 - INFO - Voice Assistant initialized
+2024-11-24 05:45:45,852 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 05:45:45,861 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://172.20.33.252:50001
+2024-11-24 05:45:45,861 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 05:45:45,958 - INFO - Listening...
+2024-11-24 05:45:49,697 - INFO - Recognized: hi vista
+2024-11-24 05:45:49,829 - INFO - Wake word detected!
+2024-11-24 05:45:52,657 - INFO - Listening for command...
+2024-11-24 05:45:52,776 - INFO - Listening...
+2024-11-24 06:04:08,071 - INFO - Voice assistant thread started
+2024-11-24 06:04:08,072 - INFO - 
+==================================================
+2024-11-24 06:04:08,072 - INFO - Server starting on http://localhost:50001
+2024-11-24 06:04:08,072 - INFO - ==================================================
+
+2024-11-24 06:04:08,074 - INFO - Voice Assistant initialized
+2024-11-24 06:04:08,074 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:04:08,087 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://172.20.33.252:50001
+2024-11-24 06:04:08,087 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 06:04:08,188 - INFO - Listening...
+2024-11-24 06:04:13,124 - INFO - Received request to process links
+2024-11-24 06:04:13,125 - INFO - 
+==================================================
+2024-11-24 06:04:13,125 - INFO - Updated Browser Data:
+2024-11-24 06:04:13,125 - INFO - ==================================================
+2024-11-24 06:04:13,125 - INFO - Current URL: https://www.tmcdocs.info/
+2024-11-24 06:04:13,125 - INFO - Token: '0'
+2024-11-24 06:04:13,125 - INFO - URLs found: 39
+2024-11-24 06:04:13,125 - INFO - ==================================================
+
+2024-11-24 06:04:13,126 - INFO - 127.0.0.1 - - [24/Nov/2024 06:04:13] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:04:17,422 - INFO - Could not understand audio
+2024-11-24 06:04:17,661 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:04:17,764 - INFO - Listening...
+2024-11-24 06:04:21,090 - INFO - Could not understand audio
+2024-11-24 06:04:21,331 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:04:21,452 - INFO - Listening...
+2024-11-24 06:04:24,268 - INFO - Could not understand audio
+2024-11-24 06:04:24,508 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:04:24,631 - INFO - Listening...
+2024-11-24 06:04:27,560 - INFO - Recognized: hi vista
+2024-11-24 06:04:27,695 - INFO - Wake word detected!
+2024-11-24 06:04:30,484 - INFO - Listening for command...
+2024-11-24 06:04:30,603 - INFO - Listening...
+2024-11-24 06:04:38,674 - INFO - Recognized: can you tell me can you please tell me what all things are available on this website any medications
+2024-11-24 06:04:38,808 - INFO - Command received: can you tell me can you please tell me what all things are available on this website any medications
+2024-11-24 06:04:38,808 - INFO - 
+==================================================
+2024-11-24 06:04:38,809 - INFO - DATA SENT TO BACKEND:
+2024-11-24 06:04:38,809 - INFO - ==================================================
+2024-11-24 06:04:38,809 - INFO - COMMAND: can you tell me can you please tell me what all things are available on this website any medications
+2024-11-24 06:04:38,809 - INFO - TOKEN: '0'
+2024-11-24 06:04:38,809 - INFO - CURRENT URL: https://www.tmcdocs.info/
+2024-11-24 06:04:38,809 - INFO - 
+ALL URLS:
+2024-11-24 06:04:38,809 - INFO - 1. https://www.tmcdocs.info/#content
+2024-11-24 06:04:38,809 - INFO - 2. https://www.tmcdocs.info/
+2024-11-24 06:04:38,809 - INFO - 3. https://www.tmcdocs.info/news-updates/
+2024-11-24 06:04:38,809 - INFO - 4. https://www.tmcdocs.info/covid-cold-and-flu/
+2024-11-24 06:04:38,809 - INFO - 5. https://www.tmcdocs.info/resources-for-respiratory-illnesses/
+2024-11-24 06:04:38,809 - INFO - 6. https://www.tmcdocs.info/covid-vaccine-booking-sites/
+2024-11-24 06:04:38,809 - INFO - 7. https://www.tmcdocs.info/resources-and-links/
+2024-11-24 06:04:38,809 - INFO - 8. https://www.tmcdocs.info/post-covid-resources/
+2024-11-24 06:04:38,809 - INFO - 9. https://www.tmcdocs.info/resources-for-patients/
+2024-11-24 06:04:38,810 - INFO - 10. https://www.tmcdocs.info/resources-for-grief-and-bereavement/
+2024-11-24 06:04:38,810 - INFO - 11. https://www.tmcdocs.info/resources-for-mental-health/
+2024-11-24 06:04:38,810 - INFO - 12. https://www.tmcdocs.info/vaccine-information-for-adults/
+2024-11-24 06:04:38,810 - INFO - 13. https://www.tmcdocs.info/clinic-info/
+2024-11-24 06:04:38,810 - INFO - 14. https://www.tmcdocs.info/clinic-info/services/
+2024-11-24 06:04:38,810 - INFO - 15. https://www.tmcdocs.info/clinic-info/office-hours/
+2024-11-24 06:04:38,810 - INFO - 16. https://www.tmcdocs.info/clinic-info/appointments/
+2024-11-24 06:04:38,810 - INFO - 17. https://www.tmcdocs.info/clinic-info/tips-faqs/
+2024-11-24 06:04:38,810 - INFO - 18. https://www.tmcdocs.info/our-staff/
+2024-11-24 06:04:38,810 - INFO - 19. https://www.tmcdocs.info/clinic-info/uninsured-services/
+2024-11-24 06:04:38,810 - INFO - 20. https://www.tmcdocs.info/clinic-info/travel-advice/
+2024-11-24 06:04:38,810 - INFO - 21. https://www.tmcdocs.info/resources/
+2024-11-24 06:04:38,810 - INFO - 22. https://www.tmcdocs.info/virtual-video-visits/
+2024-11-24 06:04:38,810 - INFO - 23. https://www.tmcdocs.info/resources/email-policy/
+2024-11-24 06:04:38,810 - INFO - 24. https://www.tmcdocs.info/resources/privacy-policy/
+2024-11-24 06:04:38,810 - INFO - 25. https://www.tmcdocs.info/links/
+2024-11-24 06:04:38,810 - INFO - 26. https://www.tmcdocs.info/contact/
+2024-11-24 06:04:38,811 - INFO - 27. http://www.tmcdocs.info/?p=607/
+2024-11-24 06:04:38,811 - INFO - 28. https://www.tmcdocs.info/flu-shots-2021-2022/
+2024-11-24 06:04:38,811 - INFO - 29. https://www.tmcdocs.info/immunizations-for-measles/
+2024-11-24 06:04:38,811 - INFO - 30. https://www.tmcdocs.info/email-spam-alert/
+2024-11-24 06:04:38,811 - INFO - 31. https://www.tmcdocs.info/change-in-masking-policy-in-office/
+2024-11-24 06:04:38,811 - INFO - 32. https://www.tmcdocs.info/important-messaging-changes/
+2024-11-24 06:04:38,811 - INFO - 33. https://www.tmcdocs.info/emails-from-thornhill-medical-centre/
+2024-11-24 06:04:38,811 - INFO - 34. http://www.tmcdocs.info/clinic-info/tips-faqs/#PR
+2024-11-24 06:04:38,811 - INFO - 35. http://www.tmcdocs.info/clinic-info/uninsured-services/
+2024-11-24 06:04:38,811 - INFO - 36. http://www.tmcdocs.info/contact/
+2024-11-24 06:04:38,811 - INFO - 37. https://twitter.com/ThornhillMed
+2024-11-24 06:04:38,811 - INFO - 38. https://cyberchimps.com/store/responsivepro/
+2024-11-24 06:04:38,811 - INFO - 39. https://cyberchimps.com/
+2024-11-24 06:04:38,811 - INFO - ==================================================
+2024-11-24 06:05:20,602 - INFO - Voice assistant thread started
+2024-11-24 06:05:20,602 - INFO - 
+==================================================
+2024-11-24 06:05:20,602 - INFO - Server starting on http://localhost:50001
+2024-11-24 06:05:20,602 - INFO - ==================================================
+
+2024-11-24 06:05:20,602 - INFO - Voice Assistant initialized
+2024-11-24 06:05:20,603 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:05:20,613 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://172.20.33.252:50001
+2024-11-24 06:05:20,613 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 06:05:20,699 - INFO - Listening...
+2024-11-24 06:05:22,967 - INFO - Received request to process links
+2024-11-24 06:05:22,967 - INFO - 
+==================================================
+2024-11-24 06:05:22,967 - INFO - Updated Browser Data:
+2024-11-24 06:05:22,968 - INFO - ==================================================
+2024-11-24 06:05:22,968 - INFO - Current URL: https://faiz-ahmed-portfolio.vercel.app/
+2024-11-24 06:05:22,968 - INFO - Token: '0'
+2024-11-24 06:05:22,968 - INFO - URLs found: 15
+2024-11-24 06:05:22,968 - INFO - ==================================================
+
+2024-11-24 06:05:22,969 - INFO - 127.0.0.1 - - [24/Nov/2024 06:05:22] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:05:26,371 - INFO - Could not understand audio
+2024-11-24 06:05:26,611 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:05:26,733 - INFO - Listening...
+2024-11-24 06:06:46,640 - INFO - Voice assistant thread started
+2024-11-24 06:06:46,640 - INFO - 
+==================================================
+2024-11-24 06:06:46,640 - INFO - Server starting on http://localhost:50001
+2024-11-24 06:06:46,640 - INFO - ==================================================
+
+2024-11-24 06:06:46,641 - INFO - Voice Assistant initialized
+2024-11-24 06:06:46,641 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:06:46,650 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://172.20.33.252:50001
+2024-11-24 06:06:46,650 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 06:06:46,731 - INFO - Listening...
+2024-11-24 06:06:49,756 - INFO - Received request to process links
+2024-11-24 06:06:49,756 - INFO - 
+==================================================
+2024-11-24 06:06:49,756 - INFO - Updated Browser Data:
+2024-11-24 06:06:49,756 - INFO - ==================================================
+2024-11-24 06:06:49,756 - INFO - Current URL: https://www.tmcdocs.info/
+2024-11-24 06:06:49,756 - INFO - Token: '0'
+2024-11-24 06:06:49,756 - INFO - URLs found: 39
+2024-11-24 06:06:49,756 - INFO - ==================================================
+
+2024-11-24 06:06:49,757 - INFO - 127.0.0.1 - - [24/Nov/2024 06:06:49] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:06:50,781 - INFO - Could not understand audio
+2024-11-24 06:06:51,017 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:06:51,151 - INFO - Listening...
+2024-11-24 06:08:38,577 - INFO - Voice assistant thread started
+2024-11-24 06:08:38,578 - INFO - 
+==================================================
+2024-11-24 06:08:38,578 - INFO - Server starting on http://localhost:50001
+2024-11-24 06:08:38,578 - INFO - ==================================================
+
+2024-11-24 06:08:38,578 - INFO - Voice Assistant initialized
+2024-11-24 06:08:38,578 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:08:38,587 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://172.20.33.252:50001
+2024-11-24 06:08:38,588 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 06:08:38,668 - INFO - Listening...
+2024-11-24 06:08:43,870 - INFO - Could not understand audio
+2024-11-24 06:08:44,110 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:08:44,191 - INFO - Received request to process links
+2024-11-24 06:08:44,192 - INFO - 
+==================================================
+2024-11-24 06:08:44,192 - INFO - Updated Browser Data:
+2024-11-24 06:08:44,192 - INFO - ==================================================
+2024-11-24 06:08:44,192 - INFO - Current URL: https://www.tmcdocs.info/
+2024-11-24 06:08:44,192 - INFO - Token: '0'
+2024-11-24 06:08:44,192 - INFO - URLs found: 39
+2024-11-24 06:08:44,192 - INFO - ==================================================
+
+2024-11-24 06:08:44,192 - INFO - 127.0.0.1 - - [24/Nov/2024 06:08:44] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:08:44,250 - INFO - Listening...
+2024-11-24 06:08:47,063 - INFO - Could not understand audio
+2024-11-24 06:08:47,301 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:08:47,421 - INFO - Listening...
+2024-11-24 06:12:29,548 - INFO - Voice assistant thread started
+2024-11-24 06:12:29,548 - INFO - 
+==================================================
+2024-11-24 06:12:29,548 - INFO - Server starting on http://localhost:50001
+2024-11-24 06:12:29,548 - INFO - ==================================================
+
+2024-11-24 06:12:29,549 - INFO - Voice Assistant initialized
+2024-11-24 06:12:29,549 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:12:29,558 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://172.20.33.252:50001
+2024-11-24 06:12:29,558 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 06:12:29,654 - INFO - Listening...
+2024-11-24 06:12:32,580 - INFO - Received request to process links
+2024-11-24 06:12:32,582 - INFO - 
+==================================================
+2024-11-24 06:12:32,583 - INFO - Updated Browser Data:
+2024-11-24 06:12:32,583 - INFO - ==================================================
+2024-11-24 06:12:32,583 - INFO - Current URL: https://www.tmcdocs.info/
+2024-11-24 06:12:32,583 - INFO - Token: '0'
+2024-11-24 06:12:32,583 - INFO - URLs found: 39
+2024-11-24 06:12:32,583 - INFO - ==================================================
+
+2024-11-24 06:12:32,584 - INFO - 127.0.0.1 - - [24/Nov/2024 06:12:32] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:12:33,654 - INFO - Recognized: that's all right
+2024-11-24 06:12:33,889 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:12:34,032 - INFO - Listening...
+2024-11-24 06:13:52,144 - INFO - Voice assistant thread started
+2024-11-24 06:13:52,145 - INFO - 
+==================================================
+2024-11-24 06:13:52,145 - INFO - Server starting on http://localhost:50001
+2024-11-24 06:13:52,145 - INFO - ==================================================
+
+2024-11-24 06:13:52,145 - INFO - Voice Assistant initialized
+2024-11-24 06:13:52,146 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:13:52,155 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://172.20.33.252:50001
+2024-11-24 06:13:52,155 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 06:13:52,240 - INFO - Listening...
+2024-11-24 06:13:55,206 - INFO - Received request to process links
+2024-11-24 06:13:55,207 - INFO - 
+==================================================
+2024-11-24 06:13:55,207 - INFO - Updated Browser Data:
+2024-11-24 06:13:55,207 - INFO - ==================================================
+2024-11-24 06:13:55,207 - INFO - Current URL: https://www.tmcdocs.info/
+2024-11-24 06:13:55,207 - INFO - Token: '0'
+2024-11-24 06:13:55,207 - INFO - URLs found: 39
+2024-11-24 06:13:55,207 - INFO - ==================================================
+
+2024-11-24 06:13:55,208 - INFO - 127.0.0.1 - - [24/Nov/2024 06:13:55] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:13:55,650 - INFO - Could not understand audio
+2024-11-24 06:13:55,882 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:13:56,007 - INFO - Listening...
+2024-11-24 06:13:59,489 - INFO - Could not understand audio
+2024-11-24 06:13:59,727 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:13:59,844 - INFO - Listening...
+2024-11-24 06:14:01,735 - INFO - Received request to process links
+2024-11-24 06:14:01,736 - INFO - 
+==================================================
+2024-11-24 06:14:01,736 - INFO - Updated Browser Data:
+2024-11-24 06:14:01,736 - INFO - ==================================================
+2024-11-24 06:14:01,736 - INFO - Current URL: https://faiz-ahmed-portfolio.vercel.app/
+2024-11-24 06:14:01,736 - INFO - Token: '0'
+2024-11-24 06:14:01,736 - INFO - URLs found: 15
+2024-11-24 06:14:01,736 - INFO - ==================================================
+
+2024-11-24 06:14:01,737 - INFO - 127.0.0.1 - - [24/Nov/2024 06:14:01] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:14:03,458 - INFO - Could not understand audio
+2024-11-24 06:14:03,693 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:14:03,814 - INFO - Listening...
+2024-11-24 06:14:43,920 - INFO - Voice assistant thread started
+2024-11-24 06:14:43,920 - INFO - 
+==================================================
+2024-11-24 06:14:43,920 - INFO - Server starting on http://localhost:50001
+2024-11-24 06:14:43,920 - INFO - ==================================================
+
+2024-11-24 06:14:43,920 - INFO - Voice Assistant initialized
+2024-11-24 06:14:43,920 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:14:43,930 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://172.20.33.252:50001
+2024-11-24 06:14:43,930 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 06:14:44,013 - INFO - Listening...
+2024-11-24 06:14:46,971 - INFO - Received request to process links
+2024-11-24 06:14:46,972 - INFO - 
+==================================================
+2024-11-24 06:14:46,972 - INFO - Updated Browser Data:
+2024-11-24 06:14:46,972 - INFO - ==================================================
+2024-11-24 06:14:46,972 - INFO - Current URL: https://faiz-ahmed-portfolio.vercel.app/
+2024-11-24 06:14:46,972 - INFO - Token: '0'
+2024-11-24 06:14:46,972 - INFO - URLs found: 15
+2024-11-24 06:14:46,972 - INFO - ==================================================
+
+2024-11-24 06:14:46,973 - INFO - 127.0.0.1 - - [24/Nov/2024 06:14:46] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:14:48,874 - INFO - Could not understand audio
+2024-11-24 06:14:49,116 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:14:49,239 - INFO - Listening...
+2024-11-24 06:17:03,099 - INFO - Voice assistant thread started
+2024-11-24 06:17:03,100 - INFO - 
+==================================================
+2024-11-24 06:17:03,100 - INFO - Server starting on http://localhost:50001
+2024-11-24 06:17:03,100 - INFO - ==================================================
+
+2024-11-24 06:17:03,102 - INFO - Voice Assistant initialized
+2024-11-24 06:17:03,102 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:17:03,116 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://172.20.33.252:50001
+2024-11-24 06:17:03,116 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 06:17:03,231 - INFO - Listening...
+2024-11-24 06:17:08,016 - INFO - Could not understand audio
+2024-11-24 06:17:08,252 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:17:08,383 - INFO - Listening...
+2024-11-24 06:17:08,630 - INFO - Received request to process links
+2024-11-24 06:17:08,630 - INFO - 
+==================================================
+2024-11-24 06:17:08,630 - INFO - Updated Browser Data:
+2024-11-24 06:17:08,631 - INFO - ==================================================
+2024-11-24 06:17:08,631 - INFO - Current URL: https://ollama.com/library/llama3.1:8b-instruct-fp16
+2024-11-24 06:17:08,631 - INFO - Token: '0'
+2024-11-24 06:17:08,631 - INFO - URLs found: 23
+2024-11-24 06:17:08,631 - INFO - ==================================================
+
+2024-11-24 06:17:08,632 - INFO - 127.0.0.1 - - [24/Nov/2024 06:17:08] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:17:11,902 - INFO - Could not understand audio
+2024-11-24 06:17:12,142 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:17:12,266 - INFO - Listening...
+2024-11-24 06:17:15,263 - INFO - Recognized: hi vist
+2024-11-24 06:17:15,503 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:17:15,625 - INFO - Listening...
+2024-11-24 06:17:19,045 - INFO - Recognized: hi vista
+2024-11-24 06:17:19,185 - INFO - Wake word detected!
+2024-11-24 06:17:47,053 - INFO - Voice assistant thread started
+2024-11-24 06:17:47,053 - INFO - 
+==================================================
+2024-11-24 06:17:47,053 - INFO - Server starting on http://localhost:50001
+2024-11-24 06:17:47,053 - INFO - ==================================================
+
+2024-11-24 06:17:47,054 - INFO - Voice Assistant initialized
+2024-11-24 06:17:47,054 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:17:47,062 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://172.20.33.252:50001
+2024-11-24 06:17:47,062 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 06:17:47,143 - INFO - Listening...
+2024-11-24 06:17:51,886 - INFO - Could not understand audio
+2024-11-24 06:17:52,154 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:17:52,279 - INFO - Listening...
+2024-11-24 06:17:52,738 - INFO - Received request to process links
+2024-11-24 06:17:52,739 - INFO - 
+==================================================
+2024-11-24 06:17:52,739 - INFO - Updated Browser Data:
+2024-11-24 06:17:52,739 - INFO - ==================================================
+2024-11-24 06:17:52,739 - INFO - Current URL: https://ollama.com/library/llama3.1:8b-instruct-fp16
+2024-11-24 06:17:52,739 - INFO - Token: '0'
+2024-11-24 06:17:52,739 - INFO - URLs found: 23
+2024-11-24 06:17:52,739 - INFO - ==================================================
+
+2024-11-24 06:17:52,741 - INFO - 127.0.0.1 - - [24/Nov/2024 06:17:52] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:17:55,230 - INFO - Could not understand audio
+2024-11-24 06:17:55,473 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:17:55,595 - INFO - Listening...
+2024-11-24 06:17:58,778 - INFO - Recognized: hi vista
+2024-11-24 06:17:58,916 - INFO - Wake word detected!
+2024-11-24 06:18:01,725 - INFO - Listening for command...
+2024-11-24 06:18:01,844 - INFO - Listening...
+2024-11-24 06:18:06,694 - INFO - Could not understand audio
+2024-11-24 06:18:06,939 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:18:07,056 - INFO - Listening...
+2024-11-24 06:19:23,458 - INFO - Voice assistant thread started
+2024-11-24 06:19:23,458 - INFO - 
+==================================================
+2024-11-24 06:19:23,458 - INFO - Server starting on http://localhost:50001
+2024-11-24 06:19:23,458 - INFO - ==================================================
+
+2024-11-24 06:19:23,459 - INFO - Voice Assistant initialized
+2024-11-24 06:19:23,459 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:19:23,468 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://172.20.33.252:50001
+2024-11-24 06:19:23,468 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 06:19:23,565 - INFO - Listening...
+2024-11-24 06:19:27,906 - INFO - Received request to process links
+2024-11-24 06:19:27,907 - INFO - 
+==================================================
+2024-11-24 06:19:27,907 - INFO - Updated Browser Data:
+2024-11-24 06:19:27,907 - INFO - ==================================================
+2024-11-24 06:19:27,907 - INFO - Current URL: https://ollama.com/library/llama3.1:8b-instruct-fp16
+2024-11-24 06:19:27,907 - INFO - Token: '0'
+2024-11-24 06:19:27,907 - INFO - URLs found: 23
+2024-11-24 06:19:27,907 - INFO - ==================================================
+
+2024-11-24 06:19:27,907 - INFO - 127.0.0.1 - - [24/Nov/2024 06:19:27] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:19:29,217 - INFO - Could not understand audio
+2024-11-24 06:19:29,498 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:19:29,615 - INFO - Listening...
+2024-11-24 06:19:33,288 - INFO - Recognized: hi vista
+2024-11-24 06:19:33,422 - INFO - Wake word detected!
+2024-11-24 06:26:35,023 - INFO - Voice assistant thread started
+2024-11-24 06:26:35,024 - INFO - 
+==================================================
+2024-11-24 06:26:35,024 - INFO - Server starting on http://localhost:50001
+2024-11-24 06:26:35,024 - INFO - ==================================================
+
+2024-11-24 06:26:35,024 - INFO - Voice Assistant initialized
+2024-11-24 06:26:35,024 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:26:35,034 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://172.20.33.252:50001
+2024-11-24 06:26:35,034 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 06:26:35,120 - INFO - Listening...
+2024-11-24 06:26:40,359 - INFO - Could not understand audio
+2024-11-24 06:26:40,600 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:26:40,730 - INFO - Listening...
+2024-11-24 06:26:42,010 - INFO - Received request to process links
+2024-11-24 06:26:42,010 - INFO - 
+==================================================
+2024-11-24 06:26:42,010 - INFO - Updated Browser Data:
+2024-11-24 06:26:42,010 - INFO - ==================================================
+2024-11-24 06:26:42,011 - INFO - Current URL: https://www.tmcdocs.info/
+2024-11-24 06:26:42,011 - INFO - Token: '0'
+2024-11-24 06:26:42,011 - INFO - URLs found: 39
+2024-11-24 06:26:42,011 - INFO - ==================================================
+
+2024-11-24 06:26:42,012 - INFO - 127.0.0.1 - - [24/Nov/2024 06:26:42] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:26:42,696 - INFO - Received request to process links
+2024-11-24 06:26:42,697 - INFO - 
+==================================================
+2024-11-24 06:26:42,697 - INFO - Updated Browser Data:
+2024-11-24 06:26:42,697 - INFO - ==================================================
+2024-11-24 06:26:42,697 - INFO - Current URL: https://ollama.com/library/llama3.1:8b-instruct-fp16
+2024-11-24 06:26:42,697 - INFO - Token: '0'
+2024-11-24 06:26:42,697 - INFO - URLs found: 23
+2024-11-24 06:26:42,697 - INFO - ==================================================
+
+2024-11-24 06:26:42,698 - INFO - 127.0.0.1 - - [24/Nov/2024 06:26:42] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:26:44,512 - INFO - Could not understand audio
+2024-11-24 06:26:44,751 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:26:44,874 - INFO - Listening...
+2024-11-24 06:26:48,063 - INFO - Recognized: hi vista
+2024-11-24 06:26:48,201 - INFO - Wake word detected!
+2024-11-24 06:26:51,249 - INFO - Listening for command...
+2024-11-24 06:26:51,365 - INFO - Listening...
+2024-11-24 06:26:57,749 - INFO - Recognized: can you please tell what is on this website for different models can i use
+2024-11-24 06:26:57,885 - INFO - Command received: can you please tell what is on this website for different models can i use
+2024-11-24 06:26:57,886 - INFO - 
+==================================================
+2024-11-24 06:26:57,886 - INFO - DATA SENT TO BACKEND:
+2024-11-24 06:26:57,886 - INFO - ==================================================
+2024-11-24 06:26:57,886 - INFO - COMMAND: can you please tell what is on this website for different models can i use
+2024-11-24 06:26:57,886 - INFO - TOKEN: '0'
+2024-11-24 06:26:57,886 - INFO - CURRENT URL: https://ollama.com/library/llama3.1:8b-instruct-fp16
+2024-11-24 06:26:57,886 - INFO - 
+ALL URLS:
+2024-11-24 06:26:57,886 - INFO - 1. https://ollama.com/
+2024-11-24 06:26:57,886 - INFO - 2. https://ollama.com/blog
+2024-11-24 06:26:57,886 - INFO - 3. https://discord.com/invite/ollama
+2024-11-24 06:26:57,886 - INFO - 4. https://github.com/ollama/ollama
+2024-11-24 06:26:57,886 - INFO - 5. https://ollama.com/models
+2024-11-24 06:26:57,886 - INFO - 6. https://ollama.com/download
+2024-11-24 06:26:57,886 - INFO - 7. https://ollama.com/faiz5689
+2024-11-24 06:26:57,886 - INFO - 8. https://ollama.com/settings
+2024-11-24 06:26:57,886 - INFO - 9. https://ollama.com/signout
+2024-11-24 06:26:57,886 - INFO - 10. https://ollama.com/library/llama3.1
+2024-11-24 06:26:57,886 - INFO - 11. https://ollama.com/library/llama3.1:8b
+2024-11-24 06:26:57,886 - INFO - 12. https://ollama.com/library/llama3.1:70b
+2024-11-24 06:26:57,887 - INFO - 13. https://ollama.com/library/llama3.1:405b
+2024-11-24 06:26:57,887 - INFO - 14. https://ollama.com/library/llama3.1:8b-instruct-fp16
+2024-11-24 06:26:57,887 - INFO - 15. https://ollama.com/library/llama3.1/tags
+2024-11-24 06:26:57,887 - INFO - 16. https://ollama.com/library/llama3.1:8b-instruct-fp16/blobs/09cd6813dc2e
+2024-11-24 06:26:57,887 - INFO - 17. https://ollama.com/library/llama3.1:8b-instruct-fp16/blobs/56bb8bd477a5
+2024-11-24 06:26:57,887 - INFO - 18. https://ollama.com/library/llama3.1:8b-instruct-fp16/blobs/948af2743fc7
+2024-11-24 06:26:57,887 - INFO - 19. https://ollama.com/library/llama3.1:8b-instruct-fp16/blobs/0ba8f0e314b4
+2024-11-24 06:26:57,887 - INFO - 20. https://ai.meta.com/blog/meta-llama-3-1/
+2024-11-24 06:26:57,887 - INFO - 21. https://github.com/ollama/ollama/tree/main/docs
+2024-11-24 06:26:57,887 - INFO - 22. https://twitter.com/ollama
+2024-11-24 06:26:57,887 - INFO - 23. https://lu.ma/ollama
+2024-11-24 06:26:57,887 - INFO - ==================================================
+2024-11-24 06:28:03,823 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:28:03,948 - INFO - Listening...
+2024-11-24 06:28:09,369 - INFO - Recognized: faruka
+2024-11-24 06:28:09,609 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:28:09,728 - INFO - Listening...
+2024-11-24 06:28:13,201 - INFO - Could not understand audio
+2024-11-24 06:28:13,444 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:28:13,563 - INFO - Listening...
+2024-11-24 06:28:17,451 - INFO - Could not understand audio
+2024-11-24 06:28:17,691 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:28:17,810 - INFO - Listening...
+2024-11-24 06:28:20,938 - INFO - Could not understand audio
+2024-11-24 06:28:21,180 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:28:21,302 - INFO - Listening...
+2024-11-24 06:28:24,037 - INFO - Could not understand audio
+2024-11-24 06:28:24,281 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:28:24,400 - INFO - Listening...
+2024-11-24 06:28:28,516 - INFO - Could not understand audio
+2024-11-24 06:28:28,756 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:28:28,874 - INFO - Listening...
+2024-11-24 06:28:31,593 - INFO - Could not understand audio
+2024-11-24 06:28:31,834 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:28:31,957 - INFO - Listening...
+2024-11-24 06:28:34,968 - INFO - Could not understand audio
+2024-11-24 06:28:35,206 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:28:35,323 - INFO - Listening...
+2024-11-24 06:28:39,442 - INFO - Could not understand audio
+2024-11-24 06:28:39,684 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:28:39,804 - INFO - Listening...
+2024-11-24 06:28:42,513 - INFO - Could not understand audio
+2024-11-24 06:28:42,751 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:28:42,870 - INFO - Listening...
+2024-11-24 06:28:47,767 - INFO - Could not understand audio
+2024-11-24 06:28:48,006 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:28:48,126 - INFO - Listening...
+2024-11-24 06:28:52,224 - INFO - Could not understand audio
+2024-11-24 06:28:52,465 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:28:52,588 - INFO - Listening...
+2024-11-24 06:28:56,983 - INFO - Could not understand audio
+2024-11-24 06:28:57,222 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:28:57,343 - INFO - Listening...
+2024-11-24 06:29:00,072 - INFO - Could not understand audio
+2024-11-24 06:29:00,308 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:29:00,427 - INFO - Listening...
+2024-11-24 06:29:12,606 - INFO - Voice assistant thread started
+2024-11-24 06:29:12,607 - INFO - 
+==================================================
+2024-11-24 06:29:12,607 - INFO - Server starting on http://localhost:50001
+2024-11-24 06:29:12,607 - INFO - ==================================================
+
+2024-11-24 06:29:12,608 - INFO - Voice Assistant initialized
+2024-11-24 06:29:12,608 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:29:12,615 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://172.20.33.252:50001
+2024-11-24 06:29:12,615 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 06:29:12,709 - INFO - Listening...
+2024-11-24 06:29:16,255 - INFO - Could not understand audio
+2024-11-24 06:29:16,489 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:29:16,600 - INFO - Listening...
+2024-11-24 06:29:16,801 - INFO - Received request to process links
+2024-11-24 06:29:16,802 - INFO - 
+==================================================
+2024-11-24 06:29:16,802 - INFO - Updated Browser Data:
+2024-11-24 06:29:16,802 - INFO - ==================================================
+2024-11-24 06:29:16,802 - INFO - Current URL: https://ollama.com/library/llama3.1:8b-instruct-fp16
+2024-11-24 06:29:16,802 - INFO - Token: '0'
+2024-11-24 06:29:16,802 - INFO - URLs found: 23
+2024-11-24 06:29:16,802 - INFO - ==================================================
+
+2024-11-24 06:29:16,803 - INFO - 127.0.0.1 - - [24/Nov/2024 06:29:16] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:29:19,613 - INFO - Could not understand audio
+2024-11-24 06:29:19,857 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:29:19,979 - INFO - Listening...
+2024-11-24 06:29:22,995 - INFO - Recognized: hi vista
+2024-11-24 06:29:23,133 - INFO - Wake word detected!
+2024-11-24 06:29:26,079 - INFO - Listening for command...
+2024-11-24 06:29:26,194 - INFO - Listening...
+2024-11-24 06:29:29,466 - INFO - Recognized: can you tell me what models are
+2024-11-24 06:29:29,602 - INFO - Command received: can you tell me what models are
+2024-11-24 06:29:29,603 - INFO - 
+==================================================
+2024-11-24 06:29:29,603 - INFO - DATA SENT TO BACKEND:
+2024-11-24 06:29:29,603 - INFO - ==================================================
+2024-11-24 06:29:29,603 - INFO - COMMAND: can you tell me what models are
+2024-11-24 06:29:29,603 - INFO - TOKEN: '0'
+2024-11-24 06:29:29,603 - INFO - CURRENT URL: https://ollama.com/library/llama3.1:8b-instruct-fp16
+2024-11-24 06:29:29,603 - INFO - 
+ALL URLS:
+2024-11-24 06:29:29,603 - INFO - 1. https://ollama.com/
+2024-11-24 06:29:29,603 - INFO - 2. https://ollama.com/blog
+2024-11-24 06:29:29,604 - INFO - 3. https://discord.com/invite/ollama
+2024-11-24 06:29:29,604 - INFO - 4. https://github.com/ollama/ollama
+2024-11-24 06:29:29,604 - INFO - 5. https://ollama.com/models
+2024-11-24 06:29:29,604 - INFO - 6. https://ollama.com/download
+2024-11-24 06:29:29,604 - INFO - 7. https://ollama.com/faiz5689
+2024-11-24 06:29:29,604 - INFO - 8. https://ollama.com/settings
+2024-11-24 06:29:29,604 - INFO - 9. https://ollama.com/signout
+2024-11-24 06:29:29,604 - INFO - 10. https://ollama.com/library/llama3.1
+2024-11-24 06:29:29,604 - INFO - 11. https://ollama.com/library/llama3.1:8b
+2024-11-24 06:29:29,604 - INFO - 12. https://ollama.com/library/llama3.1:70b
+2024-11-24 06:29:29,604 - INFO - 13. https://ollama.com/library/llama3.1:405b
+2024-11-24 06:29:29,604 - INFO - 14. https://ollama.com/library/llama3.1:8b-instruct-fp16
+2024-11-24 06:29:29,604 - INFO - 15. https://ollama.com/library/llama3.1/tags
+2024-11-24 06:29:29,604 - INFO - 16. https://ollama.com/library/llama3.1:8b-instruct-fp16/blobs/09cd6813dc2e
+2024-11-24 06:29:29,604 - INFO - 17. https://ollama.com/library/llama3.1:8b-instruct-fp16/blobs/56bb8bd477a5
+2024-11-24 06:29:29,604 - INFO - 18. https://ollama.com/library/llama3.1:8b-instruct-fp16/blobs/948af2743fc7
+2024-11-24 06:29:29,604 - INFO - 19. https://ollama.com/library/llama3.1:8b-instruct-fp16/blobs/0ba8f0e314b4
+2024-11-24 06:29:29,604 - INFO - 20. https://ai.meta.com/blog/meta-llama-3-1/
+2024-11-24 06:29:29,605 - INFO - 21. https://github.com/ollama/ollama/tree/main/docs
+2024-11-24 06:29:29,605 - INFO - 22. https://twitter.com/ollama
+2024-11-24 06:29:29,605 - INFO - 23. https://lu.ma/ollama
+2024-11-24 06:29:29,605 - INFO - ==================================================
+2024-11-24 06:29:32,648 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:29:32,753 - INFO - Listening...
+2024-11-24 06:29:36,818 - INFO - Could not understand audio
+2024-11-24 06:31:44,402 - INFO - Voice assistant thread started
+2024-11-24 06:31:44,403 - INFO - 
+==================================================
+2024-11-24 06:31:44,403 - INFO - Server starting on http://localhost:50001
+2024-11-24 06:31:44,403 - INFO - ==================================================
+
+2024-11-24 06:31:44,404 - INFO - Voice Assistant initialized
+2024-11-24 06:31:44,404 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:31:44,413 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://172.20.33.252:50001
+2024-11-24 06:31:44,413 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 06:31:44,495 - INFO - Listening...
+2024-11-24 06:31:47,151 - INFO - Received request to process links
+2024-11-24 06:31:47,152 - INFO - 
+==================================================
+2024-11-24 06:31:47,152 - INFO - Updated Browser Data:
+2024-11-24 06:31:47,152 - INFO - ==================================================
+2024-11-24 06:31:47,152 - INFO - Current URL: https://ollama.com/library/llama3.1:8b-instruct-fp16
+2024-11-24 06:31:47,152 - INFO - Token: '0'
+2024-11-24 06:31:47,152 - INFO - URLs found: 23
+2024-11-24 06:31:47,152 - INFO - ==================================================
+
+2024-11-24 06:31:47,153 - INFO - 127.0.0.1 - - [24/Nov/2024 06:31:47] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:31:47,600 - INFO - Could not understand audio
+2024-11-24 06:31:47,840 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:31:47,973 - INFO - Listening...
+2024-11-24 06:31:51,233 - INFO - Recognized: hi vista
+2024-11-24 06:31:51,371 - INFO - Wake word detected!
+2024-11-24 06:31:54,355 - INFO - Listening for command...
+2024-11-24 06:31:54,469 - INFO - Listening...
+2024-11-24 06:31:59,155 - INFO - Recognized: please tell me what models are present on this website
+2024-11-24 06:31:59,296 - INFO - Command received: please tell me what models are present on this website
+2024-11-24 06:31:59,296 - INFO - 
+==================================================
+2024-11-24 06:31:59,296 - INFO - DATA SENT TO BACKEND:
+2024-11-24 06:31:59,296 - INFO - ==================================================
+2024-11-24 06:31:59,297 - INFO - COMMAND: please tell me what models are present on this website
+2024-11-24 06:31:59,297 - INFO - TOKEN: '0'
+2024-11-24 06:31:59,297 - INFO - CURRENT URL: https://ollama.com/library/llama3.1:8b-instruct-fp16
+2024-11-24 06:31:59,297 - INFO - 
+ALL URLS:
+2024-11-24 06:31:59,297 - INFO - 1. https://ollama.com/
+2024-11-24 06:31:59,297 - INFO - 2. https://ollama.com/blog
+2024-11-24 06:31:59,297 - INFO - 3. https://discord.com/invite/ollama
+2024-11-24 06:31:59,297 - INFO - 4. https://github.com/ollama/ollama
+2024-11-24 06:31:59,297 - INFO - 5. https://ollama.com/models
+2024-11-24 06:31:59,297 - INFO - 6. https://ollama.com/download
+2024-11-24 06:31:59,297 - INFO - 7. https://ollama.com/faiz5689
+2024-11-24 06:31:59,297 - INFO - 8. https://ollama.com/settings
+2024-11-24 06:31:59,297 - INFO - 9. https://ollama.com/signout
+2024-11-24 06:31:59,297 - INFO - 10. https://ollama.com/library/llama3.1
+2024-11-24 06:31:59,297 - INFO - 11. https://ollama.com/library/llama3.1:8b
+2024-11-24 06:31:59,298 - INFO - 12. https://ollama.com/library/llama3.1:70b
+2024-11-24 06:31:59,298 - INFO - 13. https://ollama.com/library/llama3.1:405b
+2024-11-24 06:31:59,298 - INFO - 14. https://ollama.com/library/llama3.1:8b-instruct-fp16
+2024-11-24 06:31:59,298 - INFO - 15. https://ollama.com/library/llama3.1/tags
+2024-11-24 06:31:59,298 - INFO - 16. https://ollama.com/library/llama3.1:8b-instruct-fp16/blobs/09cd6813dc2e
+2024-11-24 06:31:59,298 - INFO - 17. https://ollama.com/library/llama3.1:8b-instruct-fp16/blobs/56bb8bd477a5
+2024-11-24 06:31:59,298 - INFO - 18. https://ollama.com/library/llama3.1:8b-instruct-fp16/blobs/948af2743fc7
+2024-11-24 06:31:59,298 - INFO - 19. https://ollama.com/library/llama3.1:8b-instruct-fp16/blobs/0ba8f0e314b4
+2024-11-24 06:31:59,298 - INFO - 20. https://ai.meta.com/blog/meta-llama-3-1/
+2024-11-24 06:31:59,298 - INFO - 21. https://github.com/ollama/ollama/tree/main/docs
+2024-11-24 06:31:59,298 - INFO - 22. https://twitter.com/ollama
+2024-11-24 06:31:59,298 - INFO - 23. https://lu.ma/ollama
+2024-11-24 06:31:59,298 - INFO - ==================================================
+2024-11-24 06:32:45,645 - INFO - 
+==================================================
+2024-11-24 06:32:45,646 - INFO - BACKEND RESPONSE:
+2024-11-24 06:32:45,647 - INFO - ==================================================
+2024-11-24 06:32:45,647 - INFO - Here are the models mentioned on this website:
+
+1. Llama-3.1 (in various parameter sizes: 8B, 70B, and 405B)
+2. OLLAMA (Open-source Large Language Model Application, not explicitly stated but likely referring to OpenCoder or other models in the Ollama family)
+3. Meta AI's Llama model
+4. Tülu 3 (a leading instruction following model family)
+5. Athene-V2 (a 72B parameter model)
+6. Marco-O1 (an open large reasoning model by Alibaba International Digital Commerce Group)
+7. Llama-Guard3 (a series of models fine-tuned for content safety classification)
+8. ShieldGemma (a set of instruction tuned models for evaluating the safety of text prompt input and output responses)
+9. Bespoke-MiniCheck (a state-of-the-art fact-checking model developed by Bespoke Labs)
+10. OpenCoder (an open and reproducible code LLM family)
+11. Paraphrase-multilingual (a sentence-transformers model that can be used for tasks like clustering or semantic search)
+12. OPCODER (OpenCoder's Chinese language variant)
+
+Note: Some of these models may have multiple names, variants, or aliases mentioned on the website.
+2024-11-24 06:32:45,647 - INFO - ==================================================
+
+2024-11-24 06:33:22,514 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:33:36,780 - INFO - Voice assistant thread started
+2024-11-24 06:33:36,781 - INFO - 
+==================================================
+2024-11-24 06:33:36,781 - INFO - Server starting on http://localhost:50001
+2024-11-24 06:33:36,781 - INFO - ==================================================
+
+2024-11-24 06:33:36,781 - INFO - Voice Assistant initialized
+2024-11-24 06:33:36,781 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:33:36,790 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://172.20.33.252:50001
+2024-11-24 06:33:36,790 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 06:33:36,887 - INFO - Listening...
+2024-11-24 06:33:40,863 - INFO - Could not understand audio
+2024-11-24 06:33:41,102 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:33:41,251 - INFO - Received request to process links
+2024-11-24 06:33:41,252 - INFO - 
+==================================================
+2024-11-24 06:33:41,252 - INFO - Updated Browser Data:
+2024-11-24 06:33:41,252 - INFO - ==================================================
+2024-11-24 06:33:41,252 - INFO - Current URL: https://www.sickkids.ca/
+2024-11-24 06:33:41,252 - INFO - Token: '0'
+2024-11-24 06:33:41,252 - INFO - URLs found: 158
+2024-11-24 06:33:41,252 - INFO - ==================================================
+
+2024-11-24 06:33:41,255 - INFO - 127.0.0.1 - - [24/Nov/2024 06:33:41] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:33:41,353 - INFO - Listening...
+2024-11-24 06:33:41,580 - INFO - Received request to process links
+2024-11-24 06:33:41,580 - INFO - 
+==================================================
+2024-11-24 06:33:41,580 - INFO - Updated Browser Data:
+2024-11-24 06:33:41,580 - INFO - ==================================================
+2024-11-24 06:33:41,580 - INFO - Current URL: https://ollama.com/library/llama3.1:8b-instruct-fp16
+2024-11-24 06:33:41,580 - INFO - Token: '0'
+2024-11-24 06:33:41,580 - INFO - URLs found: 23
+2024-11-24 06:33:41,580 - INFO - ==================================================
+
+2024-11-24 06:33:41,581 - INFO - 127.0.0.1 - - [24/Nov/2024 06:33:41] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:33:44,195 - INFO - Could not understand audio
+2024-11-24 06:33:44,434 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:33:44,555 - INFO - Listening...
+2024-11-24 06:33:49,335 - INFO - Recognized: hi vista
+2024-11-24 06:33:49,468 - INFO - Wake word detected!
+2024-11-24 06:33:52,461 - INFO - Listening for command...
+2024-11-24 06:33:52,574 - INFO - Listening...
+2024-11-24 06:33:58,374 - INFO - Recognized: can you please tell me what models are present on this website in short
+2024-11-24 06:33:58,506 - INFO - Command received: can you please tell me what models are present on this website in short
+2024-11-24 06:33:58,506 - INFO - 
+==================================================
+2024-11-24 06:33:58,506 - INFO - DATA SENT TO BACKEND:
+2024-11-24 06:33:58,506 - INFO - ==================================================
+2024-11-24 06:33:58,506 - INFO - COMMAND: can you please tell me what models are present on this website in short
+2024-11-24 06:33:58,506 - INFO - TOKEN: '0'
+2024-11-24 06:33:58,507 - INFO - CURRENT URL: https://ollama.com/library/llama3.1:8b-instruct-fp16
+2024-11-24 06:33:58,507 - INFO - 
+ALL URLS:
+2024-11-24 06:33:58,507 - INFO - 1. https://ollama.com/
+2024-11-24 06:33:58,507 - INFO - 2. https://ollama.com/blog
+2024-11-24 06:33:58,507 - INFO - 3. https://discord.com/invite/ollama
+2024-11-24 06:33:58,507 - INFO - 4. https://github.com/ollama/ollama
+2024-11-24 06:33:58,507 - INFO - 5. https://ollama.com/models
+2024-11-24 06:33:58,507 - INFO - 6. https://ollama.com/download
+2024-11-24 06:33:58,507 - INFO - 7. https://ollama.com/faiz5689
+2024-11-24 06:33:58,507 - INFO - 8. https://ollama.com/settings
+2024-11-24 06:33:58,507 - INFO - 9. https://ollama.com/signout
+2024-11-24 06:33:58,507 - INFO - 10. https://ollama.com/library/llama3.1
+2024-11-24 06:33:58,508 - INFO - 11. https://ollama.com/library/llama3.1:8b
+2024-11-24 06:33:58,508 - INFO - 12. https://ollama.com/library/llama3.1:70b
+2024-11-24 06:33:58,508 - INFO - 13. https://ollama.com/library/llama3.1:405b
+2024-11-24 06:33:58,508 - INFO - 14. https://ollama.com/library/llama3.1:8b-instruct-fp16
+2024-11-24 06:33:58,508 - INFO - 15. https://ollama.com/library/llama3.1/tags
+2024-11-24 06:33:58,508 - INFO - 16. https://ollama.com/library/llama3.1:8b-instruct-fp16/blobs/09cd6813dc2e
+2024-11-24 06:33:58,508 - INFO - 17. https://ollama.com/library/llama3.1:8b-instruct-fp16/blobs/56bb8bd477a5
+2024-11-24 06:33:58,508 - INFO - 18. https://ollama.com/library/llama3.1:8b-instruct-fp16/blobs/948af2743fc7
+2024-11-24 06:33:58,508 - INFO - 19. https://ollama.com/library/llama3.1:8b-instruct-fp16/blobs/0ba8f0e314b4
+2024-11-24 06:33:58,508 - INFO - 20. https://ai.meta.com/blog/meta-llama-3-1/
+2024-11-24 06:33:58,508 - INFO - 21. https://github.com/ollama/ollama/tree/main/docs
+2024-11-24 06:33:58,508 - INFO - 22. https://twitter.com/ollama
+2024-11-24 06:33:58,508 - INFO - 23. https://lu.ma/ollama
+2024-11-24 06:33:58,508 - INFO - ==================================================
+2024-11-24 06:34:35,211 - INFO - 
+==================================================
+2024-11-24 06:34:35,213 - INFO - BACKEND RESPONSE:
+2024-11-24 06:34:35,213 - INFO - ==================================================
+2024-11-24 06:34:35,213 - INFO - The models mentioned on this website are:
+
+* Llama 3.1
+* Phi 3
+* Mistral
+* Gemma 2
+* 8B, 70B, and 405B variants of Llama 3.1
+2024-11-24 06:34:35,213 - INFO - ==================================================
+
+2024-11-24 06:34:54,849 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:34:54,966 - INFO - Listening...
+2024-11-24 06:35:00,095 - INFO - Recognized: is it fine or more fast
+2024-11-24 06:35:00,341 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:35:00,454 - INFO - Listening...
+2024-11-24 06:35:04,213 - INFO - Could not understand audio
+2024-11-24 06:35:04,457 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:35:04,573 - INFO - Listening...
+2024-11-24 06:35:09,747 - INFO - Could not understand audio
+2024-11-24 06:35:09,990 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:35:10,116 - INFO - Listening...
+2024-11-24 06:35:13,223 - INFO - Voice assistant thread started
+2024-11-24 06:35:13,223 - INFO - 
+==================================================
+2024-11-24 06:35:13,223 - INFO - Server starting on http://localhost:50001
+2024-11-24 06:35:13,223 - INFO - ==================================================
+
+2024-11-24 06:35:13,224 - INFO - Voice Assistant initialized
+2024-11-24 06:35:13,224 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:35:13,232 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://172.20.33.252:50001
+2024-11-24 06:35:13,232 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 06:35:13,314 - INFO - Listening...
+2024-11-24 06:35:16,270 - INFO - Recognized: hi vista
+2024-11-24 06:35:16,403 - INFO - Wake word detected!
+2024-11-24 06:35:19,369 - INFO - Listening for command...
+2024-11-24 06:35:19,484 - INFO - Listening...
+2024-11-24 06:35:23,033 - INFO - Recognized: can you tell me what models are present on this
+2024-11-24 06:35:23,170 - INFO - Command received: can you tell me what models are present on this
+2024-11-24 06:35:28,194 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:35:28,315 - INFO - Listening...
+2024-11-24 06:35:31,653 - INFO - Received request to process links
+2024-11-24 06:35:31,655 - INFO - 
+==================================================
+2024-11-24 06:35:31,655 - INFO - Updated Browser Data:
+2024-11-24 06:35:31,655 - INFO - ==================================================
+2024-11-24 06:35:31,655 - INFO - Current URL: https://ollama.com/library/llama3.1:8b-instruct-fp16
+2024-11-24 06:35:31,655 - INFO - Token: '0'
+2024-11-24 06:35:31,655 - INFO - URLs found: 23
+2024-11-24 06:35:31,655 - INFO - ==================================================
+
+2024-11-24 06:35:31,656 - INFO - 127.0.0.1 - - [24/Nov/2024 06:35:31] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:35:32,850 - INFO - Could not understand audio
+2024-11-24 06:35:33,092 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:35:33,220 - INFO - Listening...
+2024-11-24 06:35:37,063 - INFO - Recognized: hi vista
+2024-11-24 06:35:37,202 - INFO - Wake word detected!
+2024-11-24 06:35:40,263 - INFO - Listening for command...
+2024-11-24 06:35:40,381 - INFO - Listening...
+2024-11-24 06:35:45,358 - INFO - Recognized: can you tell me what websites are models are available on this website
+2024-11-24 06:35:45,492 - INFO - Command received: can you tell me what websites are models are available on this website
+2024-11-24 06:35:45,493 - INFO - 
+==================================================
+2024-11-24 06:35:45,493 - INFO - DATA SENT TO BACKEND:
+2024-11-24 06:35:45,493 - INFO - ==================================================
+2024-11-24 06:35:45,493 - INFO - COMMAND: can you tell me what websites are models are available on this website
+2024-11-24 06:35:45,493 - INFO - TOKEN: '0'
+2024-11-24 06:35:45,493 - INFO - CURRENT URL: https://ollama.com/library/llama3.1:8b-instruct-fp16
+2024-11-24 06:35:45,493 - INFO - 
+ALL URLS:
+2024-11-24 06:35:45,493 - INFO - 1. https://ollama.com/
+2024-11-24 06:35:45,493 - INFO - 2. https://ollama.com/blog
+2024-11-24 06:35:45,493 - INFO - 3. https://discord.com/invite/ollama
+2024-11-24 06:35:45,493 - INFO - 4. https://github.com/ollama/ollama
+2024-11-24 06:35:45,493 - INFO - 5. https://ollama.com/models
+2024-11-24 06:35:45,494 - INFO - 6. https://ollama.com/download
+2024-11-24 06:35:45,494 - INFO - 7. https://ollama.com/faiz5689
+2024-11-24 06:35:45,494 - INFO - 8. https://ollama.com/settings
+2024-11-24 06:35:45,494 - INFO - 9. https://ollama.com/signout
+2024-11-24 06:35:45,494 - INFO - 10. https://ollama.com/library/llama3.1
+2024-11-24 06:35:45,494 - INFO - 11. https://ollama.com/library/llama3.1:8b
+2024-11-24 06:35:45,494 - INFO - 12. https://ollama.com/library/llama3.1:70b
+2024-11-24 06:35:45,494 - INFO - 13. https://ollama.com/library/llama3.1:405b
+2024-11-24 06:35:45,494 - INFO - 14. https://ollama.com/library/llama3.1:8b-instruct-fp16
+2024-11-24 06:35:45,494 - INFO - 15. https://ollama.com/library/llama3.1/tags
+2024-11-24 06:35:45,494 - INFO - 16. https://ollama.com/library/llama3.1:8b-instruct-fp16/blobs/09cd6813dc2e
+2024-11-24 06:35:45,494 - INFO - 17. https://ollama.com/library/llama3.1:8b-instruct-fp16/blobs/56bb8bd477a5
+2024-11-24 06:35:45,494 - INFO - 18. https://ollama.com/library/llama3.1:8b-instruct-fp16/blobs/948af2743fc7
+2024-11-24 06:35:45,494 - INFO - 19. https://ollama.com/library/llama3.1:8b-instruct-fp16/blobs/0ba8f0e314b4
+2024-11-24 06:35:45,495 - INFO - 20. https://ai.meta.com/blog/meta-llama-3-1/
+2024-11-24 06:35:45,495 - INFO - 21. https://github.com/ollama/ollama/tree/main/docs
+2024-11-24 06:35:45,495 - INFO - 22. https://twitter.com/ollama
+2024-11-24 06:35:45,495 - INFO - 23. https://lu.ma/ollama
+2024-11-24 06:35:45,495 - INFO - ==================================================
+2024-11-24 06:36:23,349 - INFO - 
+==================================================
+2024-11-24 06:36:23,352 - INFO - BACKEND RESPONSE:
+2024-11-24 06:36:23,352 - INFO - ==================================================
+2024-11-24 06:36:23,352 - INFO - According to the provided text, the Llama 3.1 model is available on the following websites:
+
+* GitHub: https://github.com/ollama/ollama
+* Discord: https://discord.com/invite/ollama
+* Twitter: https://twitter.com/ollama
+* Meetups: https://lu.ma/ollama
+
+Additionally, you can find more information about the model, including documentation and evaluation results, on:
+
+* The Llama 3.1 family of models page: (no URL provided)
+* A README file: `arch llama parameters 8.03B quantization Q4_0 Readme`
+
+Please note that the availability of these resources may be subject to change over time.
+2024-11-24 06:36:23,352 - INFO - ==================================================
+
+2024-11-24 06:36:39,271 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:37:16,549 - INFO - Voice assistant thread started
+2024-11-24 06:37:16,549 - INFO - 
+==================================================
+2024-11-24 06:37:16,550 - INFO - Server starting on http://localhost:50001
+2024-11-24 06:37:16,550 - INFO - ==================================================
+
+2024-11-24 06:37:16,550 - INFO - Voice Assistant initialized
+2024-11-24 06:37:16,550 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:37:16,563 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://172.20.33.252:50001
+2024-11-24 06:37:16,563 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 06:37:16,643 - INFO - Listening...
+2024-11-24 06:37:20,655 - INFO - Received request to process links
+2024-11-24 06:37:20,655 - INFO - 
+==================================================
+2024-11-24 06:37:20,655 - INFO - Updated Browser Data:
+2024-11-24 06:37:20,655 - INFO - ==================================================
+2024-11-24 06:37:20,656 - INFO - Current URL: https://ollama.com/
+2024-11-24 06:37:20,656 - INFO - Token: '1'
+2024-11-24 06:37:20,656 - INFO - URLs found: 16
+2024-11-24 06:37:20,656 - INFO - ==================================================
+
+2024-11-24 06:37:20,656 - INFO - 127.0.0.1 - - [24/Nov/2024 06:37:20] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:37:20,788 - INFO - Recognized: set an alarm for 12:00 p.m.
+2024-11-24 06:37:21,023 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:37:21,116 - INFO - Listening...
+2024-11-24 06:37:24,441 - INFO - Could not understand audio
+2024-11-24 06:37:24,680 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:37:24,803 - INFO - Listening...
+2024-11-24 06:37:28,806 - INFO - Received request to process links
+2024-11-24 06:37:28,807 - INFO - 
+==================================================
+2024-11-24 06:37:28,807 - INFO - Updated Browser Data:
+2024-11-24 06:37:28,807 - INFO - ==================================================
+2024-11-24 06:37:28,807 - INFO - Current URL: https://www.sickkids.ca/
+2024-11-24 06:37:28,807 - INFO - Token: '0'
+2024-11-24 06:37:28,807 - INFO - URLs found: 158
+2024-11-24 06:37:28,807 - INFO - ==================================================
+
+2024-11-24 06:37:28,808 - INFO - 127.0.0.1 - - [24/Nov/2024 06:37:28] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:37:29,573 - INFO - Received request to process links
+2024-11-24 06:37:29,573 - INFO - 
+==================================================
+2024-11-24 06:37:29,573 - INFO - Updated Browser Data:
+2024-11-24 06:37:29,573 - INFO - ==================================================
+2024-11-24 06:37:29,573 - INFO - Current URL: https://ollama.com/
+2024-11-24 06:37:29,573 - INFO - Token: '0'
+2024-11-24 06:37:29,573 - INFO - URLs found: 16
+2024-11-24 06:37:29,573 - INFO - ==================================================
+
+2024-11-24 06:37:29,574 - INFO - 127.0.0.1 - - [24/Nov/2024 06:37:29] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:37:29,802 - INFO - Recognized: what is one token
+2024-11-24 06:37:30,044 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:37:30,176 - INFO - Listening...
+2024-11-24 06:37:34,528 - INFO - Recognized: hi vista
+2024-11-24 06:37:34,667 - INFO - Wake word detected!
+2024-11-24 06:37:37,627 - INFO - Listening for command...
+2024-11-24 06:37:37,741 - INFO - Listening...
+2024-11-24 06:37:40,863 - INFO - Recognized: tell me what model is available on this web
+2024-11-24 06:37:40,999 - INFO - Command received: tell me what model is available on this web
+2024-11-24 06:37:41,000 - INFO - 
+==================================================
+2024-11-24 06:37:41,000 - INFO - DATA SENT TO BACKEND:
+2024-11-24 06:37:41,000 - INFO - ==================================================
+2024-11-24 06:37:41,000 - INFO - COMMAND: tell me what model is available on this web
+2024-11-24 06:37:41,000 - INFO - TOKEN: '0'
+2024-11-24 06:37:41,000 - INFO - CURRENT URL: https://ollama.com/
+2024-11-24 06:37:41,000 - INFO - 
+ALL URLS:
+2024-11-24 06:37:41,000 - INFO - 1. https://ollama.com/
+2024-11-24 06:37:41,000 - INFO - 2. https://ollama.com/blog
+2024-11-24 06:37:41,000 - INFO - 3. https://discord.com/invite/ollama
+2024-11-24 06:37:41,000 - INFO - 4. https://github.com/ollama/ollama
+2024-11-24 06:37:41,000 - INFO - 5. https://ollama.com/models
+2024-11-24 06:37:41,000 - INFO - 6. https://ollama.com/download
+2024-11-24 06:37:41,000 - INFO - 7. https://ollama.com/faiz5689
+2024-11-24 06:37:41,000 - INFO - 8. https://ollama.com/settings
+2024-11-24 06:37:41,000 - INFO - 9. https://ollama.com/signout
+2024-11-24 06:37:41,001 - INFO - 10. https://ollama.com/library/llama3.2
+2024-11-24 06:37:41,001 - INFO - 11. https://ollama.com/library/phi3
+2024-11-24 06:37:41,001 - INFO - 12. https://ollama.com/library/mistral
+2024-11-24 06:37:41,001 - INFO - 13. https://ollama.com/library/gemma2
+2024-11-24 06:37:41,001 - INFO - 14. https://github.com/ollama/ollama/tree/main/docs
+2024-11-24 06:37:41,001 - INFO - 15. https://twitter.com/ollama
+2024-11-24 06:37:41,001 - INFO - 16. https://lu.ma/ollama
+2024-11-24 06:37:41,001 - INFO - ==================================================
+2024-11-24 06:38:11,101 - INFO - 
+==================================================
+2024-11-24 06:38:11,104 - INFO - BACKEND RESPONSE:
+2024-11-24 06:38:11,104 - INFO - ==================================================
+2024-11-24 06:38:11,104 - INFO - Based on the provided text snippet, there are several models mentioned:
+
+1. Gemma 2 (available in sizes 2B, 9B, and 27B)
+2. Meta's Llama 3.2 (available in sizes 1B and 3B)
+
+However, without more context or information about the web you're referring to, it's difficult to provide a specific answer.
+
+If you could provide more details about the web, such as its URL or any other relevant information, I'd be happy to try and help you further.
+2024-11-24 06:38:11,104 - INFO - ==================================================
+
+2024-11-24 06:38:35,204 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:39:34,403 - INFO - Voice assistant thread started
+2024-11-24 06:39:34,404 - INFO - 
+==================================================
+2024-11-24 06:39:34,404 - INFO - Server starting on http://localhost:50001
+2024-11-24 06:39:34,404 - INFO - ==================================================
+
+2024-11-24 06:39:34,405 - INFO - Voice Assistant initialized
+2024-11-24 06:39:34,405 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:39:34,414 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://172.20.33.252:50001
+2024-11-24 06:39:34,414 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 06:39:34,493 - INFO - Listening...
+2024-11-24 06:39:37,857 - INFO - Received request to process links
+2024-11-24 06:39:37,857 - INFO - 
+==================================================
+2024-11-24 06:39:37,857 - INFO - Updated Browser Data:
+2024-11-24 06:39:37,858 - INFO - ==================================================
+2024-11-24 06:39:37,858 - INFO - Current URL: https://ollama.com/
+2024-11-24 06:39:37,858 - INFO - Token: '0'
+2024-11-24 06:39:37,858 - INFO - URLs found: 16
+2024-11-24 06:39:37,858 - INFO - ==================================================
+
+2024-11-24 06:39:37,858 - INFO - 127.0.0.1 - - [24/Nov/2024 06:39:37] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:39:39,430 - INFO - Could not understand audio
+2024-11-24 06:39:39,672 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:39:39,790 - INFO - Listening...
+2024-11-24 06:39:42,498 - INFO - Recognized: hi vista
+2024-11-24 06:39:42,635 - INFO - Wake word detected!
+2024-11-24 06:39:45,615 - INFO - Listening for command...
+2024-11-24 06:39:45,733 - INFO - Listening...
+2024-11-24 06:39:49,477 - INFO - Recognized: can you tell me what model is available on this web
+2024-11-24 06:39:49,616 - INFO - Command received: can you tell me what model is available on this web
+2024-11-24 06:39:49,616 - INFO - 
+==================================================
+2024-11-24 06:39:49,616 - INFO - DATA SENT TO BACKEND:
+2024-11-24 06:39:49,617 - INFO - ==================================================
+2024-11-24 06:39:49,617 - INFO - COMMAND: can you tell me what model is available on this web
+2024-11-24 06:39:49,617 - INFO - TOKEN: '0'
+2024-11-24 06:39:49,617 - INFO - CURRENT URL: https://ollama.com/
+2024-11-24 06:39:49,617 - INFO - 
+ALL URLS:
+2024-11-24 06:39:49,617 - INFO - 1. https://ollama.com/
+2024-11-24 06:39:49,617 - INFO - 2. https://ollama.com/blog
+2024-11-24 06:39:49,617 - INFO - 3. https://discord.com/invite/ollama
+2024-11-24 06:39:49,617 - INFO - 4. https://github.com/ollama/ollama
+2024-11-24 06:39:49,617 - INFO - 5. https://ollama.com/models
+2024-11-24 06:39:49,617 - INFO - 6. https://ollama.com/download
+2024-11-24 06:39:49,617 - INFO - 7. https://ollama.com/faiz5689
+2024-11-24 06:39:49,617 - INFO - 8. https://ollama.com/settings
+2024-11-24 06:39:49,617 - INFO - 9. https://ollama.com/signout
+2024-11-24 06:39:49,617 - INFO - 10. https://ollama.com/library/llama3.2
+2024-11-24 06:39:49,617 - INFO - 11. https://ollama.com/library/phi3
+2024-11-24 06:39:49,617 - INFO - 12. https://ollama.com/library/mistral
+2024-11-24 06:39:49,617 - INFO - 13. https://ollama.com/library/gemma2
+2024-11-24 06:39:49,618 - INFO - 14. https://github.com/ollama/ollama/tree/main/docs
+2024-11-24 06:39:49,618 - INFO - 15. https://twitter.com/ollama
+2024-11-24 06:39:49,618 - INFO - 16. https://lu.ma/ollama
+2024-11-24 06:39:49,618 - INFO - ==================================================
+2024-11-24 06:40:19,584 - INFO - 
+==================================================
+2024-11-24 06:40:19,586 - INFO - BACKEND RESPONSE:
+2024-11-24 06:40:19,586 - INFO - ==================================================
+2024-11-24 06:40:19,586 - INFO - It looks like you want me to summarize the text for you. Here's a brief summary:
+
+There are several large language models available on this webpage, including:
+
+1. Llama 3.2
+2. Phi 3
+3. Mistral
+4. Gemma 2
+5. And others (not specified)
+
+You can run these models by using the `/library` syntax, for example: `"/library/llama3.2"` or `"/library/phi3"`.
+2024-11-24 06:40:19,586 - INFO - ==================================================
+
+2024-11-24 06:41:01,742 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:41:01,865 - INFO - Listening...
+2024-11-24 06:43:01,164 - INFO - Voice assistant thread started
+2024-11-24 06:43:01,164 - INFO - 
+==================================================
+2024-11-24 06:43:01,164 - INFO - Server starting on http://localhost:50001
+2024-11-24 06:43:01,164 - INFO - ==================================================
+
+2024-11-24 06:43:01,165 - INFO - Voice Assistant initialized
+2024-11-24 06:43:01,165 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:43:01,174 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://172.20.33.252:50001
+2024-11-24 06:43:01,174 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 06:43:01,254 - INFO - Listening...
+2024-11-24 06:43:03,390 - INFO - Received request to process links
+2024-11-24 06:43:03,390 - INFO - 
+==================================================
+2024-11-24 06:43:03,390 - INFO - Updated Browser Data:
+2024-11-24 06:43:03,390 - INFO - ==================================================
+2024-11-24 06:43:03,390 - INFO - Current URL: https://ollama.com/
+2024-11-24 06:43:03,390 - INFO - Token: '0'
+2024-11-24 06:43:03,390 - INFO - URLs found: 16
+2024-11-24 06:43:03,390 - INFO - ==================================================
+
+2024-11-24 06:43:03,391 - INFO - 127.0.0.1 - - [24/Nov/2024 06:43:03] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:43:06,036 - INFO - Could not understand audio
+2024-11-24 06:43:06,278 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:43:06,400 - INFO - Listening...
+2024-11-24 06:43:09,260 - INFO - Recognized: hi vista
+2024-11-24 06:43:09,398 - INFO - Wake word detected!
+2024-11-24 06:43:12,343 - INFO - Listening for command...
+2024-11-24 06:43:12,459 - INFO - Listening...
+2024-11-24 06:43:16,631 - INFO - Recognized: can you tell me what model are available on this website
+2024-11-24 06:43:16,769 - INFO - Command received: can you tell me what model are available on this website
+2024-11-24 06:43:16,769 - INFO - 
+==================================================
+2024-11-24 06:43:16,769 - INFO - DATA SENT TO BACKEND:
+2024-11-24 06:43:16,769 - INFO - ==================================================
+2024-11-24 06:43:16,770 - INFO - COMMAND: can you tell me what model are available on this website
+2024-11-24 06:43:16,770 - INFO - TOKEN: '0'
+2024-11-24 06:43:16,770 - INFO - CURRENT URL: https://ollama.com/
+2024-11-24 06:43:16,770 - INFO - 
+ALL URLS:
+2024-11-24 06:43:16,770 - INFO - 1. https://ollama.com/
+2024-11-24 06:43:16,770 - INFO - 2. https://ollama.com/blog
+2024-11-24 06:43:16,770 - INFO - 3. https://discord.com/invite/ollama
+2024-11-24 06:43:16,770 - INFO - 4. https://github.com/ollama/ollama
+2024-11-24 06:43:16,770 - INFO - 5. https://ollama.com/models
+2024-11-24 06:43:16,770 - INFO - 6. https://ollama.com/download
+2024-11-24 06:43:16,771 - INFO - 7. https://ollama.com/faiz5689
+2024-11-24 06:43:16,771 - INFO - 8. https://ollama.com/settings
+2024-11-24 06:43:16,771 - INFO - 9. https://ollama.com/signout
+2024-11-24 06:43:16,771 - INFO - 10. https://ollama.com/library/llama3.2
+2024-11-24 06:43:16,771 - INFO - 11. https://ollama.com/library/phi3
+2024-11-24 06:43:16,771 - INFO - 12. https://ollama.com/library/mistral
+2024-11-24 06:43:16,771 - INFO - 13. https://ollama.com/library/gemma2
+2024-11-24 06:43:16,771 - INFO - 14. https://github.com/ollama/ollama/tree/main/docs
+2024-11-24 06:43:16,771 - INFO - 15. https://twitter.com/ollama
+2024-11-24 06:43:16,771 - INFO - 16. https://lu.ma/ollama
+2024-11-24 06:43:16,771 - INFO - ==================================================
+2024-11-24 06:45:54,848 - INFO - Voice assistant thread started
+2024-11-24 06:45:54,849 - INFO - 
+==================================================
+2024-11-24 06:45:54,849 - INFO - Server starting on http://localhost:50001
+2024-11-24 06:45:54,849 - INFO - ==================================================
+
+2024-11-24 06:45:54,849 - INFO - Voice Assistant initialized
+2024-11-24 06:45:54,849 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:45:54,859 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://172.20.33.252:50001
+2024-11-24 06:45:54,859 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 06:45:54,953 - INFO - Listening...
+2024-11-24 06:45:58,436 - INFO - Could not understand audio
+2024-11-24 06:45:58,674 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:45:58,796 - INFO - Listening...
+2024-11-24 06:46:01,619 - INFO - Could not understand audio
+2024-11-24 06:46:01,861 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:46:01,982 - INFO - Listening...
+2024-11-24 06:46:04,570 - INFO - Received request to process links
+2024-11-24 06:46:04,570 - INFO - 
+==================================================
+2024-11-24 06:46:04,570 - INFO - Updated Browser Data:
+2024-11-24 06:46:04,570 - INFO - ==================================================
+2024-11-24 06:46:04,570 - INFO - Current URL: https://www.sickkids.ca/
+2024-11-24 06:46:04,570 - INFO - Token: '0'
+2024-11-24 06:46:04,570 - INFO - URLs found: 158
+2024-11-24 06:46:04,570 - INFO - ==================================================
+
+2024-11-24 06:46:04,571 - INFO - 127.0.0.1 - - [24/Nov/2024 06:46:04] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:46:04,885 - INFO - Could not understand audio
+2024-11-24 06:46:05,004 - INFO - Received request to process links
+2024-11-24 06:46:05,005 - INFO - 
+==================================================
+2024-11-24 06:46:05,005 - INFO - Updated Browser Data:
+2024-11-24 06:46:05,005 - INFO - ==================================================
+2024-11-24 06:46:05,005 - INFO - Current URL: https://ollama.com/
+2024-11-24 06:46:05,005 - INFO - Token: '0'
+2024-11-24 06:46:05,005 - INFO - URLs found: 16
+2024-11-24 06:46:05,005 - INFO - ==================================================
+
+2024-11-24 06:46:05,006 - INFO - 127.0.0.1 - - [24/Nov/2024 06:46:05] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:46:05,125 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:46:05,255 - INFO - Listening...
+2024-11-24 06:46:08,265 - INFO - Could not understand audio
+2024-11-24 06:46:08,508 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:46:08,627 - INFO - Listening...
+2024-11-24 06:46:11,792 - INFO - Recognized: hi vista
+2024-11-24 06:46:11,930 - INFO - Wake word detected!
+2024-11-24 06:46:15,000 - INFO - Listening for command...
+2024-11-24 06:46:15,114 - INFO - Listening...
+2024-11-24 06:46:21,054 - INFO - Recognized: can you tell me what models are available on this website
+2024-11-24 06:46:21,192 - INFO - Command received: can you tell me what models are available on this website
+2024-11-24 06:46:21,193 - INFO - 
+==================================================
+2024-11-24 06:46:21,193 - INFO - DATA SENT TO BACKEND:
+2024-11-24 06:46:21,193 - INFO - ==================================================
+2024-11-24 06:46:21,193 - INFO - COMMAND: can you tell me what models are available on this website
+2024-11-24 06:46:21,193 - INFO - TOKEN: '0'
+2024-11-24 06:46:21,193 - INFO - CURRENT URL: https://ollama.com/
+2024-11-24 06:46:21,193 - INFO - 
+ALL URLS:
+2024-11-24 06:46:21,193 - INFO - 1. https://ollama.com/
+2024-11-24 06:46:21,194 - INFO - 2. https://ollama.com/blog
+2024-11-24 06:46:21,194 - INFO - 3. https://discord.com/invite/ollama
+2024-11-24 06:46:21,194 - INFO - 4. https://github.com/ollama/ollama
+2024-11-24 06:46:21,194 - INFO - 5. https://ollama.com/models
+2024-11-24 06:46:21,194 - INFO - 6. https://ollama.com/download
+2024-11-24 06:46:21,194 - INFO - 7. https://ollama.com/faiz5689
+2024-11-24 06:46:21,194 - INFO - 8. https://ollama.com/settings
+2024-11-24 06:46:21,194 - INFO - 9. https://ollama.com/signout
+2024-11-24 06:46:21,194 - INFO - 10. https://ollama.com/library/llama3.2
+2024-11-24 06:46:21,194 - INFO - 11. https://ollama.com/library/phi3
+2024-11-24 06:46:21,194 - INFO - 12. https://ollama.com/library/mistral
+2024-11-24 06:46:21,194 - INFO - 13. https://ollama.com/library/gemma2
+2024-11-24 06:46:21,195 - INFO - 14. https://github.com/ollama/ollama/tree/main/docs
+2024-11-24 06:46:21,195 - INFO - 15. https://twitter.com/ollama
+2024-11-24 06:46:21,195 - INFO - 16. https://lu.ma/ollama
+2024-11-24 06:46:21,195 - INFO - ==================================================
+2024-11-24 06:46:50,586 - INFO - 
+==================================================
+2024-11-24 06:46:50,587 - INFO - BACKEND RESPONSE:
+2024-11-24 06:46:50,587 - INFO - ==================================================
+2024-11-24 06:46:50,587 - INFO - According to the text, the following large language models are available on the website:
+
+1. Llama 3.2
+2. Phi 3
+3. Mistral (7B parameter model)
+4. Gemma 2 (2.6B parameters)
+
+Additionally, there are mentions of other models, but they are not explicitly listed as "available" on the website.
+
+It's worth noting that the text also provides information about smaller models with 1-3 billion parameters, which suggests that these models may be available for use, but they are not explicitly mentioned as part of the main list of models.
+2024-11-24 06:46:50,587 - INFO - ==================================================
+
+2024-11-24 06:47:08,645 - INFO - Voice assistant thread started
+2024-11-24 06:47:08,646 - INFO - 
+==================================================
+2024-11-24 06:47:08,646 - INFO - Server starting on http://localhost:50001
+2024-11-24 06:47:08,646 - INFO - ==================================================
+
+2024-11-24 06:47:08,647 - INFO - Voice Assistant initialized
+2024-11-24 06:47:08,647 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:47:08,655 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://172.20.33.252:50001
+2024-11-24 06:47:08,655 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 06:47:08,749 - INFO - Listening...
+2024-11-24 06:47:12,032 - INFO - Received request to process links
+2024-11-24 06:47:12,034 - INFO - 
+==================================================
+2024-11-24 06:47:12,035 - INFO - Updated Browser Data:
+2024-11-24 06:47:12,035 - INFO - ==================================================
+2024-11-24 06:47:12,035 - INFO - Current URL: https://docs.google.com/document/d/1vq6z7H2AlqDXOXk3KOGkUZitD9eQ1oCqNx1RZfE2QTE/edit?tab=t.0
+2024-11-24 06:47:12,035 - INFO - Token: '0'
+2024-11-24 06:47:12,035 - INFO - URLs found: 5
+2024-11-24 06:47:12,036 - INFO - ==================================================
+
+2024-11-24 06:47:12,041 - INFO - 127.0.0.1 - - [24/Nov/2024 06:47:12] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:47:12,467 - INFO - Received request to process links
+2024-11-24 06:47:12,467 - INFO - 
+==================================================
+2024-11-24 06:47:12,467 - INFO - Updated Browser Data:
+2024-11-24 06:47:12,468 - INFO - ==================================================
+2024-11-24 06:47:12,468 - INFO - Current URL: https://ollama.com/
+2024-11-24 06:47:12,468 - INFO - Token: '0'
+2024-11-24 06:47:12,468 - INFO - URLs found: 16
+2024-11-24 06:47:12,468 - INFO - ==================================================
+
+2024-11-24 06:47:12,469 - INFO - 127.0.0.1 - - [24/Nov/2024 06:47:12] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:47:12,934 - INFO - Could not understand audio
+2024-11-24 06:47:13,176 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:47:13,310 - INFO - Listening...
+2024-11-24 06:47:16,661 - INFO - Could not understand audio
+2024-11-24 06:47:16,903 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:47:17,027 - INFO - Listening...
+2024-11-24 06:47:20,754 - INFO - Recognized: what models are available on the highway
+2024-11-24 06:47:20,990 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:47:21,110 - INFO - Listening...
+2024-11-24 06:47:24,214 - INFO - Recognized: hi vista
+2024-11-24 06:47:24,353 - INFO - Wake word detected!
+2024-11-24 06:47:27,335 - INFO - Listening for command...
+2024-11-24 06:47:27,450 - INFO - Listening...
+2024-11-24 06:47:30,379 - INFO - Recognized: models are available on this website
+2024-11-24 06:47:30,517 - INFO - Command received: models are available on this website
+2024-11-24 06:47:30,517 - INFO - 0
+2024-11-24 06:47:30,518 - INFO - 
+==================================================
+2024-11-24 06:47:30,518 - INFO - DATA SENT TO BACKEND:
+2024-11-24 06:47:30,518 - INFO - ==================================================
+2024-11-24 06:47:30,518 - INFO - COMMAND: models are available on this website
+2024-11-24 06:47:30,518 - INFO - TOKEN: '0'
+2024-11-24 06:47:30,518 - INFO - CURRENT URL: https://ollama.com/
+2024-11-24 06:47:30,518 - INFO - 
+ALL URLS:
+2024-11-24 06:47:30,518 - INFO - 1. https://ollama.com/
+2024-11-24 06:47:30,518 - INFO - 2. https://ollama.com/blog
+2024-11-24 06:47:30,518 - INFO - 3. https://discord.com/invite/ollama
+2024-11-24 06:47:30,518 - INFO - 4. https://github.com/ollama/ollama
+2024-11-24 06:47:30,518 - INFO - 5. https://ollama.com/models
+2024-11-24 06:47:30,518 - INFO - 6. https://ollama.com/download
+2024-11-24 06:47:30,518 - INFO - 7. https://ollama.com/faiz5689
+2024-11-24 06:47:30,519 - INFO - 8. https://ollama.com/settings
+2024-11-24 06:47:30,519 - INFO - 9. https://ollama.com/signout
+2024-11-24 06:47:30,519 - INFO - 10. https://ollama.com/library/llama3.2
+2024-11-24 06:47:30,519 - INFO - 11. https://ollama.com/library/phi3
+2024-11-24 06:47:30,519 - INFO - 12. https://ollama.com/library/mistral
+2024-11-24 06:47:30,519 - INFO - 13. https://ollama.com/library/gemma2
+2024-11-24 06:47:30,519 - INFO - 14. https://github.com/ollama/ollama/tree/main/docs
+2024-11-24 06:47:30,519 - INFO - 15. https://twitter.com/ollama
+2024-11-24 06:47:30,519 - INFO - 16. https://lu.ma/ollama
+2024-11-24 06:47:30,519 - INFO - ==================================================
+2024-11-24 06:47:44,439 - INFO - Voice assistant thread started
+2024-11-24 06:47:44,439 - INFO - 
+==================================================
+2024-11-24 06:47:44,439 - INFO - Server starting on http://localhost:50001
+2024-11-24 06:47:44,439 - INFO - ==================================================
+
+2024-11-24 06:47:44,440 - INFO - Voice Assistant initialized
+2024-11-24 06:47:44,440 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:47:44,449 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://172.20.33.252:50001
+2024-11-24 06:47:44,449 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 06:47:44,531 - INFO - Listening...
+2024-11-24 06:47:46,707 - INFO - Received request to process links
+2024-11-24 06:47:46,708 - INFO - 
+==================================================
+2024-11-24 06:47:46,708 - INFO - Updated Browser Data:
+2024-11-24 06:47:46,708 - INFO - ==================================================
+2024-11-24 06:47:46,708 - INFO - Current URL: https://www.sickkids.ca/
+2024-11-24 06:47:46,708 - INFO - Token: '0'
+2024-11-24 06:47:46,708 - INFO - URLs found: 158
+2024-11-24 06:47:46,708 - INFO - ==================================================
+
+2024-11-24 06:47:46,709 - INFO - 127.0.0.1 - - [24/Nov/2024 06:47:46] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:47:47,099 - INFO - Received request to process links
+2024-11-24 06:47:47,099 - INFO - 
+==================================================
+2024-11-24 06:47:47,099 - INFO - Updated Browser Data:
+2024-11-24 06:47:47,100 - INFO - ==================================================
+2024-11-24 06:47:47,100 - INFO - Current URL: https://ollama.com/
+2024-11-24 06:47:47,100 - INFO - Token: '0'
+2024-11-24 06:47:47,100 - INFO - URLs found: 16
+2024-11-24 06:47:47,100 - INFO - ==================================================
+
+2024-11-24 06:47:47,103 - INFO - 127.0.0.1 - - [24/Nov/2024 06:47:47] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 06:47:47,889 - INFO - Could not understand audio
+2024-11-24 06:47:48,126 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:47:48,273 - INFO - Listening...
+2024-11-24 06:47:51,677 - INFO - Recognized: how do you stop
+2024-11-24 06:47:51,919 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 06:47:52,025 - INFO - Listening...
+2024-11-24 06:47:55,262 - INFO - Recognized: hi vista
+2024-11-24 06:47:55,401 - INFO - Wake word detected!
+2024-11-24 06:47:58,381 - INFO - Listening for command...
+2024-11-24 06:47:58,499 - INFO - Listening...
+2024-11-24 06:48:03,730 - INFO - Recognized: what models are available on this website
+2024-11-24 06:48:03,866 - INFO - Command received: what models are available on this website
+2024-11-24 06:48:03,866 - INFO - 
+==================================================
+2024-11-24 06:48:03,866 - INFO - DATA SENT TO BACKEND:
+2024-11-24 06:48:03,866 - INFO - ==================================================
+2024-11-24 06:48:03,866 - INFO - COMMAND: what models are available on this website
+2024-11-24 06:48:03,866 - INFO - TOKEN: '0'
+2024-11-24 06:48:03,866 - INFO - CURRENT URL: https://ollama.com/
+2024-11-24 06:48:03,866 - INFO - 
+ALL URLS:
+2024-11-24 06:48:03,866 - INFO - 1. https://ollama.com/
+2024-11-24 06:48:03,866 - INFO - 2. https://ollama.com/blog
+2024-11-24 06:48:03,866 - INFO - 3. https://discord.com/invite/ollama
+2024-11-24 06:48:03,867 - INFO - 4. https://github.com/ollama/ollama
+2024-11-24 06:48:03,867 - INFO - 5. https://ollama.com/models
+2024-11-24 06:48:03,867 - INFO - 6. https://ollama.com/download
+2024-11-24 06:48:03,867 - INFO - 7. https://ollama.com/faiz5689
+2024-11-24 06:48:03,867 - INFO - 8. https://ollama.com/settings
+2024-11-24 06:48:03,867 - INFO - 9. https://ollama.com/signout
+2024-11-24 06:48:03,867 - INFO - 10. https://ollama.com/library/llama3.2
+2024-11-24 06:48:03,867 - INFO - 11. https://ollama.com/library/phi3
+2024-11-24 06:48:03,867 - INFO - 12. https://ollama.com/library/mistral
+2024-11-24 06:48:03,867 - INFO - 13. https://ollama.com/library/gemma2
+2024-11-24 06:48:03,867 - INFO - 14. https://github.com/ollama/ollama/tree/main/docs
+2024-11-24 06:48:03,867 - INFO - 15. https://twitter.com/ollama
+2024-11-24 06:48:03,867 - INFO - 16. https://lu.ma/ollama
+2024-11-24 06:48:03,867 - INFO - ==================================================
+2024-11-24 06:48:33,458 - INFO - 
+==================================================
+2024-11-24 06:48:33,460 - INFO - BACKEND RESPONSE:
+2024-11-24 06:48:33,460 - INFO - ==================================================
+2024-11-24 06:48:33,460 - INFO - Based on the provided text, the following models are mentioned as being available:
+
+1. **Phi-3 Mini 4K Instruct**: A large language model with 4,096 parameters.
+2. **Google Gemma 2**:
+   - **Gemma 2:2B**: A smaller version of the model with 2 billion parameters.
+   - **Gemma 2:9B**: Another size option with 9 billion parameters.
+   - **Gemma 2:27B**: The largest available size with 27 billion parameters.
+
+Note that these models are mentioned as being available on the website, but it's not explicitly stated which one is currently being used or recommended.
+2024-11-24 06:48:33,460 - INFO - ==================================================
+
+2024-11-24 07:09:52,072 - INFO - Voice assistant thread started
+2024-11-24 07:09:52,072 - INFO - 
+==================================================
+2024-11-24 07:09:52,072 - INFO - Server starting on http://localhost:50001
+2024-11-24 07:09:52,073 - INFO - ==================================================
+
+2024-11-24 07:09:52,073 - INFO - Voice Assistant initialized
+2024-11-24 07:09:52,073 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:09:52,084 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://192.168.13.149:50001
+2024-11-24 07:09:52,084 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 07:09:52,177 - INFO - Listening...
+2024-11-24 07:09:55,259 - INFO - Received request to process links
+2024-11-24 07:09:55,259 - INFO - 
+==================================================
+2024-11-24 07:09:55,259 - INFO - Updated Browser Data:
+2024-11-24 07:09:55,259 - INFO - ==================================================
+2024-11-24 07:09:55,259 - INFO - Current URL: https://ollama.com/
+2024-11-24 07:09:55,259 - INFO - Token: '0'
+2024-11-24 07:09:55,259 - INFO - URLs found: 16
+2024-11-24 07:09:55,259 - INFO - ==================================================
+
+2024-11-24 07:09:55,260 - INFO - 127.0.0.1 - - [24/Nov/2024 07:09:55] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 07:09:56,177 - INFO - Could not understand audio
+2024-11-24 07:09:56,417 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:09:56,574 - INFO - Listening...
+2024-11-24 07:09:59,347 - INFO - Could not understand audio
+2024-11-24 07:09:59,591 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:09:59,711 - INFO - Listening...
+2024-11-24 07:10:02,907 - INFO - Recognized: hi vista
+2024-11-24 07:10:03,038 - INFO - Wake word detected!
+2024-11-24 07:10:06,068 - INFO - Listening for command...
+2024-11-24 07:10:06,181 - INFO - Listening...
+2024-11-24 07:10:09,826 - INFO - Recognized: can you tell me what models are available on this web
+2024-11-24 07:10:09,965 - INFO - Command received: can you tell me what models are available on this web
+2024-11-24 07:10:09,965 - INFO - 
+==================================================
+2024-11-24 07:10:09,966 - INFO - DATA SENT TO BACKEND:
+2024-11-24 07:10:09,966 - INFO - ==================================================
+2024-11-24 07:10:09,966 - INFO - COMMAND: can you tell me what models are available on this web
+2024-11-24 07:10:09,966 - INFO - TOKEN: '0'
+2024-11-24 07:10:09,966 - INFO - CURRENT URL: https://ollama.com/
+2024-11-24 07:10:09,966 - INFO - 
+ALL URLS:
+2024-11-24 07:10:09,966 - INFO - 1. https://ollama.com/
+2024-11-24 07:10:09,966 - INFO - 2. https://ollama.com/blog
+2024-11-24 07:10:09,966 - INFO - 3. https://discord.com/invite/ollama
+2024-11-24 07:10:09,967 - INFO - 4. https://github.com/ollama/ollama
+2024-11-24 07:10:09,967 - INFO - 5. https://ollama.com/models
+2024-11-24 07:10:09,967 - INFO - 6. https://ollama.com/download
+2024-11-24 07:10:09,967 - INFO - 7. https://ollama.com/faiz5689
+2024-11-24 07:10:09,967 - INFO - 8. https://ollama.com/settings
+2024-11-24 07:10:09,967 - INFO - 9. https://ollama.com/signout
+2024-11-24 07:10:09,967 - INFO - 10. https://ollama.com/library/llama3.2
+2024-11-24 07:10:09,967 - INFO - 11. https://ollama.com/library/phi3
+2024-11-24 07:10:09,967 - INFO - 12. https://ollama.com/library/mistral
+2024-11-24 07:10:09,967 - INFO - 13. https://ollama.com/library/gemma2
+2024-11-24 07:10:09,967 - INFO - 14. https://github.com/ollama/ollama/tree/main/docs
+2024-11-24 07:10:09,967 - INFO - 15. https://twitter.com/ollama
+2024-11-24 07:10:09,967 - INFO - 16. https://lu.ma/ollama
+2024-11-24 07:10:09,967 - INFO - ==================================================
+2024-11-24 07:11:04,858 - INFO - Voice assistant thread started
+2024-11-24 07:11:04,859 - INFO - 
+==================================================
+2024-11-24 07:11:04,859 - INFO - Server starting on http://localhost:50001
+2024-11-24 07:11:04,859 - INFO - ==================================================
+
+2024-11-24 07:11:04,859 - INFO - Voice Assistant initialized
+2024-11-24 07:11:04,860 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:11:04,868 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://192.168.13.149:50001
+2024-11-24 07:11:04,869 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 07:11:04,962 - INFO - Listening...
+2024-11-24 07:11:09,954 - INFO - Received request to process links
+2024-11-24 07:11:09,955 - INFO - 
+==================================================
+2024-11-24 07:11:09,955 - INFO - Updated Browser Data:
+2024-11-24 07:11:09,955 - INFO - ==================================================
+2024-11-24 07:11:09,955 - INFO - Current URL: https://ollama.com/
+2024-11-24 07:11:09,955 - INFO - Token: '0'
+2024-11-24 07:11:09,955 - INFO - URLs found: 16
+2024-11-24 07:11:09,955 - INFO - ==================================================
+
+2024-11-24 07:11:09,956 - INFO - 127.0.0.1 - - [24/Nov/2024 07:11:09] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 07:11:12,510 - INFO - Could not understand audio
+2024-11-24 07:11:12,752 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:11:12,874 - INFO - Listening...
+2024-11-24 07:11:15,771 - INFO - Recognized: hi vista
+2024-11-24 07:11:15,904 - INFO - Wake word detected!
+2024-11-24 07:11:18,897 - INFO - Listening for command...
+2024-11-24 07:11:19,015 - INFO - Listening...
+2024-11-24 07:11:23,897 - INFO - Recognized: can you tell me what websites are available on this website
+2024-11-24 07:11:24,034 - INFO - Command received: can you tell me what websites are available on this website
+2024-11-24 07:11:24,035 - INFO - 
+==================================================
+2024-11-24 07:11:24,035 - INFO - DATA SENT TO BACKEND:
+2024-11-24 07:11:24,035 - INFO - ==================================================
+2024-11-24 07:11:24,035 - INFO - COMMAND: can you tell me what websites are available on this website
+2024-11-24 07:11:24,035 - INFO - TOKEN: '0'
+2024-11-24 07:11:24,035 - INFO - CURRENT URL: https://ollama.com/
+2024-11-24 07:11:24,035 - INFO - 
+ALL URLS:
+2024-11-24 07:11:24,035 - INFO - 1. https://ollama.com/
+2024-11-24 07:11:24,036 - INFO - 2. https://ollama.com/blog
+2024-11-24 07:11:24,036 - INFO - 3. https://discord.com/invite/ollama
+2024-11-24 07:11:24,036 - INFO - 4. https://github.com/ollama/ollama
+2024-11-24 07:11:24,036 - INFO - 5. https://ollama.com/models
+2024-11-24 07:11:24,036 - INFO - 6. https://ollama.com/download
+2024-11-24 07:11:24,036 - INFO - 7. https://ollama.com/faiz5689
+2024-11-24 07:11:24,036 - INFO - 8. https://ollama.com/settings
+2024-11-24 07:11:24,036 - INFO - 9. https://ollama.com/signout
+2024-11-24 07:11:24,036 - INFO - 10. https://ollama.com/library/llama3.2
+2024-11-24 07:11:24,036 - INFO - 11. https://ollama.com/library/phi3
+2024-11-24 07:11:24,036 - INFO - 12. https://ollama.com/library/mistral
+2024-11-24 07:11:24,036 - INFO - 13. https://ollama.com/library/gemma2
+2024-11-24 07:11:24,036 - INFO - 14. https://github.com/ollama/ollama/tree/main/docs
+2024-11-24 07:11:24,036 - INFO - 15. https://twitter.com/ollama
+2024-11-24 07:11:24,036 - INFO - 16. https://lu.ma/ollama
+2024-11-24 07:11:24,036 - INFO - ==================================================
+2024-11-24 07:15:10,784 - INFO - Voice assistant thread started
+2024-11-24 07:15:10,785 - INFO - 
+==================================================
+2024-11-24 07:15:10,785 - INFO - Server starting on http://localhost:50001
+2024-11-24 07:15:10,785 - INFO - ==================================================
+
+2024-11-24 07:15:10,785 - INFO - Voice Assistant initialized
+2024-11-24 07:15:10,785 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:15:10,794 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://192.168.13.149:50001
+2024-11-24 07:15:10,794 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 07:15:10,888 - INFO - Listening...
+2024-11-24 07:15:14,212 - INFO - Received request to process links
+2024-11-24 07:15:14,212 - INFO - 
+==================================================
+2024-11-24 07:15:14,212 - INFO - Updated Browser Data:
+2024-11-24 07:15:14,212 - INFO - ==================================================
+2024-11-24 07:15:14,212 - INFO - Current URL: https://ollama.com/
+2024-11-24 07:15:14,212 - INFO - Token: '0'
+2024-11-24 07:15:14,213 - INFO - URLs found: 16
+2024-11-24 07:15:14,213 - INFO - ==================================================
+
+2024-11-24 07:15:14,213 - INFO - 127.0.0.1 - - [24/Nov/2024 07:15:14] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 07:15:14,781 - INFO - Could not understand audio
+2024-11-24 07:15:15,015 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:15:15,152 - INFO - Listening...
+2024-11-24 07:15:18,175 - INFO - Could not understand audio
+2024-11-24 07:15:18,410 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:15:18,529 - INFO - Listening...
+2024-11-24 07:15:22,182 - INFO - Recognized: hi vista
+2024-11-24 07:15:22,315 - INFO - Wake word detected!
+2024-11-24 07:15:25,303 - INFO - Listening for command...
+2024-11-24 07:15:25,416 - INFO - Listening...
+2024-11-24 07:15:28,633 - INFO - Recognized: tell me what models are available on this
+2024-11-24 07:15:28,772 - INFO - Retrieving Data. Please be patient
+2024-11-24 07:15:32,064 - INFO - Command received: tell me what models are available on this
+2024-11-24 07:15:32,065 - INFO - 
+==================================================
+2024-11-24 07:15:32,065 - INFO - DATA SENT TO BACKEND:
+2024-11-24 07:15:32,065 - INFO - ==================================================
+2024-11-24 07:15:32,065 - INFO - COMMAND: tell me what models are available on this
+2024-11-24 07:15:32,065 - INFO - TOKEN: '0'
+2024-11-24 07:15:32,065 - INFO - CURRENT URL: https://ollama.com/
+2024-11-24 07:15:32,065 - INFO - 
+ALL URLS:
+2024-11-24 07:15:32,065 - INFO - 1. https://ollama.com/
+2024-11-24 07:15:32,065 - INFO - 2. https://ollama.com/blog
+2024-11-24 07:15:32,065 - INFO - 3. https://discord.com/invite/ollama
+2024-11-24 07:15:32,065 - INFO - 4. https://github.com/ollama/ollama
+2024-11-24 07:15:32,065 - INFO - 5. https://ollama.com/models
+2024-11-24 07:15:32,066 - INFO - 6. https://ollama.com/download
+2024-11-24 07:15:32,066 - INFO - 7. https://ollama.com/faiz5689
+2024-11-24 07:15:32,066 - INFO - 8. https://ollama.com/settings
+2024-11-24 07:15:32,066 - INFO - 9. https://ollama.com/signout
+2024-11-24 07:15:32,066 - INFO - 10. https://ollama.com/library/llama3.2
+2024-11-24 07:15:32,066 - INFO - 11. https://ollama.com/library/phi3
+2024-11-24 07:15:32,066 - INFO - 12. https://ollama.com/library/mistral
+2024-11-24 07:15:32,066 - INFO - 13. https://ollama.com/library/gemma2
+2024-11-24 07:15:32,066 - INFO - 14. https://github.com/ollama/ollama/tree/main/docs
+2024-11-24 07:15:32,066 - INFO - 15. https://twitter.com/ollama
+2024-11-24 07:15:32,066 - INFO - 16. https://lu.ma/ollama
+2024-11-24 07:15:32,066 - INFO - ==================================================
+2024-11-24 07:16:04,474 - INFO - 
+==================================================
+2024-11-24 07:16:04,476 - INFO - BACKEND RESPONSE:
+2024-11-24 07:16:04,476 - INFO - ==================================================
+2024-11-24 07:16:04,476 - INFO - The list of models available is:
+
+* Llama 3.2
+* Phi 3
+* Mistral
+* Gemma 2 (Gemma 2)
+* Opencoder
+* Paraphrase-multilingual
+* Granite 3
+* Granite Guardian
+* Marco-O1
+* Athene-V2
+* Tülu 3
+2024-11-24 07:16:04,476 - INFO - ==================================================
+
+2024-11-24 07:16:34,008 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:16:34,132 - INFO - Listening...
+2024-11-24 07:16:39,393 - INFO - Could not understand audio
+2024-11-24 07:16:39,631 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:16:39,752 - INFO - Listening...
+2024-11-24 07:18:08,615 - INFO - Voice assistant thread started
+2024-11-24 07:18:08,615 - INFO - 
+==================================================
+2024-11-24 07:18:08,615 - INFO - Server starting on http://localhost:50001
+2024-11-24 07:18:08,615 - INFO - ==================================================
+
+2024-11-24 07:18:08,616 - INFO - Voice Assistant initialized
+2024-11-24 07:18:08,616 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:18:08,625 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://192.168.13.149:50001
+2024-11-24 07:18:08,626 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 07:18:08,706 - INFO - Listening...
+2024-11-24 07:18:10,988 - INFO - Received request to process links
+2024-11-24 07:18:10,991 - INFO - 
+==================================================
+2024-11-24 07:18:10,991 - INFO - Updated Browser Data:
+2024-11-24 07:18:10,991 - INFO - ==================================================
+2024-11-24 07:18:10,991 - INFO - Current URL: https://ollama.com/
+2024-11-24 07:18:10,991 - INFO - Token: '0'
+2024-11-24 07:18:10,995 - INFO - URLs found: 16
+2024-11-24 07:18:10,995 - INFO - ==================================================
+
+2024-11-24 07:18:10,996 - INFO - 127.0.0.1 - - [24/Nov/2024 07:18:10] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 07:18:13,316 - INFO - Could not understand audio
+2024-11-24 07:18:13,559 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:18:13,680 - INFO - Listening...
+2024-11-24 07:18:16,671 - INFO - Recognized: highest
+2024-11-24 07:18:16,910 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:18:17,030 - INFO - Listening...
+2024-11-24 07:18:20,305 - INFO - Recognized: hi vista
+2024-11-24 07:18:20,444 - INFO - Wake word detected!
+2024-11-24 07:18:23,453 - INFO - Listening for command...
+2024-11-24 07:18:23,567 - INFO - Listening...
+2024-11-24 07:18:28,960 - INFO - Recognized: what model can you say is available on this website
+2024-11-24 07:18:29,098 - INFO - Retrieving Data. Please be patient
+2024-11-24 07:18:32,361 - INFO - Command received: what model can you say is available on this website
+2024-11-24 07:18:32,361 - INFO - 
+==================================================
+2024-11-24 07:18:32,361 - INFO - DATA SENT TO BACKEND:
+2024-11-24 07:18:32,361 - INFO - ==================================================
+2024-11-24 07:18:32,361 - INFO - COMMAND: what model can you say is available on this website
+2024-11-24 07:18:32,361 - INFO - TOKEN: '0'
+2024-11-24 07:18:32,361 - INFO - CURRENT URL: https://ollama.com/
+2024-11-24 07:18:32,361 - INFO - 
+ALL URLS:
+2024-11-24 07:18:32,361 - INFO - 1. https://ollama.com/
+2024-11-24 07:18:32,362 - INFO - 2. https://ollama.com/blog
+2024-11-24 07:18:32,362 - INFO - 3. https://discord.com/invite/ollama
+2024-11-24 07:18:32,362 - INFO - 4. https://github.com/ollama/ollama
+2024-11-24 07:18:32,362 - INFO - 5. https://ollama.com/models
+2024-11-24 07:18:32,362 - INFO - 6. https://ollama.com/download
+2024-11-24 07:18:32,362 - INFO - 7. https://ollama.com/faiz5689
+2024-11-24 07:18:32,362 - INFO - 8. https://ollama.com/settings
+2024-11-24 07:18:32,362 - INFO - 9. https://ollama.com/signout
+2024-11-24 07:18:32,362 - INFO - 10. https://ollama.com/library/llama3.2
+2024-11-24 07:18:32,362 - INFO - 11. https://ollama.com/library/phi3
+2024-11-24 07:18:32,362 - INFO - 12. https://ollama.com/library/mistral
+2024-11-24 07:18:32,362 - INFO - 13. https://ollama.com/library/gemma2
+2024-11-24 07:18:32,362 - INFO - 14. https://github.com/ollama/ollama/tree/main/docs
+2024-11-24 07:18:32,362 - INFO - 15. https://twitter.com/ollama
+2024-11-24 07:18:32,362 - INFO - 16. https://lu.ma/ollama
+2024-11-24 07:18:32,362 - INFO - ==================================================
+2024-11-24 07:19:01,387 - INFO - 
+==================================================
+2024-11-24 07:19:01,390 - INFO - BACKEND RESPONSE:
+2024-11-24 07:19:01,390 - INFO - ==================================================
+2024-11-24 07:19:01,390 - INFO - The text mentions several models, but the most prominent ones are:
+
+1. **Gemma 2**: A high-performing and efficient model available in three sizes: 2B, 9B, and 27B.
+2. **Ollama's Gemma2-4K** (mentioned in a link to ONNX): This is likely another version of the Gemma 2 model, optimized for 4K parameters.
+
+However, there is no explicit mention of other models like Gemma 2 on this website, except for Ollama's own implementation.
+2024-11-24 07:19:01,390 - INFO - ==================================================
+
+2024-11-24 07:22:28,717 - INFO - Voice assistant thread started
+2024-11-24 07:22:28,718 - INFO - 
+==================================================
+2024-11-24 07:22:28,718 - INFO - Server starting on http://localhost:50001
+2024-11-24 07:22:28,718 - INFO - ==================================================
+
+2024-11-24 07:22:28,719 - INFO - Voice Assistant initialized
+2024-11-24 07:22:28,719 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:22:28,731 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://192.168.13.149:50001
+2024-11-24 07:22:28,731 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 07:22:28,818 - INFO - Listening...
+2024-11-24 07:22:33,079 - INFO - Could not understand audio
+2024-11-24 07:22:33,321 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:22:33,450 - INFO - Listening...
+2024-11-24 07:22:34,589 - INFO - Received request to process links
+2024-11-24 07:22:34,589 - INFO - 
+==================================================
+2024-11-24 07:22:34,589 - INFO - Updated Browser Data:
+2024-11-24 07:22:34,589 - INFO - ==================================================
+2024-11-24 07:22:34,589 - INFO - Current URL: https://ollama.com/
+2024-11-24 07:22:34,589 - INFO - Token: '0'
+2024-11-24 07:22:34,589 - INFO - URLs found: 16
+2024-11-24 07:22:34,589 - INFO - ==================================================
+
+2024-11-24 07:22:34,591 - INFO - 127.0.0.1 - - [24/Nov/2024 07:22:34] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 07:22:36,120 - INFO - Could not understand audio
+2024-11-24 07:22:36,357 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:22:36,461 - INFO - Listening...
+2024-11-24 07:22:40,047 - INFO - Recognized: hi vista
+2024-11-24 07:22:40,186 - INFO - Wake word detected!
+2024-11-24 07:22:43,149 - INFO - Listening for command...
+2024-11-24 07:22:43,250 - INFO - Listening...
+2024-11-24 07:22:47,570 - INFO - Recognized: what model is available on this website
+2024-11-24 07:22:47,706 - INFO - Retrieving Data. Please be patient
+2024-11-24 07:22:50,895 - INFO - Command received: what model is available on this website
+2024-11-24 07:22:50,896 - INFO - 
+==================================================
+2024-11-24 07:22:50,896 - INFO - DATA SENT TO BACKEND:
+2024-11-24 07:22:50,896 - INFO - ==================================================
+2024-11-24 07:22:50,896 - INFO - COMMAND: what model is available on this website
+2024-11-24 07:22:50,896 - INFO - TOKEN: '0'
+2024-11-24 07:22:50,896 - INFO - CURRENT URL: https://ollama.com/
+2024-11-24 07:22:50,896 - INFO - 
+ALL URLS:
+2024-11-24 07:22:50,896 - INFO - 1. https://ollama.com/
+2024-11-24 07:22:50,896 - INFO - 2. https://ollama.com/blog
+2024-11-24 07:22:50,896 - INFO - 3. https://discord.com/invite/ollama
+2024-11-24 07:22:50,896 - INFO - 4. https://github.com/ollama/ollama
+2024-11-24 07:22:50,896 - INFO - 5. https://ollama.com/models
+2024-11-24 07:22:50,896 - INFO - 6. https://ollama.com/download
+2024-11-24 07:22:50,896 - INFO - 7. https://ollama.com/faiz5689
+2024-11-24 07:22:50,897 - INFO - 8. https://ollama.com/settings
+2024-11-24 07:22:50,897 - INFO - 9. https://ollama.com/signout
+2024-11-24 07:22:50,897 - INFO - 10. https://ollama.com/library/llama3.2
+2024-11-24 07:22:50,897 - INFO - 11. https://ollama.com/library/phi3
+2024-11-24 07:22:50,897 - INFO - 12. https://ollama.com/library/mistral
+2024-11-24 07:22:50,897 - INFO - 13. https://ollama.com/library/gemma2
+2024-11-24 07:22:50,897 - INFO - 14. https://github.com/ollama/ollama/tree/main/docs
+2024-11-24 07:22:50,897 - INFO - 15. https://twitter.com/ollama
+2024-11-24 07:22:50,897 - INFO - 16. https://lu.ma/ollama
+2024-11-24 07:22:50,897 - INFO - ==================================================
+2024-11-24 07:23:22,298 - INFO - 
+==================================================
+2024-11-24 07:23:22,299 - INFO - BACKEND RESPONSE:
+2024-11-24 07:23:22,299 - INFO - ==================================================
+2024-11-24 07:23:22,299 - INFO - A question that gets to the heart of language understanding!
+
+Unfortunately, the provided text snippet doesn't explicitly mention the model used by the website. However, I can make an educated guess based on the content.
+
+The website appears to be a documentation site for a language model called "Llama" (as hinted at by the `(/ollama/...` structure). Llama is a large language model developed by Meta AI.
+
+Given this context, it's likely that the model used on this website is indeed Llama. However, without more information or direct confirmation from the website, I couldn't say for certain which specific model variant is being used (e.g., Llama-1, Llama-2, etc.).
+
+If you have any further questions or would like me to clarify anything, feel free to ask!
+2024-11-24 07:23:22,299 - INFO - ==================================================
+
+2024-11-24 07:24:31,181 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:24:31,314 - INFO - Listening...
+2024-11-24 07:24:34,528 - INFO - Recognized: i'm done please let me know if you have
+2024-11-24 07:24:34,760 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:24:34,881 - INFO - Listening...
+2024-11-24 07:24:39,751 - INFO - Recognized: ask another one like saying
+2024-11-24 07:24:39,994 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:24:40,112 - INFO - Listening...
+2024-11-24 07:24:43,233 - INFO - Recognized: experience
+2024-11-24 07:24:43,476 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:24:43,597 - INFO - Listening...
+2024-11-24 07:24:47,123 - INFO - Recognized: hi vista
+2024-11-24 07:24:47,260 - INFO - Wake word detected!
+2024-11-24 07:24:50,436 - INFO - Listening for command...
+2024-11-24 07:24:50,554 - INFO - Listening...
+2024-11-24 07:24:56,747 - INFO - Recognized: different variations models of 3.1 llama
+2024-11-24 07:24:56,886 - INFO - Command received: different variations models of 3.1 llama
+2024-11-24 07:24:56,886 - INFO - 
+==================================================
+2024-11-24 07:24:56,886 - INFO - DATA SENT TO BACKEND:
+2024-11-24 07:24:56,886 - INFO - ==================================================
+2024-11-24 07:24:56,887 - INFO - COMMAND: different variations models of 3.1 llama
+2024-11-24 07:24:56,887 - INFO - TOKEN: '1'
+2024-11-24 07:24:56,887 - INFO - CURRENT URL: https://ollama.com/
+2024-11-24 07:24:56,887 - INFO - 
+ALL URLS:
+2024-11-24 07:24:56,887 - INFO - 1. https://ollama.com/
+2024-11-24 07:24:56,887 - INFO - 2. https://ollama.com/blog
+2024-11-24 07:24:56,887 - INFO - 3. https://discord.com/invite/ollama
+2024-11-24 07:24:56,887 - INFO - 4. https://github.com/ollama/ollama
+2024-11-24 07:24:56,887 - INFO - 5. https://ollama.com/models
+2024-11-24 07:24:56,887 - INFO - 6. https://ollama.com/download
+2024-11-24 07:24:56,887 - INFO - 7. https://ollama.com/faiz5689
+2024-11-24 07:24:56,887 - INFO - 8. https://ollama.com/settings
+2024-11-24 07:24:56,887 - INFO - 9. https://ollama.com/signout
+2024-11-24 07:24:56,888 - INFO - 10. https://ollama.com/library/llama3.2
+2024-11-24 07:24:56,888 - INFO - 11. https://ollama.com/library/phi3
+2024-11-24 07:24:56,888 - INFO - 12. https://ollama.com/library/mistral
+2024-11-24 07:24:56,888 - INFO - 13. https://ollama.com/library/gemma2
+2024-11-24 07:24:56,888 - INFO - 14. https://github.com/ollama/ollama/tree/main/docs
+2024-11-24 07:24:56,888 - INFO - 15. https://twitter.com/ollama
+2024-11-24 07:24:56,888 - INFO - 16. https://lu.ma/ollama
+2024-11-24 07:24:56,888 - INFO - ==================================================
+2024-11-24 07:25:00,023 - INFO - 
+==================================================
+2024-11-24 07:25:00,024 - INFO - BACKEND RESPONSE:
+2024-11-24 07:25:00,024 - INFO - ==================================================
+2024-11-24 07:25:00,024 - INFO - The text doesn't explicitly mention the "different variations models of 3.1 Llama". However, it does provide a list of large language models in the "/library" section:
+
+* Llama 3.2
+* Phi 3
+* Mistral
+* Gemma 2
+
+It's possible that you're referring to Llama 3.1, but the text doesn't explicitly mention it. If you have any additional information or context about the specific model you're interested in, I may be able to help you further.
+
+However, based on my research, Llama 3.1 is a variant of the LLaMA model that uses a different architecture and hyperparameters compared to Llama 3.2. The Llama 3.1 model was released earlier than the Llama 3.2 model.
+
+Here are some of the key differences between Llama 3.1 and Llama 3.2:
+
+* Architecture: Llama 3.1 uses a more efficient architecture that reduces the number of parameters compared to Llama 3.2.
+* Hyperparameters: Llama 3.1 has different hyperparameters, such as learning rate and batch size, compared to Llama 3.2.
+
+If you're interested in using the Llama 3.1 model, I recommend checking out the official documentation or GitHub repository for more information on how to use it.
+2024-11-24 07:25:00,024 - INFO - ==================================================
+
+2024-11-24 07:25:43,655 - INFO - Received request to process links
+2024-11-24 07:25:43,657 - INFO - 
+==================================================
+2024-11-24 07:25:43,657 - INFO - Updated Browser Data:
+2024-11-24 07:25:43,657 - INFO - ==================================================
+2024-11-24 07:25:43,657 - INFO - Current URL: https://ollama.com/search
+2024-11-24 07:25:43,657 - INFO - Token: '0'
+2024-11-24 07:25:43,657 - INFO - URLs found: 148
+2024-11-24 07:25:43,657 - INFO - ==================================================
+
+2024-11-24 07:25:43,658 - INFO - 127.0.0.1 - - [24/Nov/2024 07:25:43] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 07:26:47,403 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:26:47,686 - INFO - Listening...
+2024-11-24 07:30:49,639 - INFO - Voice assistant thread started
+2024-11-24 07:30:49,639 - INFO - 
+==================================================
+2024-11-24 07:30:49,639 - INFO - Voice Assistant initialized
+2024-11-24 07:30:49,639 - INFO - Server starting on http://localhost:50001
+2024-11-24 07:30:49,640 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:30:49,640 - INFO - ==================================================
+
+2024-11-24 07:30:49,650 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://192.168.13.149:50001
+2024-11-24 07:30:49,650 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 07:30:49,745 - INFO - Listening...
+2024-11-24 07:30:52,786 - INFO - Could not understand audio
+2024-11-24 07:30:53,027 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:30:53,132 - INFO - Listening...
+2024-11-24 07:30:55,367 - INFO - Received request to process links
+2024-11-24 07:30:55,367 - INFO - 
+==================================================
+2024-11-24 07:30:55,367 - INFO - Updated Browser Data:
+2024-11-24 07:30:55,367 - INFO - ==================================================
+2024-11-24 07:30:55,367 - INFO - Current URL: https://ollama.com/search
+2024-11-24 07:30:55,367 - INFO - Token: '0'
+2024-11-24 07:30:55,367 - INFO - URLs found: 148
+2024-11-24 07:30:55,367 - INFO - ==================================================
+
+2024-11-24 07:30:55,368 - INFO - 127.0.0.1 - - [24/Nov/2024 07:30:55] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 07:30:56,480 - INFO - Could not understand audio
+2024-11-24 07:30:56,719 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:30:56,845 - INFO - Listening...
+2024-11-24 07:30:59,732 - INFO - Recognized: 148 broke
+2024-11-24 07:30:59,972 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:31:00,084 - INFO - Received request to process links
+2024-11-24 07:31:00,084 - INFO - 
+==================================================
+2024-11-24 07:31:00,084 - INFO - Updated Browser Data:
+2024-11-24 07:31:00,084 - INFO - ==================================================
+2024-11-24 07:31:00,084 - INFO - Current URL: https://ollama.com/
+2024-11-24 07:31:00,084 - INFO - Token: '0'
+2024-11-24 07:31:00,084 - INFO - URLs found: 16
+2024-11-24 07:31:00,084 - INFO - ==================================================
+
+2024-11-24 07:31:00,084 - INFO - 127.0.0.1 - - [24/Nov/2024 07:31:00] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 07:31:00,126 - INFO - Listening...
+2024-11-24 07:31:06,162 - INFO - Could not understand audio
+2024-11-24 07:31:06,401 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:31:06,507 - INFO - Listening...
+2024-11-24 07:31:09,793 - INFO - Recognized: hi vista
+2024-11-24 07:31:09,932 - INFO - Wake word detected!
+2024-11-24 07:31:12,925 - INFO - Listening for command...
+2024-11-24 07:31:13,041 - INFO - Listening...
+2024-11-24 07:31:22,489 - INFO - Recognized: what models are available on this website
+2024-11-24 07:31:22,631 - INFO - Retrieving Data. Please be patient
+2024-11-24 07:31:25,884 - INFO - Command received: what models are available on this website
+2024-11-24 07:31:25,885 - INFO - 
+==================================================
+2024-11-24 07:31:25,885 - INFO - DATA SENT TO BACKEND:
+2024-11-24 07:31:25,885 - INFO - ==================================================
+2024-11-24 07:31:25,885 - INFO - COMMAND: what models are available on this website
+2024-11-24 07:31:25,885 - INFO - TOKEN: '0'
+2024-11-24 07:31:25,885 - INFO - CURRENT URL: https://ollama.com/
+2024-11-24 07:31:25,885 - INFO - 
+ALL URLS:
+2024-11-24 07:31:25,885 - INFO - 1. https://ollama.com/
+2024-11-24 07:31:25,885 - INFO - 2. https://ollama.com/blog
+2024-11-24 07:31:25,885 - INFO - 3. https://discord.com/invite/ollama
+2024-11-24 07:31:25,885 - INFO - 4. https://github.com/ollama/ollama
+2024-11-24 07:31:25,885 - INFO - 5. https://ollama.com/models
+2024-11-24 07:31:25,886 - INFO - 6. https://ollama.com/download
+2024-11-24 07:31:25,886 - INFO - 7. https://ollama.com/faiz5689
+2024-11-24 07:31:25,886 - INFO - 8. https://ollama.com/settings
+2024-11-24 07:31:25,886 - INFO - 9. https://ollama.com/signout
+2024-11-24 07:31:25,886 - INFO - 10. https://ollama.com/library/llama3.2
+2024-11-24 07:31:25,886 - INFO - 11. https://ollama.com/library/phi3
+2024-11-24 07:31:25,886 - INFO - 12. https://ollama.com/library/mistral
+2024-11-24 07:31:25,886 - INFO - 13. https://ollama.com/library/gemma2
+2024-11-24 07:31:25,886 - INFO - 14. https://github.com/ollama/ollama/tree/main/docs
+2024-11-24 07:31:25,886 - INFO - 15. https://twitter.com/ollama
+2024-11-24 07:31:25,886 - INFO - 16. https://lu.ma/ollama
+2024-11-24 07:31:25,886 - INFO - ==================================================
+2024-11-24 07:31:54,795 - INFO - Received request to process links
+2024-11-24 07:31:54,796 - INFO - 
+==================================================
+2024-11-24 07:31:54,796 - INFO - Updated Browser Data:
+2024-11-24 07:31:54,796 - INFO - ==================================================
+2024-11-24 07:31:54,796 - INFO - Current URL: https://ollama.com/search
+2024-11-24 07:31:54,796 - INFO - Token: '0'
+2024-11-24 07:31:54,796 - INFO - URLs found: 148
+2024-11-24 07:31:54,796 - INFO - ==================================================
+
+2024-11-24 07:31:54,797 - INFO - 127.0.0.1 - - [24/Nov/2024 07:31:54] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 07:31:59,584 - INFO - 
+==================================================
+2024-11-24 07:31:59,584 - INFO - BACKEND RESPONSE:
+2024-11-24 07:31:59,584 - INFO - ==================================================
+2024-11-24 07:31:59,584 - INFO - Based on the text provided, I can answer that there is no information about specific "models" available on this website. The term "model" seems to be related to AI or machine learning in general, but it's not explicitly mentioned as a feature or resource on this GitHub page.
+
+However, if you're referring to the Llama models used by OpenAI, which are mentioned in the directory structure of this repository (e.g., `/docs/directory/actions`, `/docs/directory/models`), I can tell you that some Llama models are available for use. But without more context or specific information about what you're looking for, it's difficult to provide a definitive answer.
+
+If you meant to ask about the availability of Llama models specifically, here is an updated response:
+
+According to my knowledge cutoff, the following Llama models are available:
+
+* LLaMA ( Large Language Model Application )
+* Llama-Small
+* Llama-Medium
+
+Please note that this information may not be up-to-date or accurate, and I would recommend checking the official OpenAI documentation or website for more information on the availability of these models.
+2024-11-24 07:31:59,584 - INFO - ==================================================
+
+2024-11-24 07:32:02,286 - INFO - Received request to process links
+2024-11-24 07:32:02,287 - INFO - 
+==================================================
+2024-11-24 07:32:02,287 - INFO - Updated Browser Data:
+2024-11-24 07:32:02,288 - INFO - ==================================================
+2024-11-24 07:32:02,288 - INFO - Current URL: https://stackoverflow.com/questions/54178646/python-gtts-is-there-a-way-to-change-the-speed-of-the-speech
+2024-11-24 07:32:02,288 - INFO - Token: '0'
+2024-11-24 07:32:02,288 - INFO - URLs found: 144
+2024-11-24 07:32:02,288 - INFO - ==================================================
+
+2024-11-24 07:32:02,288 - INFO - 127.0.0.1 - - [24/Nov/2024 07:32:02] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 07:32:06,078 - ERROR - Error in text to speech: No such file or directory: '/var/folders/x1/7tvv56c17djbxvc784c0ctbm0000gn/T/tmpiuko9lf7/response.mp3'.
+2024-11-24 07:32:06,078 - ERROR - Error in voice assistant loop: No such file or directory: '/var/folders/x1/7tvv56c17djbxvc784c0ctbm0000gn/T/tmpiuko9lf7/response.mp3'.
+2024-11-24 07:32:06,079 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:32:06,203 - INFO - Listening...
+2024-11-24 07:32:09,349 - INFO - Could not understand audio
+2024-11-24 07:32:09,588 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:32:09,709 - INFO - Listening...
+2024-11-24 07:32:12,919 - INFO - Could not understand audio
+2024-11-24 07:32:13,164 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:32:13,286 - INFO - Listening...
+2024-11-24 07:32:16,353 - INFO - Recognized: can you can you can you make it
+2024-11-24 07:32:16,590 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:32:16,715 - INFO - Listening...
+2024-11-24 07:32:21,442 - INFO - Recognized: so only the variance of the base
+2024-11-24 07:32:21,680 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:32:21,800 - INFO - Listening...
+2024-11-24 07:32:25,273 - INFO - Recognized: other stuff should be in the
+2024-11-24 07:32:25,514 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:32:25,641 - INFO - Listening...
+2024-11-24 07:32:29,254 - INFO - Recognized: beatbox for some
+2024-11-24 07:32:29,494 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:32:29,616 - INFO - Listening...
+2024-11-24 07:32:32,856 - INFO - Recognized: thanks giving us like some other websites
+2024-11-24 07:32:33,094 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:32:33,214 - INFO - Listening...
+2024-11-24 07:32:36,217 - INFO - Recognized: it should be like
+2024-11-24 07:32:36,452 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:32:36,561 - INFO - Listening...
+2024-11-24 07:32:40,210 - INFO - Recognized: the best you are i should be always there
+2024-11-24 07:32:40,448 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:32:40,570 - INFO - Listening...
+2024-11-24 07:32:43,588 - INFO - Could not understand audio
+2024-11-24 07:32:43,831 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:32:43,950 - INFO - Listening...
+2024-11-24 07:32:47,688 - INFO - Could not understand audio
+2024-11-24 07:32:47,937 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:32:48,045 - INFO - Listening...
+2024-11-24 07:32:51,082 - INFO - Could not understand audio
+2024-11-24 07:32:51,325 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:32:51,440 - INFO - Listening...
+2024-11-24 07:32:55,057 - INFO - Could not understand audio
+2024-11-24 07:32:55,298 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:32:55,404 - INFO - Listening...
+2024-11-24 07:33:00,267 - INFO - Could not understand audio
+2024-11-24 07:33:00,509 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:33:00,630 - INFO - Listening...
+2024-11-24 07:34:44,220 - INFO - Voice assistant thread started
+2024-11-24 07:34:44,221 - INFO - 
+==================================================
+2024-11-24 07:34:44,222 - INFO - Server starting on http://localhost:50001
+2024-11-24 07:34:44,222 - INFO - ==================================================
+
+2024-11-24 07:34:44,224 - INFO - Voice Assistant initialized
+2024-11-24 07:34:44,224 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:34:44,252 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://192.168.13.149:50001
+2024-11-24 07:34:44,252 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 07:34:44,359 - INFO - Listening...
+2024-11-24 07:34:48,125 - INFO - Could not understand audio
+2024-11-24 07:34:48,360 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:34:48,463 - INFO - Listening...
+2024-11-24 07:34:49,344 - INFO - Received request to process links
+2024-11-24 07:34:49,344 - INFO - 
+==================================================
+2024-11-24 07:34:49,344 - INFO - Updated Browser Data:
+2024-11-24 07:34:49,344 - INFO - ==================================================
+2024-11-24 07:34:49,344 - INFO - Current URL: https://ollama.com/
+2024-11-24 07:34:49,344 - INFO - Token: '0'
+2024-11-24 07:34:49,344 - INFO - URLs found: 16
+2024-11-24 07:34:49,345 - INFO - ==================================================
+
+2024-11-24 07:34:49,346 - INFO - 127.0.0.1 - - [24/Nov/2024 07:34:49] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 07:34:52,174 - INFO - Could not understand audio
+2024-11-24 07:34:52,416 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:34:52,533 - INFO - Listening...
+2024-11-24 07:34:55,789 - INFO - Recognized: hi vista
+2024-11-24 07:34:55,924 - INFO - Wake word detected!
+2024-11-24 07:34:58,906 - INFO - Listening for command...
+2024-11-24 07:34:59,022 - INFO - Listening...
+2024-11-24 07:35:03,364 - INFO - Recognized: what models are available on this website
+2024-11-24 07:35:03,500 - INFO - Retrieving Data. Please be patient
+2024-11-24 07:35:06,649 - INFO - Command received: what models are available on this website
+2024-11-24 07:35:06,650 - INFO - 
+==================================================
+2024-11-24 07:35:06,650 - INFO - DATA SENT TO BACKEND:
+2024-11-24 07:35:06,650 - INFO - ==================================================
+2024-11-24 07:35:06,650 - INFO - COMMAND: what models are available on this website
+2024-11-24 07:35:06,650 - INFO - TOKEN: '0'
+2024-11-24 07:35:06,650 - INFO - CURRENT URL: https://ollama.com/
+2024-11-24 07:35:06,650 - INFO - 
+ALL URLS:
+2024-11-24 07:35:06,650 - INFO - 1. https://ollama.com/
+2024-11-24 07:35:06,650 - INFO - 2. https://ollama.com/blog
+2024-11-24 07:35:06,650 - INFO - 3. https://discord.com/invite/ollama
+2024-11-24 07:35:06,650 - INFO - 4. https://github.com/ollama/ollama
+2024-11-24 07:35:06,650 - INFO - 5. https://ollama.com/models
+2024-11-24 07:35:06,651 - INFO - 6. https://ollama.com/download
+2024-11-24 07:35:06,651 - INFO - 7. https://ollama.com/faiz5689
+2024-11-24 07:35:06,651 - INFO - 8. https://ollama.com/settings
+2024-11-24 07:35:06,651 - INFO - 9. https://ollama.com/signout
+2024-11-24 07:35:06,651 - INFO - 10. https://ollama.com/library/llama3.2
+2024-11-24 07:35:06,651 - INFO - 11. https://ollama.com/library/phi3
+2024-11-24 07:35:06,651 - INFO - 12. https://ollama.com/library/mistral
+2024-11-24 07:35:06,651 - INFO - 13. https://ollama.com/library/gemma2
+2024-11-24 07:35:06,651 - INFO - 14. https://github.com/ollama/ollama/tree/main/docs
+2024-11-24 07:35:06,651 - INFO - 15. https://twitter.com/ollama
+2024-11-24 07:35:06,651 - INFO - 16. https://lu.ma/ollama
+2024-11-24 07:35:06,651 - INFO - ==================================================
+2024-11-24 07:35:36,500 - INFO - 
+==================================================
+2024-11-24 07:35:36,501 - INFO - BACKEND RESPONSE:
+2024-11-24 07:35:36,501 - INFO - ==================================================
+2024-11-24 07:35:36,501 - INFO - The text lists the following models available on the website:
+
+1. Ollama (7B parameter model)
+2. Mistral (7B parameter model)
+3. Tülu 3 (72B parameter model)
+4. Athene (72B parameter model)
+5. Tulu 3 (8b + 70b)
+
+Note that some of these models are instruction following models, while others are code completion models. The text also mentions Phi-3, which is a model from Microsoft, but it does not provide detailed information about this model.
+
+Additionally, the website lists other models such as BGE-M3 and Starling-LM, but they do not provide detailed information about these models in the provided text.
+2024-11-24 07:35:36,501 - INFO - ==================================================
+
+2024-11-24 07:35:42,831 - ERROR - Error in text to speech: No such file or directory: '/var/folders/x1/7tvv56c17djbxvc784c0ctbm0000gn/T/tmp0mr4gi58/response.mp3'.
+2024-11-24 07:35:42,831 - ERROR - Error in voice assistant loop: No such file or directory: '/var/folders/x1/7tvv56c17djbxvc784c0ctbm0000gn/T/tmp0mr4gi58/response.mp3'.
+2024-11-24 07:35:42,832 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:35:42,951 - INFO - Listening...
+2024-11-24 07:35:46,323 - INFO - Could not understand audio
+2024-11-24 07:35:46,563 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:35:46,684 - INFO - Listening...
+2024-11-24 07:35:50,039 - INFO - Could not understand audio
+2024-11-24 07:35:50,277 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:35:50,401 - INFO - Listening...
+2024-11-24 07:35:52,874 - INFO - Could not understand audio
+2024-11-24 07:35:53,113 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:35:53,230 - INFO - Listening...
+2024-11-24 07:35:55,981 - INFO - Could not understand audio
+2024-11-24 07:35:56,215 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:35:56,328 - INFO - Listening...
+2024-11-24 07:35:59,154 - INFO - Could not understand audio
+2024-11-24 07:35:59,396 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:35:59,518 - INFO - Listening...
+2024-11-24 07:36:02,642 - INFO - Could not understand audio
+2024-11-24 07:36:02,884 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:36:03,006 - INFO - Listening...
+2024-11-24 07:36:05,929 - INFO - Could not understand audio
+2024-11-24 07:36:06,171 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:36:06,285 - INFO - Listening...
+2024-11-24 07:36:08,950 - INFO - Could not understand audio
+2024-11-24 07:36:09,187 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:36:09,308 - INFO - Listening...
+2024-11-24 07:36:12,306 - INFO - Could not understand audio
+2024-11-24 07:36:12,546 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:36:12,659 - INFO - Listening...
+2024-11-24 07:36:15,750 - INFO - Could not understand audio
+2024-11-24 07:36:15,992 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:36:16,111 - INFO - Listening...
+2024-11-24 07:36:19,912 - INFO - Could not understand audio
+2024-11-24 07:36:20,154 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:36:20,263 - INFO - Listening...
+2024-11-24 07:36:23,283 - INFO - Could not understand audio
+2024-11-24 07:36:23,524 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:36:23,643 - INFO - Listening...
+2024-11-24 07:36:27,405 - INFO - Could not understand audio
+2024-11-24 07:36:27,645 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:36:27,746 - INFO - Listening...
+2024-11-24 07:36:30,537 - INFO - Could not understand audio
+2024-11-24 07:36:30,771 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:36:30,893 - INFO - Listening...
+2024-11-24 07:36:35,967 - INFO - Could not understand audio
+2024-11-24 07:36:36,205 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:36:36,326 - INFO - Listening...
+2024-11-24 07:36:39,146 - INFO - Could not understand audio
+2024-11-24 07:36:39,389 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:36:39,507 - INFO - Listening...
+2024-11-24 07:36:44,638 - INFO - Received request to process links
+2024-11-24 07:36:44,639 - INFO - 
+==================================================
+2024-11-24 07:36:44,639 - INFO - Updated Browser Data:
+2024-11-24 07:36:44,639 - INFO - ==================================================
+2024-11-24 07:36:44,639 - INFO - Current URL: https://claude.ai/chat/eb71b581-a3f1-47d1-8d44-499bc5ab7b8c
+2024-11-24 07:36:44,639 - INFO - Token: '0'
+2024-11-24 07:36:44,639 - INFO - URLs found: 15
+2024-11-24 07:36:44,639 - INFO - ==================================================
+
+2024-11-24 07:36:44,640 - INFO - 127.0.0.1 - - [24/Nov/2024 07:36:44] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 07:36:45,661 - INFO - Could not understand audio
+2024-11-24 07:36:45,903 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:36:46,028 - INFO - Listening...
+2024-11-24 07:36:51,869 - INFO - Could not understand audio
+2024-11-24 07:36:52,110 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:36:52,236 - INFO - Listening...
+2024-11-24 07:36:58,591 - INFO - Could not understand audio
+2024-11-24 07:36:58,832 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:36:58,977 - INFO - Listening...
+2024-11-24 07:37:07,068 - INFO - Could not understand audio
+2024-11-24 07:37:07,306 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:37:07,421 - INFO - Listening...
+2024-11-24 07:37:10,653 - INFO - Could not understand audio
+2024-11-24 07:37:10,883 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:37:11,018 - INFO - Listening...
+2024-11-24 07:37:16,642 - INFO - Could not understand audio
+2024-11-24 07:37:16,883 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:37:17,001 - INFO - Listening...
+2024-11-24 07:37:19,921 - INFO - Could not understand audio
+2024-11-24 07:37:20,158 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:37:20,273 - INFO - Listening...
+2024-11-24 07:37:23,083 - INFO - Could not understand audio
+2024-11-24 07:37:23,319 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:37:23,432 - INFO - Listening...
+2024-11-24 07:37:26,298 - INFO - Could not understand audio
+2024-11-24 07:37:26,532 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:37:26,642 - INFO - Listening...
+2024-11-24 07:37:29,187 - INFO - Could not understand audio
+2024-11-24 07:37:29,421 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:37:29,535 - INFO - Listening...
+2024-11-24 07:37:32,234 - INFO - Could not understand audio
+2024-11-24 07:37:32,475 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:37:32,590 - INFO - Listening...
+2024-11-24 07:37:35,394 - INFO - Could not understand audio
+2024-11-24 07:37:35,635 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:37:35,726 - INFO - Listening...
+2024-11-24 07:37:39,246 - INFO - Could not understand audio
+2024-11-24 07:37:39,485 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:37:39,608 - INFO - Listening...
+2024-11-24 07:37:42,335 - INFO - Could not understand audio
+2024-11-24 07:37:42,570 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:37:42,670 - INFO - Listening...
+2024-11-24 07:37:46,610 - INFO - Could not understand audio
+2024-11-24 07:37:46,845 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:37:46,953 - INFO - Listening...
+2024-11-24 07:37:49,924 - INFO - Could not understand audio
+2024-11-24 07:37:50,165 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:37:50,271 - INFO - Listening...
+2024-11-24 07:37:52,884 - INFO - Could not understand audio
+2024-11-24 07:37:53,122 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:37:53,222 - INFO - Listening...
+2024-11-24 07:37:55,955 - INFO - Could not understand audio
+2024-11-24 07:37:56,188 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:37:56,283 - INFO - Listening...
+2024-11-24 07:37:59,039 - INFO - Could not understand audio
+2024-11-24 07:37:59,278 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:37:59,396 - INFO - Listening...
+2024-11-24 07:38:03,429 - INFO - Could not understand audio
+2024-11-24 07:38:03,671 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:38:03,773 - INFO - Listening...
+2024-11-24 07:38:06,992 - INFO - Could not understand audio
+2024-11-24 07:38:07,231 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:38:07,347 - INFO - Listening...
+2024-11-24 07:38:10,086 - INFO - Voice assistant thread started
+2024-11-24 07:38:10,086 - INFO - 
+==================================================
+2024-11-24 07:38:10,086 - INFO - Server starting on http://localhost:50001
+2024-11-24 07:38:10,086 - INFO - ==================================================
+
+2024-11-24 07:38:10,086 - INFO - Voice Assistant initialized
+2024-11-24 07:38:10,087 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:38:10,096 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://192.168.13.149:50001
+2024-11-24 07:38:10,096 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 07:38:10,176 - INFO - Listening...
+2024-11-24 07:38:13,271 - INFO - Could not understand audio
+2024-11-24 07:38:13,337 - INFO - Received request to process links
+2024-11-24 07:38:13,337 - INFO - 
+==================================================
+2024-11-24 07:38:13,337 - INFO - Updated Browser Data:
+2024-11-24 07:38:13,338 - INFO - ==================================================
+2024-11-24 07:38:13,338 - INFO - Current URL: https://ollama.com/
+2024-11-24 07:38:13,338 - INFO - Token: '0'
+2024-11-24 07:38:13,338 - INFO - URLs found: 16
+2024-11-24 07:38:13,338 - INFO - ==================================================
+
+2024-11-24 07:38:13,338 - INFO - 127.0.0.1 - - [24/Nov/2024 07:38:13] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 07:38:13,512 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:38:13,641 - INFO - Listening...
+2024-11-24 07:38:17,065 - INFO - Recognized: hi
+2024-11-24 07:38:17,306 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 07:38:17,428 - INFO - Listening...
+2024-11-24 07:38:21,147 - INFO - Recognized: hi vista
+2024-11-24 07:38:21,284 - INFO - Wake word detected!
+2024-11-24 07:38:24,411 - INFO - Listening for command...
+2024-11-24 07:38:24,519 - INFO - Listening...
+2024-11-24 07:38:29,235 - INFO - Recognized: can you tell me what model are available on this website
+2024-11-24 07:38:29,372 - INFO - Retrieving Data. Please be patient
+2024-11-24 07:38:32,542 - INFO - Command received: can you tell me what model are available on this website
+2024-11-24 07:38:32,542 - INFO - 
+==================================================
+2024-11-24 07:38:32,542 - INFO - DATA SENT TO BACKEND:
+2024-11-24 07:38:32,542 - INFO - ==================================================
+2024-11-24 07:38:32,542 - INFO - COMMAND: can you tell me what model are available on this website
+2024-11-24 07:38:32,542 - INFO - TOKEN: '0'
+2024-11-24 07:38:32,542 - INFO - CURRENT URL: https://ollama.com/
+2024-11-24 07:38:32,542 - INFO - 
+ALL URLS:
+2024-11-24 07:38:32,542 - INFO - 1. https://ollama.com/
+2024-11-24 07:38:32,543 - INFO - 2. https://ollama.com/blog
+2024-11-24 07:38:32,543 - INFO - 3. https://discord.com/invite/ollama
+2024-11-24 07:38:32,543 - INFO - 4. https://github.com/ollama/ollama
+2024-11-24 07:38:32,543 - INFO - 5. https://ollama.com/models
+2024-11-24 07:38:32,543 - INFO - 6. https://ollama.com/download
+2024-11-24 07:38:32,543 - INFO - 7. https://ollama.com/faiz5689
+2024-11-24 07:38:32,543 - INFO - 8. https://ollama.com/settings
+2024-11-24 07:38:32,543 - INFO - 9. https://ollama.com/signout
+2024-11-24 07:38:32,543 - INFO - 10. https://ollama.com/library/llama3.2
+2024-11-24 07:38:32,543 - INFO - 11. https://ollama.com/library/phi3
+2024-11-24 07:38:32,543 - INFO - 12. https://ollama.com/library/mistral
+2024-11-24 07:38:32,543 - INFO - 13. https://ollama.com/library/gemma2
+2024-11-24 07:38:32,543 - INFO - 14. https://github.com/ollama/ollama/tree/main/docs
+2024-11-24 07:38:32,543 - INFO - 15. https://twitter.com/ollama
+2024-11-24 07:38:32,543 - INFO - 16. https://lu.ma/ollama
+2024-11-24 07:38:32,543 - INFO - ==================================================
+2024-11-24 07:39:04,387 - INFO - 
+==================================================
+2024-11-24 07:39:04,388 - INFO - BACKEND RESPONSE:
+2024-11-24 07:39:04,389 - INFO - ==================================================
+2024-11-24 07:39:04,389 - INFO - According to the provided text, there are several models available on this website:
+
+1. **Phi-3 Mini**: A 3B (Mini) parameter state-of-the-art open model by Microsoft.
+2. **Phi-3 Medium**: A 14B parameter language model that outperforms Gemini 1.0 Pro.
+3. **Phi-3 Mini-128k**: An 128k parameter version of the Phi-3 Mini model, which requires Ollama 0.1.39 or later to run.
+
+Additionally, there are mentions of other models such as:
+
+* **Gemini 1.0 Pro**
+* **Ollama** (the base model, not specifically a named model)
+* **Phi-3 Medium-128k**: A 14B parameter version of the Phi-3 Medium model, which also requires Ollama 0.1.39 or later to run.
+* **Gemini Pro-1B**: Another mention of Gemini Pro (no further details provided)
+
+Please note that this list may not be exhaustive, as there are many other models mentioned in the text without explicit naming.
+2024-11-24 07:39:04,389 - INFO - ==================================================
+

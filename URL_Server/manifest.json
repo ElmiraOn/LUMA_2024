@@ -1,24 +1,20 @@
 {
   "manifest_version": 3,
-  "name": "URL Extractor",
+  "name": "Auto URL Tracker",
   "version": "1.0",
-  "description": "Extracts current URL and all URLs from webpage",
+  "description": "Automatically tracks URLs and communicates with local server",
   "permissions": [
     "activeTab",
     "scripting",
-    "storage"
-  ],
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],  
-      "js": ["contentScript.js"]
-    }
+    "storage",
+    "tabs"
   ],
   "host_permissions": [
-    "http://localhost:5000/*"
+    "http://localhost:5000/*",
+    "<all_urls>"
   ],
   "background": {
-    "scripts": ["background.js"],
-    "persistent": true
+    "service_worker": "background.js",
+    "type": "module"
   }
 }

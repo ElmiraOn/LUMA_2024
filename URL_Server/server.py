@@ -8,11 +8,33 @@ from gtts import gTTS
 import os
 import requests
 import time
+import logging
+
+
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler(),
+        logging.FileHandler('url_tracker.log')
+    ]
+)
 
 app = Flask(__name__)
-CORS(app)
+# CORS(app)
 
-# Global variables
+
+CORS(app, resources={
+    r"/*": {
+        "origins": ["chrome-extension://*", "http://localhost:*"],
+        "methods": ["GET", "POST", "OPTIONS"],
+        "allow_headers": ["Content-Type"]
+    }
+})
+
+# Global variables for storing browser data
 browser_data = {
     'current_url': '',
     'urls': [],
@@ -21,7 +43,6 @@ browser_data = {
 
 class VoiceAssistant:
     def __init__(self):
-        # Initialize recognition engine
         self.recognizer = sr.Recognizer()
         self.wake_words = ["hey vista", "hi vista", "hello vista"]
         
@@ -37,7 +58,7 @@ class VoiceAssistant:
         # Initialize audio playback
         pygame.mixer.init()
         self.temp_dir = tempfile.mkdtemp()
-        print("Voice Assistant initialized")
+        logging.info("Voice Assistant initialized")
 
     def text_to_speech(self, text, filename=None):
         """Convert text to speech and play it"""
@@ -57,7 +78,7 @@ class VoiceAssistant:
             os.remove(filename)
             
         except Exception as e:
-            print(f"Error in text to speech: {str(e)}")
+            logging.error(f"Error in text to speech: {str(e)}")
 
     def play_acknowledgment(self):
         """Play a short acknowledgment sound"""
@@ -67,7 +88,7 @@ class VoiceAssistant:
         """Listen for speech and convert to text"""
         try:
             with sr.Microphone() as source:
-                print("Listening...")
+                logging.info("Listening...")
                 self.recognizer.adjust_for_ambient_noise(source, duration=0.3)
                 
                 audio = self.recognizer.listen(
@@ -82,16 +103,16 @@ class VoiceAssistant:
                         language="en-US",
                         show_all=False
                     ).lower()
-                    print(f"Recognized: {text}")
+                    logging.info(f"Recognized: {text}")
                     return text
                 except sr.UnknownValueError:
-                    print("Could not understand audio")
+                    logging.info("Could not understand audio")
                 except sr.RequestError:
-                    print("Could not request results from speech recognition service")
+                    logging.error("Could not request results from speech recognition service")
         except sr.WaitTimeoutError:
-            print("No speech detected within timeout period")
+            logging.info("No speech detected within timeout period")
         except Exception as e:
-            print(f"Error in speech recognition: {str(e)}")
+            logging.error(f"Error in speech recognition: {str(e)}")
         
         return None
 
@@ -110,35 +131,36 @@ def send_command_to_backend(command):
             'urls': browser_data['urls']
         }
         
-        print("\n" + "="*50)
-        print("DATA SENT TO BACKEND:")
-        print("="*50)
-        print(f"COMMAND: {command}")
-        print(f"TOKEN: '{browser_data['token']}'")
-        print(f"CURRENT URL: {browser_data['current_url']}")
-        print("\nALL URLS:")
+        logging.info("\n" + "="*50)
+        logging.info("DATA SENT TO BACKEND:")
+        logging.info("="*50)
+        logging.info(f"COMMAND: {command}")
+        logging.info(f"TOKEN: '{browser_data['token']}'")
+        logging.info(f"CURRENT URL: {browser_data['current_url']}")
+        logging.info("\nALL URLS:")
         for idx, url in enumerate(browser_data['urls'], 1):
-            print(f"{idx}. {url}")
-        print("="*50)
+            logging.info(f"{idx}. {url}")
+        logging.info("="*50)
         
         response = requests.post(
-            'http://195.242.13.18:50001/generate',
+            'http://195.242.13.147:50001/generate',
             json=payload
         )
         
         if response.ok:
             response_data = response.json()
-            print("\n" + "="*50)
-            print("BACKEND RESPONSE:")
-            print("="*50)
-            print(response_data.get('response', 'Response not received'))
-            print("="*50 + "\n")
+            logging.info("\n" + "="*50)
+            logging.info("BACKEND RESPONSE:")
+            logging.info("="*50)
+            logging.info(response_data.get('response', 'Response not received'))
+            logging.info("="*50 + "\n")
+            print(response_data)
             
             return response_data.get('response', 'Response not received')
         return "Response not received"
             
     except Exception as e:
-        print(f"Error sending command to backend: {str(e)}")
+        logging.error(f"Error sending command to backend: {str(e)}")
         return "Response not received"
 
 def run_voice_assistant():
@@ -147,26 +169,21 @@ def run_voice_assistant():
     
     while True:
         try:
-            # Listen for wake word
-            print(f"Listening for wake words: {', '.join(assistant.wake_words)}")
+            logging.info(f"Listening for wake words: {', '.join(assistant.wake_words)}")
             wake_word = assistant.speech_to_text(timeout=None, phrase_time_limit=2.0)
             
             if wake_word and assistant.is_wake_word(wake_word):
-                print("Wake word detected!")
+                logging.info("Wake word detected!")
                 assistant.play_acknowledgment()
                 
-                # Listen for command
-                print("Listening for command...")
+                logging.info("Listening for command...")
                 command = assistant.speech_to_text(timeout=None, phrase_time_limit=10.0)
                 
                 if command:
-                    print(f"Command received: {command}")
+                    logging.info(f"Command received: {command}")
                     
-                    # Only process command if we have URLs
                     if browser_data['urls']:
-                        # Send command to backend and wait for response
                         backend_response = send_command_to_backend(command)
-                        # Relay the response through voice
                         assistant.text_to_speech(backend_response)
                     else:
                         assistant.text_to_speech("No page data available. Please wait for a page to load.")
@@ -174,56 +191,71 @@ def run_voice_assistant():
             time.sleep(0.1)
                 
         except Exception as e:
-            print(f"Error in voice assistant loop: {str(e)}")
+            logging.error(f"Error in voice assistant loop: {str(e)}")
             continue
 
 @app.route('/process-links', methods=['POST'])
 def process_links():
-    """Store browser data (currentUrl and URLs) sent from background.js"""
+    """Handle incoming links from the Chrome extension"""
+    logging.info("Received request to process links")
     try:
         global browser_data
         
-        # Get data sent from browser's background.js
         browser_update = request.get_json()
+        # print(browser_data)
         
-        # Store the browser data
+        if not browser_update:
+            raise ValueError("No JSON data received")
+        
+        buffer = browser_update.get('token', '0')
         browser_data = {
             'current_url': browser_update.get('currentUrl', ''),
-            'urls': browser_update.get('allUrls', []),
-            'token': str(browser_update.get('token', '0'))
+            'urls': browser_update.get('allUrls',  []),
+            'token': str(buffer)
         }
         
-        print("\n" + "="*50)
-        print("Updated Browser Data:")
-        print("="*50)
-        print(f"Current URL: {browser_data['current_url']}")
-        print(f"Token: '{browser_data['token']}'")
-        print(f"URLs found: {len(browser_data['urls'])}")
-        print("="*50 + "\n")
+        logging.info("\n" + "="*50)
+        logging.info("Updated Browser Data:")
+        logging.info("="*50)
+        logging.info(f"Current URL: {browser_data['current_url']}")
+        logging.info(f"Token: '{browser_data['token']}'")
+        logging.info(f"URLs found: {len(browser_data['urls'])}")
+        logging.info("="*50 + "\n")
         
-        return jsonify({'status': 'success'})
+        return jsonify({'status': 'success', 'message': 'Links processed successfully'})
         
     except Exception as e:
-        print(f"\nError storing browser data: {str(e)}")
-        return jsonify({'error': str(e)}), 500
+        error_msg = f"Error processing links: {str(e)}"
+        logging.error(error_msg)
+        return jsonify({'status': 'error', 'message': error_msg}), 500
+
+@app.route('/health', methods=['GET'])
+def health_check():
+    """Simple health check endpoint"""
+    return jsonify({
+        'status': 'healthy',
+        'current_page': browser_data['current_url'],
+        'urls_collected': len(browser_data['urls'])
+    })
 
 def start_server():
     """Function to start the Flask server"""
-    print("\n" + "="*50)
-    print("Server starting on http://localhost:5000")
-    print("="*50 + "\n")
-    app.run(host='localhost', port=5000, debug=False, use_reloader=False)
+    logging.info("\n" + "="*50)
+    logging.info("Server starting on http://localhost:50001")
+    logging.info("="*50 + "\n")
+    app.run(host='0.0.0.0', port=50001, debug=True)
 
 if __name__ == '__main__':
     try:
         # Start voice assistant in a separate thread
         voice_thread = threading.Thread(target=run_voice_assistant, daemon=True)
         voice_thread.start()
+        logging.info("Voice assistant thread started")
         
         # Start the Flask server
         start_server()
         
     except KeyboardInterrupt:
-        print("\nShutting down server...")
+        logging.info("\nShutting down server...")
     except Exception as e:
-        print(f"Error starting server: {str(e)}")
+        logging.error(f"Error starting server: {str(e)}")

@@ -1,0 +1,108 @@
+2024-11-24 01:38:27,810 - INFO - Voice assistant thread started
+2024-11-24 01:38:27,811 - INFO - 
+==================================================
+2024-11-24 01:38:27,935 - INFO - Server starting on http://localhost:50001
+2024-11-24 01:38:27,935 - INFO - ==================================================
+
+2024-11-24 01:38:31,299 - INFO - Voice Assistant initialized
+2024-11-24 01:38:31,300 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:38:31,347 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://172.20.33.252:50001
+2024-11-24 01:38:31,347 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 01:38:31,348 - INFO -  * Restarting with stat
+2024-11-24 01:38:31,409 - INFO - Listening...
+2024-11-24 01:38:32,261 - INFO - Voice assistant thread started
+2024-11-24 01:38:32,261 - INFO - 
+==================================================
+2024-11-24 01:38:32,381 - INFO - Server starting on http://localhost:50001
+2024-11-24 01:38:32,382 - INFO - ==================================================
+
+2024-11-24 01:38:36,453 - INFO - Recognized: entrance
+2024-11-24 01:38:36,689 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:38:36,787 - INFO - Listening...
+2024-11-24 01:38:39,586 - INFO - Could not understand audio
+2024-11-24 01:38:39,822 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:38:39,911 - INFO - Listening...
+2024-11-24 01:38:43,541 - INFO - Could not understand audio
+2024-11-24 01:38:43,777 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:38:43,868 - INFO - Listening...
+2024-11-24 01:38:47,345 - INFO - Recognized: okay go to the browser
+2024-11-24 01:38:47,590 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:38:47,683 - INFO - Listening...
+2024-11-24 01:38:50,797 - INFO - Recognized: cuz you want to
+2024-11-24 01:38:51,032 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:38:51,109 - INFO - Listening...
+2024-11-24 01:38:56,253 - INFO - Could not understand audio
+2024-11-24 01:38:56,496 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:38:56,793 - INFO - Listening...
+2024-11-24 01:39:01,788 - INFO - Recognized: and there's one more
+2024-11-24 01:39:02,024 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:39:02,113 - INFO - Listening...
+2024-11-24 01:39:06,151 - INFO - Could not understand audio
+2024-11-24 01:39:06,386 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:39:06,486 - INFO - Listening...
+2024-11-24 01:39:10,921 - INFO - Recognized: it's not coming up there
+2024-11-24 01:39:11,159 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:39:11,260 - INFO - Listening...
+2024-11-24 01:39:14,482 - INFO - Recognized: the problem is we are getting
+2024-11-24 01:39:14,724 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:39:14,820 - INFO - Listening...
+2024-11-24 01:39:18,269 - INFO - Could not understand audio
+2024-11-24 01:39:18,506 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:39:18,603 - INFO - Listening...
+2024-11-24 01:39:21,646 - INFO - Could not understand audio
+2024-11-24 01:39:21,889 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:39:21,964 - INFO - Listening...
+2024-11-24 01:39:24,517 - INFO - Recognized: now it's not for some reason
+2024-11-24 01:39:24,758 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:39:24,875 - INFO - Listening...
+2024-11-24 01:39:29,739 - INFO - Could not understand audio
+2024-11-24 01:39:29,979 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:39:30,091 - INFO - Listening...
+2024-11-24 01:39:33,630 - INFO - Could not understand audio
+2024-11-24 01:39:33,871 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:39:33,969 - INFO - Listening...
+2024-11-24 01:39:38,146 - INFO - Could not understand audio
+2024-11-24 01:39:38,381 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:39:38,488 - INFO - Listening...
+2024-11-24 01:39:41,179 - INFO - Could not understand audio
+2024-11-24 01:39:41,423 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:39:41,525 - INFO - Listening...
+2024-11-24 01:39:44,589 - INFO - Recognized: do you know that
+2024-11-24 01:39:44,824 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:39:44,940 - INFO - Listening...
+2024-11-24 01:39:48,190 - INFO - Could not understand audio
+2024-11-24 01:39:48,430 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:39:48,538 - INFO - Listening...
+2024-11-24 01:39:51,753 - INFO - Recognized: what time is working for that
+2024-11-24 01:39:51,989 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:39:52,066 - INFO - Listening...
+2024-11-24 01:39:55,851 - INFO - Recognized: this is the response we are getting
+2024-11-24 01:39:56,090 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:39:56,202 - INFO - Listening...
+2024-11-24 01:39:59,536 - INFO - Recognized: link printed from here
+2024-11-24 01:39:59,771 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:39:59,865 - INFO - Listening...
+2024-11-24 01:40:04,136 - INFO - Voice Assistant initialized
+2024-11-24 01:40:04,137 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:40:04,176 - WARNING -  * Debugger is active!
+2024-11-24 01:40:04,184 - INFO -  * Debugger PIN: 473-083-217
+2024-11-24 01:40:04,212 - INFO - 127.0.0.1 - - [24/Nov/2024 01:40:04] "[33mPOST /generate HTTP/1.1[0m" 404 -
+2024-11-24 01:40:04,246 - INFO - Listening...
+2024-11-24 01:40:04,963 - INFO - Recognized: can i stop it
+2024-11-24 01:40:05,200 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:40:05,293 - INFO - Listening...
+2024-11-24 01:40:08,512 - INFO - Recognized: how do i
+2024-11-24 01:40:08,742 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:40:08,829 - INFO - Listening...
+2024-11-24 01:40:09,152 - INFO - Recognized: how do i fucking remove
+2024-11-24 01:40:09,392 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:40:09,472 - INFO - Listening...
+2024-11-24 01:40:11,862 - INFO - Could not understand audio
+2024-11-24 01:40:12,104 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:40:12,195 - INFO - Listening...
+2024-11-24 01:40:12,641 - INFO - Recognized: what's the weather stop
+2024-11-24 01:40:12,875 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 01:40:12,963 - INFO - Listening...

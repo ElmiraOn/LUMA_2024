@@ -1,0 +1,324 @@
+  * Skip to primary navigation <#genesis-nav-primary>
+  * Skip to main content <#genesis-content>
+
+Usability Geek <https://usabilitygeek.com/>
+
+Usability Geek
+
+Usability & User Experience (UX) Blog
+
+Menu
+
+  * Online Usability/UX Courses <https://www.interaction-design.org/?
+    ep=usabilitygeek&utm_source=usabilitygeek&utm_medium=ug_header&utm_campaign=ug_3monthsfree>
+  * Start Here     <https://usabilitygeek.com/start-here/>
+  * Blog <https://usabilitygeek.com/landing-page/>
+  * Show Search<#header-search-wrap>
+
+Search this website
+
+Hide Search<#>
+
+You are here: Home <https://usabilitygeek.com/> / Reviews <https://
+usabilitygeek.com/category/reviews/> / 10 Free Screen Readers For Blind
+Or Visually Impaired Users
+
+
+  10 Free Screen Readers For Blind Or Visually Impaired Users
+
+By John Oldman <https://usabilitygeek.com/author/etesting/>
+
+10 Free Screen Readers For Blind Or Visually Impaired Users
+
+It is not difficult for a sighted person to imagine how being blind or
+visually impaired could make using a computer difficult. Just close your
+eyes and you will instantly experience that even processing text is
+impossible – or impossible without additional software at least. Now a
+range of software is available that can help to make using a computer an
+easier, more enjoyable and more productive experience for blind or
+visually impaired users.
+
+For in-depth insights on /accessibility/ <https://www.interaction-
+design.org/literature/topics/accessibility?ep=ug0>, we recommend the
+online course on /Accessibility/ <https://www.interaction-design.org/
+courses/accessibility-how-to-design-for-all> at the/Interaction Design /
+Foundation.
+
+
+    Essential Software: A Screen Reader
+
+A *screen reader* is an essential piece of software for a blind or
+visually impaired person. Simply put, a screen reader transmits whatever
+text is displayed on the computer screen into a form that a visually
+impaired user can process (usually tactile, auditory or a combination of
+both). While the most basic screen readers will not help blind users
+navigate a computer, those with additional features can give people with
+visual impairment much more independence.
+
+Whilst most screen readers work by having a synthetic voice that reads
+text aloud, others can also communicate data via a refreshable braille
+display. Such screen readers make use of crystals that can expand when
+exposed to particular voltage levels (thanks to a phenomenon known as
+the Piezo Effect <http://en.wikipedia.org/wiki/Piezoelectricity>),
+allowing visually impaired users to use their fingers to read the text
+that is displayed on screen. But while screen-reading software can be
+affordable, such hardware is usually very expensive.
+
+
+    Free Software Makes ‘Universal’ Access a Reality
+
+Many people could not afford the expensive price tag associated with
+some of the more sophisticated screen readers. Luckily for them, there
+are several screen reading software that are completely free. The
+following is a list of free screen readers that one can download:
+
+ 1.
+
+
+          *NVDA* <http://www.nvda-project.org/> (Windows)
+
+    10-Free-Software-For-Visually-Impaired-Blind-Users-NVDA <http://
+    www.nvda-project.org/>
+    NVDA has been designed by a blind software engineering graduate,
+    James Teh, for use with Windows computers. This free and open source
+    screen reader has a synthetic voice that reads whatever the cursor
+    hovers over, and can be used directly from a USB stick, making it
+    ideal for students.
+
+ 2.
+
+
+          *Serotek System Access* <https://www.satogo.com/en/> (Windows)
+
+    10-Free-Software-For-Visually-Impaired-Blind-Users-Serotek-System-
+    Access <https://www.satogo.com/en/>
+    This downloadable and complete screen reader can be used even
+    outside your browser, thus making it one of the quickest ways of
+    getting a screen reader up and running on your system. Serotek
+    offers extended versions for a fee, although it is much cheaper than
+    other screen readers.
+
+ 3.
+
+
+          *Apple VoiceOver* <http://www.apple.com/accessibility/
+          voiceover/> (OS X)
+
+    10-Free-Software-For-Visually-Impaired-Blind-Users-Apple-VoiceOver
+    <http://www.apple.com/accessibility/voiceover/>
+    Apple VoiceOver includes options to magnify, keyboard control and
+    verbal descriptions in English to describe what is happening on
+    screen. It also reads aloud file content as well as web pages, E-
+    mail messages and word processing files whilst providing a
+    relatively accurate narrative of the user’s workspace. This covers a
+    wide array of keyboard commands that enable user//navigation/
+    <https://www.interaction-design.org/literature/topics/navigation-1?
+    ep=ug0> /of the Mac OS X interface.
+
+ 4.
+
+
+          *ORCA* <http://projects.gnome.org/orca/> (Linux)
+
+    10-Free-Software-For-Visually-Impaired-Blind-Users-ORCA <http://
+    projects.gnome.org/orca/>
+    ORCA is a Linux based screen reader which has also been evolving for
+    the past number of years. Although it is not the sole Linux-based
+    screen reader, ORCA is definitely the most popular. Recently it has
+    been included with the Ubuntu installation CD, and with a couple of
+    initial key presses it allows blind people to have audible
+    interaction during the installation process.
+
+ 5.
+
+
+          *BRLTTY* <http://mielke.cc/brltty/> (Linux)
+
+    10-Free-Software-For-Visually-Impaired-Blind-Users-BRLTTY <http://
+    mielke.cc/brltty/>
+    BRLTTY is a background process (daemon) which provides access to the
+    Linux/Unix console (when in text mode) for a blind person using a
+    refreshable braille display. It drives the braille display, and
+    provides complete screen review functionality. Some speech
+    capability has also been incorporated.
+
+ 6.
+
+
+          *Emacspeak* <http://emacspeak.sourceforge.net/> (Linux)
+
+    10-Free-Software-For-Visually-Impaired-Blind-Users-Emacspeak
+    <http://emacspeak.sourceforge.net/>
+    Emacspeak is a free speech interface and that allows visually
+    impaired users to interact independently and efficiently with the
+    computer. Its technology enables it to produce rich aural
+    representation of electronic information. Emacspeak offers audible
+    interface of the different aspects of the Internet such as browsing
+    and messaging as well as local and remote information via a
+    consistent and well-integrated user interface <https://
+    www.interaction-design.org/literature/topics/ui-design?ep=ug0>.
+
+ 7.
+
+
+          *WebAnywhere* <http://webanywhere.cs.washington.edu/> (All
+          OSs, Web browsers)
+
+    10-Free-Software-For-Visually-Impaired-Blind-Users-WebAnywhere
+    <http://webanywhere.cs.washington.edu/>
+    WebAnywhere is a web-based screen reader for the web. It requires no
+    special software to be installed on the client machine and,
+    therefore, enables blind people to access the web from any computer
+    they happen to have access to that has a sound card
+
+ 8.
+
+
+          *Spoken Web* <http://www.spoken-web.com/index.cgi?p=download>
+          (Internet Explorer)
+
+    10-Free-Software-For-Visually-Impaired-Blind-Users-SpokenWeb
+    <http://www.spoken-web.com/index.cgi?p=download>
+    Spoken-Web is a Web portal, managing a wide range of online data-
+    intensive content like news updates, weather, travel and business
+    articles for computer users who are blind or visually impaired. The
+    site provides a simple, easy-to-use interface for navigating between
+    the different sections and articles. Using the keyboard to navigate,
+    a person who is blind or who has a visual impairment can hear the
+    full range of an article content provided in a logical, clear, and
+    understandable manner.
+
+ 9.
+
+
+          *ChromeVox* <https://chrome.google.com/webstore/detail/
+          kgejglhpjiefppelpmljglcjbhoiplfn> (Google Chrome)
+
+    10-Free-Software-For-Visually-Impaired-Blind-Users-Google-ChromeVox
+    <https://chrome.google.com/webstore/detail/
+    kgejglhpjiefppelpmljglcjbhoiplfn>
+    Google ChromeVox is a Google Chrome screen reader extension for
+    visually impaired users.
+
+10.
+
+
+          *ChromeVis* <https://chrome.google.com/webstore/detail/
+          halnfobaneppemjnonmmhngbfifnafgd> (Google Chrome)
+
+    10-Free-Software-For-Visually-Impaired-Blind-Users-Google-ChromeVis
+    <https://chrome.google.com/webstore/detail/
+    halnfobaneppemjnonmmhngbfifnafgd>
+    Google ChromeVis is a Google Chrome extension that magnifies any
+    selected text on a webpage. The magnified text is displayed inside
+    of a separate lens and preserves the original page layout. Users can
+    change both the lens text/color /and the lens background /color/.
+
+
+    Software for Work and Play
+
+Such software is essential for blind users to read the content of web
+pages or communicate with friends and colleagues. As more sophisticated
+software has been made available to a larger audience, people have begun
+turning their attention to developing leisure programs that are designed
+with /accessibility/ <https://www.interaction-design.org/literature/
+topics/accessibility> in mind. For example, the website
+blindsoftware.com <http://blindsoftware.com/> has an accessible mp3
+player to download and a selection of games.
+
+
+    Developing Software for Everyone
+
+When it comes to universal access, several people with hearing or visual
+impairments or illnesses have found that it can become a barrier to
+using traditional software. The goal is to remove those perceived
+barriers and help them be able to achieve results beyond their
+imagination. This is why it is important that developers continue to
+work on making software as accessible as they can for a wide range of
+people, so everyone can benefit from the powerful tools computers offer.
+
+
+      *Want to learn more?*
+
+If you’d like to brush up on Accessibility and get practical skills on
+the subject, then consider to take the online course on Accessibility
+<https://www.interaction-design.org/courses/accessibility-how-to-design-
+for-all?ep=ug0>. If, on the other hand, you want to go over the basics
+of UX and Usability, you could take the online course on User Experience
+<https://www.interaction-design.org/courses/user-experience-the-
+beginner-s-guide?ep=ug0>. Good luck on your learning journey!
+
+(Lead image: Depositphotos <https://depositphotos.com/>)
+
+Filed Under: Reviews <https://usabilitygeek.com/category/reviews/>
+Tagged With: Accessibility <https://usabilitygeek.com/tag/accessibility/>
+
+
+        About John Oldman
+
+This post was written by John Oldman - a veteran software testing
+engineer who works for a software testing company based in the UK.
+
+
+    Get Started
+
+Usability Geek is a blog that provides practical and useful insights
+into topics like Usability, User Experience (UX), Human Computer
+Interaction (HCI), Information Architecture (IA) and related fields.
+Read more about us <https://usabilitygeek.com/about/>
+Become an Author at UsabilityGeek.com <https://usabilitygeek.com/write-
+for-usabilitygeek/>
+Contact us <https://usabilitygeek.com/contact/>	
+
+
+    POPULAR TOPICS
+
+  * Usability <https://usabilitygeek.com/tag/usability-2>
+  * Usability Guidelines <https://usabilitygeek.com/tag/usability-
+    guidelines>
+  * Usability Testing <https://usabilitygeek.com/tag/usability-testing>
+  * User Experience <https://usabilitygeek.com/tag/user-experience>
+
+  * Design Tools & Software <https://usabilitygeek.com/tag/design-tools-
+    software/>
+  * Interface & Navigation <https://usabilitygeek.com/tag/interface-
+    navigation/>
+  * Mobile & Tablet <https://usabilitygeek.com/tag/mobile-tablet/>
+  * Writing For The Web <https://usabilitygeek.com/tag/writing-for-the-
+    web/>
+
+
+    SOCIAL MEDIA CHANNELS
+
+  * Twitter <https://twitter.com/usabilitygeek>
+  * Facebook <https://www.facebook.com/UsabilityGeek>
+  * Instagram <https://www.instagram.com/usabilitygeek/>
+  * LinkedIn <https://www.linkedin.com/company/usabilitygeek/>
+  * Pinterest <https://www.pinterest.com/usabilitygeek/>
+
+© Copyright 2011-2021 UsabilityGeek · Privacy Notice <https://
+usabilitygeek.com/privacy-policy> · Terms and Conditions <https://
+usabilitygeek.com/terms-and-conditions/> ·
+
+Copyright © 2024 Usability Geek
+
+Like most websites, we use cookies. Cookie settingsACCEPT
+Privacy & Cookies Policy
+Close
+
+
+        Privacy Overview
+
+This website uses cookies to improve your experience while you navigate
+through the website. Out of these cookies, the cookies that are
+categorized as necessary are stored on your browser as they are as
+essential for the working of basic functionalit...
+Necessary Necessary
+Always Enabled
+
+Necessary cookies are absolutely essential for the website to function
+properly. This category only includes cookies that ensures basic
+functionalities and security features of the website. These cookies do
+not store any personal information.
+
+SAVE & ACCEPT

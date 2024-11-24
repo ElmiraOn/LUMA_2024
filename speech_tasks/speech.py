@@ -64,7 +64,7 @@ class VistaCoreAssistant:
 
     def play_acknowledgment(self):
         """Play a short acknowledgment sound"""
-        self.text_to_speech("mm hmm", os.path.join(self.temp_dir, 'ack.mp3'))
+        self.text_to_speech("Command Received", os.path.join(self.temp_dir, 'ack.mp3'))
 
     def speech_to_text(self, timeout=None, phrase_time_limit=None):
         """Listen for speech and convert to text"""
@@ -121,10 +121,10 @@ class VistaCoreAssistant:
                         if self.command_callback:
                             self.command_callback(command)
                         
-                        # Provide verbal feedback
-                        response = "I've updated your command."
-                        print(f"Responding: {response}")
-                        self.text_to_speech(response)
+                        # Initial acknowledgment
+                        initial_response = "Processing your command..."
+                        print(f"Responding: {initial_response}")
+                        self.text_to_speech(initial_response)
                     
                 elif wake_word and self.is_exit_command(wake_word):
                     # Clear command on exit

@@ -16,65 +16,106 @@ CORS(app)
 # Global variables
 vista_assistant = None
 current_command = None
+browser_data = {
+    'current_url': None,
+    'urls': [],
+    'token': '0'
+}
 
 def run_vista_assistant():
     """Function to run Vista Assistant in a separate thread"""
     global vista_assistant
     try:
         vista_assistant = VistaCoreAssistant()
-        vista_assistant.set_command_callback(update_current_command)
+        vista_assistant.set_command_callback(handle_command)
         vista_assistant.handle_conversation()
     except Exception as e:
         print(f"Error in Vista Assistant thread: {str(e)}")
 
-def update_current_command(command):
-    """Callback function to update the current command"""
-    global current_command
-    current_command = command
-    print("\n=== Command Updated ===")
-    print(f"New Command: {command}")
-    print("=====================\n")
-
-@app.route('/process-links', methods=['POST'])
-def process_links():
+def send_command_to_backend(command):
+    """Send command to backend and wait for response"""
     try:
-        data = request.get_json()
-        token = data.get('token', 0)
-        current_url = data.get('currentUrl', '')
-        
-        # Print detailed information about the request
-        print("\n" + "="*50)
-        print("URL Processing Details:")
-        print("="*50)
-        print(f"Token: {token}")
-        print(f"Current URL: {current_url}")
-        print(f"Current Command: {current_command if current_command else 'No command'}")
-        print(f"Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-        print("-"*50)
-        print(f"Found URLs: {len(data['allUrls'])}")
-        print("="*50 + "\n")
-        
-        # Prepare data for the SSH endpoint
         payload = {
-            'token': token,
-            'command': current_command if current_command else "",
-            'urls': data['allUrls']
+            'token': browser_data['token'],
+            'command': command,
+            'urls': browser_data['urls']
         }
         
-        # Send request to SSH endpoint
-        ssh_response = requests.post(
+        print("\n=== Sending Command to Backend ===")
+        print(f"Command: {command}")
+        print(f"Token: '{browser_data['token']}'")
+        print(f"Current URL: {browser_data['current_url']}")
+        print("================================\n")
+        
+        # Send request and wait for backend response
+        response = requests.post(
             'ssh:195.242.13.18/api/generate/',
             json=payload
         )
         
-        return jsonify({
-            'status': 'success',
-            'timestamp': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            'ssh_response': ssh_response.json() if ssh_response.ok else None
-        })
+        if response.ok:
+            response_data = response.json()
+            return response_data.get('response', 'Response not received')
+        return "Response not received"
+            
+    except Exception as e:
+        print(f"Error sending command to backend: {str(e)}")
+        return "Response not received"
+
+def handle_command(command):
+    """Handle command after wake word"""
+    global current_command, vista_assistant
+    
+    try:
+        current_command = command
+        print("\n=== Command Received ===")
+        print(f"Command: {command}")
+        print("========================\n")
+        
+        if command and browser_data['urls']:
+            # Send command to backend and wait for response
+            backend_response = send_command_to_backend(command)
+            # Relay backend response through voice assistant
+            if vista_assistant:
+                vista_assistant.text_to_speech(backend_response)
+        elif command:
+            if vista_assistant:
+                vista_assistant.text_to_speech("No page data available. Please wait for a page to load.")
+            
+    except Exception as e:
+        print(f"Error handling command: {str(e)}")
+        if vista_assistant:
+            vista_assistant.text_to_speech("Error processing command")
+
+@app.route('/process-links', methods=['POST'])
+def process_links():
+    """Store browser data (currentUrl and URLs) sent from background.js"""
+    try:
+        global browser_data
+        
+        # Get data sent from browser's background.js
+        browser_update = request.get_json()
+        
+        # Store the browser data
+        browser_data = {
+            'current_url': browser_update.get('currentUrl', ''),
+            'urls': browser_update.get('allUrls', []),
+            'token': str(browser_update.get('token', '0'))
+        }
+        
+        print("\n" + "="*50)
+        print("Updated Browser Data:")
+        print("="*50)
+        print(f"Current URL: {browser_data['current_url']}")
+        print(f"Token: '{browser_data['token']}'")
+        print(f"URLs found: {len(browser_data['urls'])}")
+        print("="*50 + "\n")
+        
+        # Just acknowledge receipt of data
+        return jsonify({'status': 'success'})
         
     except Exception as e:
-        print(f"\nError processing request: {str(e)}")
+        print(f"\nError storing browser data: {str(e)}")
         return jsonify({'error': str(e)}), 500
 
 @app.route('/stop-vista', methods=['POST'])

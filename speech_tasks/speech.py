@@ -1,12 +1,10 @@
-# speech_tasks/speech.py
+import os
 import speech_recognition as sr
 import time
 from datetime import datetime
 import sys
 from gtts import gTTS
-import os
 import pygame
-import tempfile
 
 class VistaCoreAssistant:
     def __init__(self):
@@ -15,23 +13,26 @@ class VistaCoreAssistant:
         self.wake_words = ["hey vista", "hi vista", "hello vista"]
         self.exit_phrases = ["bye vista", "goodbye vista", "exit vista", "close vista"]
         
-        # Configure speech recognition settings for better sentence completion
+        # Configure speech recognition settings
         self.recognizer.energy_threshold = 800
         self.recognizer.dynamic_energy_threshold = True
-        self.recognizer.dynamic_energy_adjustment_damping = 0.15  # More stable energy adjustment
-        self.recognizer.dynamic_energy_ratio = 1.5  # More sensitive to speech
-        self.recognizer.pause_threshold = 1.2  # Longer pause allowed within phrases
-        self.recognizer.phrase_threshold = 0.3  # More sensitive to phrase starts
-        self.recognizer.non_speaking_duration = 1.0  # Wait longer for sentence completion
+        self.recognizer.dynamic_energy_adjustment_damping = 0.15
+        self.recognizer.dynamic_energy_ratio = 1.5
+        self.recognizer.pause_threshold = 1.2
+        self.recognizer.phrase_threshold = 0.3
+        self.recognizer.non_speaking_duration = 1.0
         
         # Timing configurations
-        self.SILENCE_AFTER_SPEECH_TIMEOUT = 2.5  # Longer silence needed to end listening
-        self.MAX_LISTEN_TIME = 30  # Longer maximum listening time
+        self.SILENCE_AFTER_SPEECH_TIMEOUT = 2.5
+        self.MAX_LISTEN_TIME = 30
         self.INITIAL_SILENCE_TIMEOUT = 10
-        
+
         # Initialize audio playback
         pygame.mixer.init()
-        self.temp_dir = tempfile.mkdtemp()
+
+        # Use a fixed directory for temporary files
+        self.temp_dir = "temp_files"
+        os.makedirs(self.temp_dir, exist_ok=True)  # Ensure the directory exists
         
         print("VISTA Speech Recognition initialized")
 
@@ -63,28 +64,20 @@ class VistaCoreAssistant:
         self.text_to_speech("mm hmm", os.path.join(self.temp_dir, 'ack.mp3'))
 
     def speech_to_text(self, timeout=None, phrase_time_limit=None):
-        """Listen for speech and convert to text with improved sentence detection"""
+        """Listen for speech and convert to text"""
         try:
-            with sr.Microphone() as source:
+            # with sr.Microphone() as source:
+            mic_index = 3  # You can change this to the index of your microphone
+            with sr.Microphone(device_index=mic_index) as source:
                 print("Listening...")
-                # Shorter ambient noise adjustment to be more responsive
                 self.recognizer.adjust_for_ambient_noise(source, duration=0.3)
-                
-                # Listen with increased phrase_time_limit for longer sentences
                 audio = self.recognizer.listen(
-                    source,
-                    timeout=timeout,
-                    phrase_time_limit=phrase_time_limit,
-                    snowboy_configuration=None
+                    source, 
+                    timeout=timeout, 
+                    phrase_time_limit=phrase_time_limit
                 )
-                
                 try:
-                    # Using a more permissive recognition setting
-                    text = self.recognizer.recognize_google(
-                        audio,
-                        language="en-US",
-                        show_all=False
-                    ).lower()
+                    text = self.recognizer.recognize_google(audio, language="en-US").lower()
                     print(f"Recognized: {text}")
                     return text
                 except sr.UnknownValueError:
@@ -95,7 +88,6 @@ class VistaCoreAssistant:
             print("No speech detected within timeout period")
         except Exception as e:
             print(f"Error in speech recognition: {str(e)}")
-        
         return None
 
     def process_command(self, command):
@@ -103,54 +95,37 @@ class VistaCoreAssistant:
         return "I understood what you said. This is a static response for testing."
 
     def handle_conversation(self):
-        """Handle the main conversation flow with improved command listening"""
+        """Handle the main conversation flow"""
         try:
             while True:
-                # Listen for wake word with shorter phrase time limit
                 print(f"Listening for wake words: {', '.join(self.wake_words)}")
                 wake_word = self.speech_to_text(timeout=None, phrase_time_limit=2.0)
                 
                 if wake_word and self.is_wake_word(wake_word):
-                    # Play acknowledgment
                     print("Wake word detected!")
                     self.play_acknowledgment()
-                    
-                    # Listen for command with longer phrase time limit
                     print("Listening for command...")
-                    # Allow up to 10 seconds for a single command phrase
                     command = self.speech_to_text(timeout=None, phrase_time_limit=10.0)
-                    
                     if command:
                         print(f"Command received: {command}")
-                        
-                        # Process command and get response
                         response = self.process_command(command)
-                        
-                        # Speak the response
                         print(f"Responding: {response}")
                         self.text_to_speech(response)
-                    
                 elif wake_word and self.is_exit_command(wake_word):
                     self.text_to_speech("Goodbye!")
                     self.handle_exit()
-                
                 time.sleep(0.1)
-                
         except KeyboardInterrupt:
             self.text_to_speech("Goodbye!")
             self.handle_exit("\nKeyboard interrupt detected")
 
     def is_wake_word(self, text):
         """Check if the spoken text contains any of the wake words"""
-        if text:
-            return any(wake_word in text.lower() for wake_word in self.wake_words)
-        return False
+        return any(wake_word in text.lower() for wake_word in self.wake_words)
 
     def is_exit_command(self, text):
         """Check if the spoken text is an exit command"""
-        if text:
-            return any(exit_phrase in text.lower() for exit_phrase in self.exit_phrases)
-        return False
+        return any(exit_phrase in text.lower() for exit_phrase in self.exit_phrases)
 
     def handle_exit(self, message="Exiting VISTA..."):
         """Handle clean exit of the program"""
@@ -161,16 +136,9 @@ class VistaCoreAssistant:
                     os.remove(os.path.join(self.temp_dir, file))
                 except:
                     pass
-            os.rmdir(self.temp_dir)
         sys.exit(0)
 
-# def main():
-#     assistant = VistaCoreAssistant()
-#     try:
-#         assistant.handle_conversation()
-#     except Exception as e:
-#         print(f"Error in main: {str(e)}")
-#         assistant.handle_exit()
-
+# Uncomment to run the assistant
 # if __name__ == "__main__":
-#     main()
+#     assistant = VistaCoreAssistant()
+#     assistant.handle_conversation()

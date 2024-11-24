@@ -7,6 +7,7 @@ from gtts import gTTS
 import os
 import pygame
 import tempfile
+from queue import Queue
 
 class VistaCoreAssistant:
     def __init__(self):
@@ -64,7 +65,7 @@ class VistaCoreAssistant:
 
     def play_acknowledgment(self):
         """Play a short acknowledgment sound"""
-        self.text_to_speech("Command Received", os.path.join(self.temp_dir, 'ack.mp3'))
+        self.text_to_speech("mm hmm", os.path.join(self.temp_dir, 'ack.mp3'))
 
     def speech_to_text(self, timeout=None, phrase_time_limit=None):
         """Listen for speech and convert to text"""
@@ -117,14 +118,9 @@ class VistaCoreAssistant:
                     
                     if command:
                         print(f"Command received: {command}")
-                        # Update command through callback immediately
+                        # Update command through callback and wait for response
                         if self.command_callback:
                             self.command_callback(command)
-                        
-                        # Initial acknowledgment
-                        initial_response = "Processing your command..."
-                        print(f"Responding: {initial_response}")
-                        self.text_to_speech(initial_response)
                     
                 elif wake_word and self.is_exit_command(wake_word):
                     # Clear command on exit

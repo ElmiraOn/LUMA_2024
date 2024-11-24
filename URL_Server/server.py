@@ -17,7 +17,7 @@ CORS(app)
 vista_assistant = None
 current_command = None
 browser_data = {
-    'current_url': None,
+    'current_url': 'https://www.yorku.ca/about/contact/',
     'urls': [],
     'token': '0'
 }
@@ -49,7 +49,7 @@ def send_command_to_backend(command):
         
         # Send request and wait for backend response
         response = requests.post(
-            'ssh:195.242.13.18/api/generate/',
+            'http://195.242.13.18:50001/generate',
             json=payload
         )
         
@@ -75,7 +75,7 @@ def handle_command(command):
         if command and browser_data['urls']:
             # Send command to backend and wait for response
             backend_response = send_command_to_backend(command)
-            # Relay backend response through voice assistant
+            # Relay actual backend response through voice assistant
             if vista_assistant:
                 vista_assistant.text_to_speech(backend_response)
         elif command:

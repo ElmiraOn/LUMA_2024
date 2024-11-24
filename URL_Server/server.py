@@ -34,13 +34,13 @@ def process_links():
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         
         # Print received data in a structured way
-        print("\n=== URL Extraction Results ===")
-        print(f"Timestamp: {timestamp}")
-        print(f"Current URL: {data['currentUrl']}")
-        print(f"Found {len(data['allUrls'])} URLs:")
-        for idx, url in enumerate(data['allUrls'], 1):
-            print(f"{idx}. {url}")
-        print("===========================\n")
+        # print("\n=== URL Extraction Results ===")
+        # print(f"Timestamp: {timestamp}")
+        # print(f"Current URL: {data['currentUrl']}")
+        # print(f"Found {len(data['allUrls'])} URLs:")
+        # for idx, url in enumerate(data['allUrls'], 1):
+        #     print(f"{idx}. {url}")
+        # print("===========================\n")
         
         return jsonify({
             'status': 'success',

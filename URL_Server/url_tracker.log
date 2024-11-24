@@ -5202,3 +5202,1621 @@ Additionally, there are mentions of other models such as:
 Please note that this list may not be exhaustive, as there are many other models mentioned in the text without explicit naming.
 2024-11-24 07:39:04,389 - INFO - ==================================================
 
+2024-11-24 08:59:15,978 - INFO - Voice assistant thread started
+2024-11-24 08:59:15,978 - INFO - 
+==================================================
+2024-11-24 08:59:15,978 - INFO - Server starting on http://localhost:50001
+2024-11-24 08:59:15,978 - INFO - ==================================================
+
+2024-11-24 08:59:15,979 - INFO - Voice Assistant initialized
+2024-11-24 08:59:15,979 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 08:59:15,988 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://192.168.13.149:50001
+2024-11-24 08:59:15,989 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 08:59:16,069 - INFO - Listening...
+2024-11-24 08:59:19,886 - INFO - Received request to process links
+2024-11-24 08:59:19,888 - INFO - 
+==================================================
+2024-11-24 08:59:19,889 - INFO - Updated Browser Data:
+2024-11-24 08:59:19,889 - INFO - ==================================================
+2024-11-24 08:59:19,889 - INFO - Current URL: https://www.tmcdocs.info/
+2024-11-24 08:59:19,889 - INFO - Token: '1'
+2024-11-24 08:59:19,889 - INFO - URLs found: 39
+2024-11-24 08:59:19,889 - INFO - ==================================================
+
+2024-11-24 08:59:19,893 - INFO - 127.0.0.1 - - [24/Nov/2024 08:59:19] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 08:59:24,566 - INFO - Could not understand audio
+2024-11-24 08:59:24,803 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 08:59:24,921 - INFO - Listening...
+2024-11-24 08:59:28,551 - INFO - Recognized: why did i get one year
+2024-11-24 08:59:28,789 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 08:59:28,898 - INFO - Listening...
+2024-11-24 08:59:32,191 - INFO - Could not understand audio
+2024-11-24 08:59:32,431 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 08:59:32,548 - INFO - Listening...
+2024-11-24 08:59:39,309 - INFO - Could not understand audio
+2024-11-24 08:59:39,548 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 08:59:39,670 - INFO - Listening...
+2024-11-24 08:59:46,716 - INFO - Could not understand audio
+2024-11-24 08:59:46,955 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 08:59:47,062 - INFO - Listening...
+2024-11-24 08:59:49,996 - INFO - Could not understand audio
+2024-11-24 08:59:50,237 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 08:59:50,368 - INFO - Listening...
+2024-11-24 08:59:54,604 - INFO - Voice assistant thread started
+2024-11-24 08:59:54,604 - INFO - 
+==================================================
+2024-11-24 08:59:54,604 - INFO - Server starting on http://localhost:50001
+2024-11-24 08:59:54,604 - INFO - ==================================================
+
+2024-11-24 08:59:54,605 - INFO - Voice Assistant initialized
+2024-11-24 08:59:54,605 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 08:59:54,613 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://192.168.13.149:50001
+2024-11-24 08:59:54,614 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 08:59:54,711 - INFO - Listening...
+2024-11-24 08:59:57,944 - INFO - Could not understand audio
+2024-11-24 08:59:58,184 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 08:59:58,312 - INFO - Received request to process links
+2024-11-24 08:59:58,313 - INFO - 
+==================================================
+2024-11-24 08:59:58,313 - INFO - Updated Browser Data:
+2024-11-24 08:59:58,313 - INFO - ==================================================
+2024-11-24 08:59:58,313 - INFO - Current URL: https://www.tmcdocs.info/
+2024-11-24 08:59:58,313 - INFO - Token: '1'
+2024-11-24 08:59:58,313 - INFO - URLs found: 39
+2024-11-24 08:59:58,313 - INFO - ==================================================
+
+2024-11-24 08:59:58,317 - INFO - 127.0.0.1 - - [24/Nov/2024 08:59:58] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 08:59:58,362 - INFO - Listening...
+2024-11-24 09:00:02,883 - INFO - Could not understand audio
+2024-11-24 09:00:03,125 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:00:03,248 - INFO - Listening...
+2024-11-24 09:00:15,794 - INFO - Recognized: i'm getting one
+2024-11-24 09:00:16,038 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:00:16,154 - INFO - Listening...
+2024-11-24 09:00:19,877 - INFO - Could not understand audio
+2024-11-24 09:00:20,120 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:00:20,225 - INFO - Listening...
+2024-11-24 09:00:23,305 - INFO - Received request to process links
+2024-11-24 09:00:23,305 - INFO - 
+==================================================
+2024-11-24 09:00:23,305 - INFO - Updated Browser Data:
+2024-11-24 09:00:23,305 - INFO - ==================================================
+2024-11-24 09:00:23,306 - INFO - Current URL: https://ollama.com/
+2024-11-24 09:00:23,306 - INFO - Token: '0'
+2024-11-24 09:00:23,306 - INFO - URLs found: 16
+2024-11-24 09:00:23,306 - INFO - ==================================================
+
+2024-11-24 09:00:23,306 - INFO - 127.0.0.1 - - [24/Nov/2024 09:00:23] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 09:00:24,011 - INFO - Could not understand audio
+2024-11-24 09:00:24,247 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:00:24,372 - INFO - Listening...
+2024-11-24 09:00:27,332 - INFO - Could not understand audio
+2024-11-24 09:00:27,342 - INFO - Received request to process links
+2024-11-24 09:00:27,347 - INFO - 
+==================================================
+2024-11-24 09:00:27,347 - INFO - Updated Browser Data:
+2024-11-24 09:00:27,347 - INFO - ==================================================
+2024-11-24 09:00:27,347 - INFO - Current URL: https://www.tmcdocs.info/
+2024-11-24 09:00:27,348 - INFO - Token: '0'
+2024-11-24 09:00:27,348 - INFO - URLs found: 39
+2024-11-24 09:00:27,348 - INFO - ==================================================
+
+2024-11-24 09:00:27,349 - INFO - 127.0.0.1 - - [24/Nov/2024 09:00:27] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 09:00:27,569 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:00:27,676 - INFO - Listening...
+2024-11-24 09:00:31,531 - INFO - Could not understand audio
+2024-11-24 09:00:31,775 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:00:31,906 - INFO - Listening...
+2024-11-24 09:00:35,936 - INFO - Could not understand audio
+2024-11-24 09:00:36,177 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:00:36,297 - INFO - Listening...
+2024-11-24 09:00:39,917 - INFO - Could not understand audio
+2024-11-24 09:00:40,153 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:00:40,273 - INFO - Listening...
+2024-11-24 09:00:44,806 - INFO - Recognized: it's fine
+2024-11-24 09:00:45,046 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:00:45,164 - INFO - Listening...
+2024-11-24 09:00:48,606 - INFO - Could not understand audio
+2024-11-24 09:00:48,849 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:00:48,968 - INFO - Listening...
+2024-11-24 09:00:52,211 - INFO - Could not understand audio
+2024-11-24 09:00:52,450 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:00:52,571 - INFO - Listening...
+2024-11-24 09:00:56,144 - INFO - Could not understand audio
+2024-11-24 09:00:56,383 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:00:56,501 - INFO - Listening...
+2024-11-24 09:01:01,558 - INFO - Recognized: ivy stuff
+2024-11-24 09:01:01,797 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:01:01,920 - INFO - Listening...
+2024-11-24 09:01:05,393 - INFO - Recognized: hi vista
+2024-11-24 09:01:05,528 - INFO - Wake word detected!
+2024-11-24 09:01:08,535 - INFO - Listening for command...
+2024-11-24 09:01:08,669 - INFO - Listening...
+2024-11-24 09:01:14,011 - INFO - Recognized: can you tell me the contacts available on this website
+2024-11-24 09:01:14,147 - INFO - Retrieving Data. Please be patient
+2024-11-24 09:01:17,314 - INFO - Command received: can you tell me the contacts available on this website
+2024-11-24 09:01:17,314 - INFO - 
+==================================================
+2024-11-24 09:01:17,315 - INFO - DATA SENT TO BACKEND:
+2024-11-24 09:01:17,315 - INFO - ==================================================
+2024-11-24 09:01:17,315 - INFO - COMMAND: can you tell me the contacts available on this website
+2024-11-24 09:01:17,315 - INFO - TOKEN: '0'
+2024-11-24 09:01:17,315 - INFO - CURRENT URL: https://www.tmcdocs.info/
+2024-11-24 09:01:17,315 - INFO - 
+ALL URLS:
+2024-11-24 09:01:17,315 - INFO - 1. https://www.tmcdocs.info/#content
+2024-11-24 09:01:17,315 - INFO - 2. https://www.tmcdocs.info/
+2024-11-24 09:01:17,315 - INFO - 3. https://www.tmcdocs.info/news-updates/
+2024-11-24 09:01:17,315 - INFO - 4. https://www.tmcdocs.info/covid-cold-and-flu/
+2024-11-24 09:01:17,315 - INFO - 5. https://www.tmcdocs.info/resources-for-respiratory-illnesses/
+2024-11-24 09:01:17,315 - INFO - 6. https://www.tmcdocs.info/covid-vaccine-booking-sites/
+2024-11-24 09:01:17,315 - INFO - 7. https://www.tmcdocs.info/resources-and-links/
+2024-11-24 09:01:17,315 - INFO - 8. https://www.tmcdocs.info/post-covid-resources/
+2024-11-24 09:01:17,315 - INFO - 9. https://www.tmcdocs.info/resources-for-patients/
+2024-11-24 09:01:17,315 - INFO - 10. https://www.tmcdocs.info/resources-for-grief-and-bereavement/
+2024-11-24 09:01:17,315 - INFO - 11. https://www.tmcdocs.info/resources-for-mental-health/
+2024-11-24 09:01:17,315 - INFO - 12. https://www.tmcdocs.info/vaccine-information-for-adults/
+2024-11-24 09:01:17,315 - INFO - 13. https://www.tmcdocs.info/clinic-info/
+2024-11-24 09:01:17,315 - INFO - 14. https://www.tmcdocs.info/clinic-info/services/
+2024-11-24 09:01:17,315 - INFO - 15. https://www.tmcdocs.info/clinic-info/office-hours/
+2024-11-24 09:01:17,315 - INFO - 16. https://www.tmcdocs.info/clinic-info/appointments/
+2024-11-24 09:01:17,315 - INFO - 17. https://www.tmcdocs.info/clinic-info/tips-faqs/
+2024-11-24 09:01:17,315 - INFO - 18. https://www.tmcdocs.info/our-staff/
+2024-11-24 09:01:17,315 - INFO - 19. https://www.tmcdocs.info/clinic-info/uninsured-services/
+2024-11-24 09:01:17,315 - INFO - 20. https://www.tmcdocs.info/clinic-info/travel-advice/
+2024-11-24 09:01:17,315 - INFO - 21. https://www.tmcdocs.info/resources/
+2024-11-24 09:01:17,315 - INFO - 22. https://www.tmcdocs.info/virtual-video-visits/
+2024-11-24 09:01:17,315 - INFO - 23. https://www.tmcdocs.info/resources/email-policy/
+2024-11-24 09:01:17,315 - INFO - 24. https://www.tmcdocs.info/resources/privacy-policy/
+2024-11-24 09:01:17,315 - INFO - 25. https://www.tmcdocs.info/links/
+2024-11-24 09:01:17,315 - INFO - 26. https://www.tmcdocs.info/contact/
+2024-11-24 09:01:17,315 - INFO - 27. http://www.tmcdocs.info/?p=607/
+2024-11-24 09:01:17,315 - INFO - 28. https://www.tmcdocs.info/flu-shots-2021-2022/
+2024-11-24 09:01:17,315 - INFO - 29. https://www.tmcdocs.info/immunizations-for-measles/
+2024-11-24 09:01:17,315 - INFO - 30. https://www.tmcdocs.info/email-spam-alert/
+2024-11-24 09:01:17,315 - INFO - 31. https://www.tmcdocs.info/change-in-masking-policy-in-office/
+2024-11-24 09:01:17,316 - INFO - 32. https://www.tmcdocs.info/important-messaging-changes/
+2024-11-24 09:01:17,316 - INFO - 33. https://www.tmcdocs.info/emails-from-thornhill-medical-centre/
+2024-11-24 09:01:17,316 - INFO - 34. http://www.tmcdocs.info/clinic-info/tips-faqs/#PR
+2024-11-24 09:01:17,316 - INFO - 35. http://www.tmcdocs.info/clinic-info/uninsured-services/
+2024-11-24 09:01:17,316 - INFO - 36. http://www.tmcdocs.info/contact/
+2024-11-24 09:01:17,316 - INFO - 37. https://twitter.com/ThornhillMed
+2024-11-24 09:01:17,316 - INFO - 38. https://cyberchimps.com/store/responsivepro/
+2024-11-24 09:01:17,316 - INFO - 39. https://cyberchimps.com/
+2024-11-24 09:01:17,316 - INFO - ==================================================
+2024-11-24 09:03:45,201 - INFO - 
+==================================================
+2024-11-24 09:03:45,202 - INFO - BACKEND RESPONSE:
+2024-11-24 09:03:45,202 - INFO - ==================================================
+2024-11-24 09:03:45,203 - INFO - The text does not provide a clear list of contacts available on the website. However, I can suggest some ways to find the contact information:
+
+1. Look for a "Contact Us" page: You can try searching for a page with that title on the website.
+2. Check the footer or sidebar: Many websites have their contact information listed in the footer or sidebar.
+3. Use the website's search function: If you're not sure where to look, you can use the website's search function to see if it returns any relevant results.
+
+That being said, I can tell you that the text mentions a phone number:
+
+`905-889-3634`
+
+This is likely the reception phone number for the clinic.
+2024-11-24 09:03:45,203 - INFO - ==================================================
+
+2024-11-24 09:04:43,267 - INFO - Received request to process links
+2024-11-24 09:04:43,270 - INFO - 
+==================================================
+2024-11-24 09:04:43,270 - INFO - Updated Browser Data:
+2024-11-24 09:04:43,270 - INFO - ==================================================
+2024-11-24 09:04:43,270 - INFO - Current URL: https://www.google.com/search?q=tmcdocs&oq=tmcdocs&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQLhhA0gEIMjU4N2owajSoAgCwAgE&sourceid=chrome&ie=UTF-8
+2024-11-24 09:04:43,270 - INFO - Token: '0'
+2024-11-24 09:04:43,270 - INFO - URLs found: 85
+2024-11-24 09:04:43,270 - INFO - ==================================================
+
+2024-11-24 09:04:43,272 - INFO - 127.0.0.1 - - [24/Nov/2024 09:04:43] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 09:04:43,714 - INFO - Received request to process links
+2024-11-24 09:04:43,714 - INFO - 
+==================================================
+2024-11-24 09:04:43,714 - INFO - Updated Browser Data:
+2024-11-24 09:04:43,714 - INFO - ==================================================
+2024-11-24 09:04:43,714 - INFO - Current URL: https://www.tmcdocs.info/
+2024-11-24 09:04:43,714 - INFO - Token: '0'
+2024-11-24 09:04:43,714 - INFO - URLs found: 39
+2024-11-24 09:04:43,714 - INFO - ==================================================
+
+2024-11-24 09:04:43,715 - INFO - 127.0.0.1 - - [24/Nov/2024 09:04:43] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 09:04:46,905 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:04:47,018 - INFO - Listening...
+2024-11-24 09:04:50,820 - INFO - Could not understand audio
+2024-11-24 09:04:51,064 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:04:51,187 - INFO - Listening...
+2024-11-24 09:04:54,257 - INFO - Could not understand audio
+2024-11-24 09:04:54,499 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:04:54,619 - INFO - Listening...
+2024-11-24 09:04:57,829 - INFO - Recognized: reloaded the website
+2024-11-24 09:04:58,072 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:04:58,186 - INFO - Listening...
+2024-11-24 09:05:01,650 - INFO - Could not understand audio
+2024-11-24 09:05:01,886 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:05:02,018 - INFO - Listening...
+2024-11-24 09:05:05,438 - INFO - Could not understand audio
+2024-11-24 09:05:05,676 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:05:05,792 - INFO - Listening...
+2024-11-24 09:05:08,709 - INFO - Could not understand audio
+2024-11-24 09:05:08,950 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:05:09,075 - INFO - Listening...
+2024-11-24 09:05:12,795 - INFO - Recognized: hi vista
+2024-11-24 09:05:12,930 - INFO - Wake word detected!
+2024-11-24 09:05:15,907 - INFO - Listening for command...
+2024-11-24 09:05:16,025 - INFO - Listening...
+2024-11-24 09:05:25,331 - INFO - Voice assistant thread started
+2024-11-24 09:05:25,331 - INFO - 
+==================================================
+2024-11-24 09:05:25,331 - INFO - Server starting on http://localhost:50001
+2024-11-24 09:05:25,331 - INFO - ==================================================
+
+2024-11-24 09:05:25,332 - INFO - Voice Assistant initialized
+2024-11-24 09:05:25,332 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:05:25,341 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://192.168.13.149:50001
+2024-11-24 09:05:25,341 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 09:05:25,425 - INFO - Listening...
+2024-11-24 09:05:28,826 - INFO - Could not understand audio
+2024-11-24 09:05:29,065 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:05:29,252 - INFO - Listening...
+2024-11-24 09:05:29,624 - INFO - Received request to process links
+2024-11-24 09:05:29,627 - INFO - 
+==================================================
+2024-11-24 09:05:29,627 - INFO - Updated Browser Data:
+2024-11-24 09:05:29,627 - INFO - ==================================================
+2024-11-24 09:05:29,627 - INFO - Current URL: https://www.tmcdocs.info/
+2024-11-24 09:05:29,627 - INFO - Token: '0'
+2024-11-24 09:05:29,627 - INFO - URLs found: 39
+2024-11-24 09:05:29,627 - INFO - ==================================================
+
+2024-11-24 09:05:29,628 - INFO - 127.0.0.1 - - [24/Nov/2024 09:05:29] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 09:05:32,130 - INFO - Recognized: do you want address
+2024-11-24 09:05:32,372 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:05:32,492 - INFO - Listening...
+2024-11-24 09:05:35,342 - INFO - Could not understand audio
+2024-11-24 09:05:35,581 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:05:35,701 - INFO - Listening...
+2024-11-24 09:05:38,893 - INFO - Recognized: what's the high vista
+2024-11-24 09:05:39,135 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:05:39,251 - INFO - Listening...
+2024-11-24 09:05:42,306 - INFO - Recognized: hi
+2024-11-24 09:05:42,546 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:05:42,665 - INFO - Listening...
+2024-11-24 09:05:46,640 - INFO - Recognized: hi vista
+2024-11-24 09:05:46,776 - INFO - Wake word detected!
+2024-11-24 09:05:49,758 - INFO - Listening for command...
+2024-11-24 09:05:49,867 - INFO - Listening...
+2024-11-24 09:05:56,314 - INFO - Recognized: can you tell me the address of the place mentioned in the website
+2024-11-24 09:05:56,449 - INFO - Retrieving Data. Please be patient
+2024-11-24 09:05:59,636 - INFO - Command received: can you tell me the address of the place mentioned in the website
+2024-11-24 09:05:59,637 - INFO - 
+==================================================
+2024-11-24 09:05:59,638 - INFO - DATA SENT TO BACKEND:
+2024-11-24 09:05:59,638 - INFO - ==================================================
+2024-11-24 09:05:59,638 - INFO - COMMAND: can you tell me the address of the place mentioned in the website
+2024-11-24 09:05:59,638 - INFO - TOKEN: '0'
+2024-11-24 09:05:59,638 - INFO - CURRENT URL: https://www.tmcdocs.info/
+2024-11-24 09:05:59,638 - INFO - 
+ALL URLS:
+2024-11-24 09:05:59,638 - INFO - 1. https://www.tmcdocs.info/#content
+2024-11-24 09:05:59,638 - INFO - 2. https://www.tmcdocs.info/
+2024-11-24 09:05:59,638 - INFO - 3. https://www.tmcdocs.info/news-updates/
+2024-11-24 09:05:59,638 - INFO - 4. https://www.tmcdocs.info/covid-cold-and-flu/
+2024-11-24 09:05:59,638 - INFO - 5. https://www.tmcdocs.info/resources-for-respiratory-illnesses/
+2024-11-24 09:05:59,638 - INFO - 6. https://www.tmcdocs.info/covid-vaccine-booking-sites/
+2024-11-24 09:05:59,638 - INFO - 7. https://www.tmcdocs.info/resources-and-links/
+2024-11-24 09:05:59,638 - INFO - 8. https://www.tmcdocs.info/post-covid-resources/
+2024-11-24 09:05:59,638 - INFO - 9. https://www.tmcdocs.info/resources-for-patients/
+2024-11-24 09:05:59,638 - INFO - 10. https://www.tmcdocs.info/resources-for-grief-and-bereavement/
+2024-11-24 09:05:59,638 - INFO - 11. https://www.tmcdocs.info/resources-for-mental-health/
+2024-11-24 09:05:59,638 - INFO - 12. https://www.tmcdocs.info/vaccine-information-for-adults/
+2024-11-24 09:05:59,639 - INFO - 13. https://www.tmcdocs.info/clinic-info/
+2024-11-24 09:05:59,639 - INFO - 14. https://www.tmcdocs.info/clinic-info/services/
+2024-11-24 09:05:59,639 - INFO - 15. https://www.tmcdocs.info/clinic-info/office-hours/
+2024-11-24 09:05:59,639 - INFO - 16. https://www.tmcdocs.info/clinic-info/appointments/
+2024-11-24 09:05:59,639 - INFO - 17. https://www.tmcdocs.info/clinic-info/tips-faqs/
+2024-11-24 09:05:59,639 - INFO - 18. https://www.tmcdocs.info/our-staff/
+2024-11-24 09:05:59,639 - INFO - 19. https://www.tmcdocs.info/clinic-info/uninsured-services/
+2024-11-24 09:05:59,639 - INFO - 20. https://www.tmcdocs.info/clinic-info/travel-advice/
+2024-11-24 09:05:59,640 - INFO - 21. https://www.tmcdocs.info/resources/
+2024-11-24 09:05:59,640 - INFO - 22. https://www.tmcdocs.info/virtual-video-visits/
+2024-11-24 09:05:59,640 - INFO - 23. https://www.tmcdocs.info/resources/email-policy/
+2024-11-24 09:05:59,640 - INFO - 24. https://www.tmcdocs.info/resources/privacy-policy/
+2024-11-24 09:05:59,640 - INFO - 25. https://www.tmcdocs.info/links/
+2024-11-24 09:05:59,640 - INFO - 26. https://www.tmcdocs.info/contact/
+2024-11-24 09:05:59,640 - INFO - 27. http://www.tmcdocs.info/?p=607/
+2024-11-24 09:05:59,640 - INFO - 28. https://www.tmcdocs.info/flu-shots-2021-2022/
+2024-11-24 09:05:59,640 - INFO - 29. https://www.tmcdocs.info/immunizations-for-measles/
+2024-11-24 09:05:59,640 - INFO - 30. https://www.tmcdocs.info/email-spam-alert/
+2024-11-24 09:05:59,640 - INFO - 31. https://www.tmcdocs.info/change-in-masking-policy-in-office/
+2024-11-24 09:05:59,640 - INFO - 32. https://www.tmcdocs.info/important-messaging-changes/
+2024-11-24 09:05:59,640 - INFO - 33. https://www.tmcdocs.info/emails-from-thornhill-medical-centre/
+2024-11-24 09:05:59,640 - INFO - 34. http://www.tmcdocs.info/clinic-info/tips-faqs/#PR
+2024-11-24 09:05:59,641 - INFO - 35. http://www.tmcdocs.info/clinic-info/uninsured-services/
+2024-11-24 09:05:59,641 - INFO - 36. http://www.tmcdocs.info/contact/
+2024-11-24 09:05:59,641 - INFO - 37. https://twitter.com/ThornhillMed
+2024-11-24 09:05:59,641 - INFO - 38. https://cyberchimps.com/store/responsivepro/
+2024-11-24 09:05:59,641 - INFO - 39. https://cyberchimps.com/
+2024-11-24 09:05:59,641 - INFO - ==================================================
+2024-11-24 09:08:04,385 - INFO - 
+==================================================
+2024-11-24 09:08:04,388 - INFO - BACKEND RESPONSE:
+2024-11-24 09:08:04,388 - INFO - ==================================================
+2024-11-24 09:08:04,388 - INFO - Unfortunately, I don't see any mention of a specific physical address on the webpage. However, I can suggest some ways for you to find the address:
+
+1. **Contact Form**: Look for a "Contact Us" or "Get in Touch" form on the webpage. This might allow you to submit your question and receive an answer with the address included.
+2. **About Page**: Check if there is an "About" page on the website that lists the clinic's physical location, including its address.
+3. **Online Directories**: You can try searching online directories like Google Maps or Yelp to see if they have listed information about Thornhill Medical Centre.
+4. **Contact Phone Number or Email**: If you find a phone number or email address on the webpage, you can try contacting them directly and ask for their physical address.
+
+If none of these options work, I'd be happy to help you brainstorm further!
+2024-11-24 09:08:04,388 - INFO - ==================================================
+
+2024-11-24 09:09:18,717 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:09:18,843 - INFO - Listening...
+2024-11-24 09:09:22,551 - INFO - Recognized: avista
+2024-11-24 09:09:22,789 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:09:22,908 - INFO - Listening...
+2024-11-24 09:11:59,629 - INFO - Voice assistant thread started
+2024-11-24 09:11:59,630 - INFO - 
+==================================================
+2024-11-24 09:11:59,630 - INFO - Server starting on http://localhost:50001
+2024-11-24 09:11:59,630 - INFO - ==================================================
+
+2024-11-24 09:11:59,630 - INFO - Voice Assistant initialized
+2024-11-24 09:11:59,630 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:11:59,641 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://192.168.13.149:50001
+2024-11-24 09:11:59,641 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 09:11:59,735 - INFO - Listening...
+2024-11-24 09:12:02,863 - INFO - Received request to process links
+2024-11-24 09:12:02,863 - INFO - 
+==================================================
+2024-11-24 09:12:02,864 - INFO - Updated Browser Data:
+2024-11-24 09:12:02,864 - INFO - ==================================================
+2024-11-24 09:12:02,864 - INFO - Current URL: https://appletreemedicalgroup.com/
+2024-11-24 09:12:02,864 - INFO - Token: '1'
+2024-11-24 09:12:02,864 - INFO - URLs found: 90
+2024-11-24 09:12:02,864 - INFO - ==================================================
+
+2024-11-24 09:12:02,865 - INFO - 127.0.0.1 - - [24/Nov/2024 09:12:02] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 09:12:03,010 - INFO - Could not understand audio
+2024-11-24 09:12:03,247 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:12:03,382 - INFO - Listening...
+2024-11-24 09:12:06,353 - INFO - Could not understand audio
+2024-11-24 09:12:06,593 - INFO - Received request to process links
+2024-11-24 09:12:06,593 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:12:06,595 - INFO - 
+==================================================
+2024-11-24 09:12:06,595 - INFO - Updated Browser Data:
+2024-11-24 09:12:06,595 - INFO - ==================================================
+2024-11-24 09:12:06,595 - INFO - Current URL: https://stackoverflow.com/questions/54178646/python-gtts-is-there-a-way-to-change-the-speed-of-the-speech
+2024-11-24 09:12:06,595 - INFO - Token: '0'
+2024-11-24 09:12:06,595 - INFO - URLs found: 144
+2024-11-24 09:12:06,595 - INFO - ==================================================
+
+2024-11-24 09:12:06,598 - INFO - 127.0.0.1 - - [24/Nov/2024 09:12:06] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 09:12:06,725 - INFO - Listening...
+2024-11-24 09:12:07,543 - INFO - Received request to process links
+2024-11-24 09:12:07,544 - INFO - 
+==================================================
+2024-11-24 09:12:07,544 - INFO - Updated Browser Data:
+2024-11-24 09:12:07,544 - INFO - ==================================================
+2024-11-24 09:12:07,544 - INFO - Current URL: https://appletreemedicalgroup.com/
+2024-11-24 09:12:07,544 - INFO - Token: '0'
+2024-11-24 09:12:07,544 - INFO - URLs found: 90
+2024-11-24 09:12:07,544 - INFO - ==================================================
+
+2024-11-24 09:12:07,546 - INFO - 127.0.0.1 - - [24/Nov/2024 09:12:07] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 09:12:09,569 - INFO - Could not understand audio
+2024-11-24 09:12:09,809 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:12:09,933 - INFO - Listening...
+2024-11-24 09:12:12,863 - INFO - Recognized: 901
+2024-11-24 09:12:13,101 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:12:13,216 - INFO - Listening...
+2024-11-24 09:12:16,956 - INFO - Could not understand audio
+2024-11-24 09:12:17,195 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:12:17,325 - INFO - Listening...
+2024-11-24 09:12:20,732 - INFO - Could not understand audio
+2024-11-24 09:12:20,973 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:12:21,103 - INFO - Listening...
+2024-11-24 09:12:24,236 - INFO - Could not understand audio
+2024-11-24 09:12:24,475 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:12:24,575 - INFO - Listening...
+2024-11-24 09:12:28,047 - INFO - Recognized: set alarm for 7:30
+2024-11-24 09:12:28,290 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:12:28,411 - INFO - Listening...
+2024-11-24 09:12:31,521 - INFO - Recognized: hi vista
+2024-11-24 09:12:31,659 - INFO - Wake word detected!
+2024-11-24 09:12:34,649 - INFO - Listening for command...
+2024-11-24 09:12:34,765 - INFO - Listening...
+2024-11-24 09:12:38,966 - INFO - Recognized: tell me the contact information on this page
+2024-11-24 09:12:39,102 - INFO - Retrieving Data. Please be patient
+2024-11-24 09:12:42,308 - INFO - Command received: tell me the contact information on this page
+2024-11-24 09:12:42,308 - INFO - 
+==================================================
+2024-11-24 09:12:42,308 - INFO - DATA SENT TO BACKEND:
+2024-11-24 09:12:42,308 - INFO - ==================================================
+2024-11-24 09:12:42,308 - INFO - COMMAND: tell me the contact information on this page
+2024-11-24 09:12:42,308 - INFO - TOKEN: '0'
+2024-11-24 09:12:42,308 - INFO - CURRENT URL: https://appletreemedicalgroup.com/
+2024-11-24 09:12:42,308 - INFO - 
+ALL URLS:
+2024-11-24 09:12:42,308 - INFO - 1. https://appletreemedicalgroup.com/#page-content
+2024-11-24 09:12:42,309 - INFO - 2. https://appletreemedicalgroup.com/careers/
+2024-11-24 09:12:42,309 - INFO - 3. https://appletreemedicalgroup.com/
+2024-11-24 09:12:42,309 - INFO - 4. https://appletreemedicalgroup.com/healthcare-providers/
+2024-11-24 09:12:42,309 - INFO - 5. https://appletreemedicalgroup.com/patient-portal/
+2024-11-24 09:12:42,309 - INFO - 6. https://appletreemedicalgroup.com/#
+2024-11-24 09:12:42,309 - INFO - 7. https://appletreemedicalgroup.com/medical-services/
+2024-11-24 09:12:42,309 - INFO - 8. https://appletreemedicalgroup.com/medical-services/virtual-care/
+2024-11-24 09:12:42,309 - INFO - 9. https://appletreemedicalgroup.com/medical-services/walk-in-clinic/
+2024-11-24 09:12:42,309 - INFO - 10. https://appletreemedicalgroup.com/medical-services/family-medicine/
+2024-11-24 09:12:42,309 - INFO - 11. https://appletreemedicalgroup.com/medical-services/programs-clinics/
+2024-11-24 09:12:42,309 - INFO - 12. https://appletreemedicalgroup.com/medical-services/programs-clinics/acne-2/
+2024-11-24 09:12:42,309 - INFO - 13. https://appletreemedicalgroup.com/medical-services/programs-clinics/adult-vaccination/
+2024-11-24 09:12:42,309 - INFO - 14. https://appletreemedicalgroup.com/medical-services/programs-clinics/adhd-counselling-adults/
+2024-11-24 09:12:42,309 - INFO - 15. https://appletreemedicalgroup.com/medical-services/programs-clinics/allergy-testing/
+2024-11-24 09:12:42,309 - INFO - 16. https://appletreemedicalgroup.com/medical-services/programs-clinics/compression-stockings/
+2024-11-24 09:12:42,309 - INFO - 17. https://appletreemedicalgroup.com/medical-services/programs-clinics/copd-and-asthma-program/
+2024-11-24 09:12:42,309 - INFO - 18. https://appletreemedicalgroup.com/medical-services/programs-clinics/neuromodulator-injections-dermal-fillers/
+2024-11-24 09:12:42,310 - INFO - 19. https://appletreemedicalgroup.com/medical-services/programs-clinics/orthotics/
+2024-11-24 09:12:42,310 - INFO - 20. https://appletreemedicalgroup.com/medical-services/programs-clinics/diabetes/
+2024-11-24 09:12:42,310 - INFO - 21. https://appletreemedicalgroup.com/medical-services/programs-clinics/hearing-testing/
+2024-11-24 09:12:42,310 - INFO - 22. https://appletreemedicalgroup.com/medical-services/programs-clinics/hpv/
+2024-11-24 09:12:42,310 - INFO - 23. https://appletreemedicalgroup.com/medical-services/programs-clinics/hypertension-program/
+2024-11-24 09:12:42,310 - INFO - 24. https://appletreemedicalgroup.com/medical-services/programs-clinics/278336-2/
+2024-11-24 09:12:42,310 - INFO - 25. https://appletreemedicalgroup.com/medical-services/programs-clinics/pap-test/
+2024-11-24 09:12:42,310 - INFO - 26. https://appletreemedicalgroup.com/medical-services/programs-clinics/plantar-wart-clinic/
+2024-11-24 09:12:42,310 - INFO - 27. https://appletreemedicalgroup.com/medical-services/programs-clinics/preventive-health-visits/
+2024-11-24 09:12:42,310 - INFO - 28. https://appletreemedicalgroup.com/medical-services/programs-clinics/flu-shot-vaccination/
+2024-11-24 09:12:42,310 - INFO - 29. https://appletreemedicalgroup.com/medical-services/programs-clinics/physicals-and-check-ups/
+2024-11-24 09:12:42,310 - INFO - 30. https://appletreemedicalgroup.com/medical-services/programs-clinics/travel-medicine/
+2024-11-24 09:12:42,310 - INFO - 31. https://appletreemedicalgroup.com/medical-services/programs-clinics/tuberculosis-tb-testing/
+2024-11-24 09:12:42,310 - INFO - 32. https://appletreemedicalgroup.com/medical-services/programs-clinics/well-baby/
+2024-11-24 09:12:42,310 - INFO - 33. https://appletreemedicalgroup.com/medical-services/specialists/
+2024-11-24 09:12:42,310 - INFO - 34. https://appletreemedicalgroup.com/medical-services/specialists/dermatology-2/
+2024-11-24 09:12:42,310 - INFO - 35. https://appletreemedicalgroup.com/medical-services/specialists/endocrinology/
+2024-11-24 09:12:42,310 - INFO - 36. https://appletreemedicalgroup.com/medical-services/specialists/gastroenterology/
+2024-11-24 09:12:42,310 - INFO - 37. https://appletreemedicalgroup.com/medical-services/specialists/general-surgery/
+2024-11-24 09:12:42,310 - INFO - 38. https://appletreemedicalgroup.com/medical-services/specialists/gynecology-obstetrics/
+2024-11-24 09:12:42,310 - INFO - 39. https://appletreemedicalgroup.com/medical-services/specialists/hematology/
+2024-11-24 09:12:42,311 - INFO - 40. https://appletreemedicalgroup.com/medical-services/specialists/internal-medicine/
+2024-11-24 09:12:42,311 - INFO - 41. https://appletreemedicalgroup.com/medical-services/allied-health-partners/lifestyle-medicine/
+2024-11-24 09:12:42,311 - INFO - 42. https://appletreemedicalgroup.com/medical-services/specialists/nephrology/
+2024-11-24 09:12:42,311 - INFO - 43. https://appletreemedicalgroup.com/medical-services/specialists/orthopedic-surgery/
+2024-11-24 09:12:42,311 - INFO - 44. https://appletreemedicalgroup.com/medical-services/specialists/pediatrics/
+2024-11-24 09:12:42,311 - INFO - 45. https://appletreemedicalgroup.com/medical-services/specialists/physical-medicine-rehabilitation/
+2024-11-24 09:12:42,311 - INFO - 46. https://appletreemedicalgroup.com/medical-services/specialists/psychiatry/
+2024-11-24 09:12:42,311 - INFO - 47. https://appletreemedicalgroup.com/medical-services/specialists/psychotherapy-counselling/
+2024-11-24 09:12:42,311 - INFO - 48. https://appletreemedicalgroup.com/medical-services/specialists/sports-medicine/
+2024-11-24 09:12:42,311 - INFO - 49. https://appletreemedicalgroup.com/medical-services/specialists/urology/
+2024-11-24 09:12:42,311 - INFO - 50. https://appletreemedicalgroup.com/medical-services/specialists/vascular-surgery/
+2024-11-24 09:12:42,311 - INFO - 51. https://appletreemedicalgroup.com/medical-services/allied-health-partners/
+2024-11-24 09:12:42,311 - INFO - 52. https://appletreemedicalgroup.com/medical-services/allied-health-partners/chiropractic-care/
+2024-11-24 09:12:42,311 - INFO - 53. https://appletreemedicalgroup.com/medical-services/allied-health-partners/massage-therapy/
+2024-11-24 09:12:42,311 - INFO - 54. https://appletreemedicalgroup.com/medical-services/allied-health-partners/physiotherapy/
+2024-11-24 09:12:42,311 - INFO - 55. https://appletreemedicalgroup.com/medical-services/workplace-health/
+2024-11-24 09:12:42,311 - INFO - 56. https://appletreemedicalgroup.com/medical-services/workplace-health/expert-assessments/
+2024-11-24 09:12:42,311 - INFO - 57. https://appletreemedicalgroup.com/medical-services/workplace-health/health-assessments-and-medical-examinations/
+2024-11-24 09:12:42,311 - INFO - 58. https://appletreemedicalgroup.com/medical-services/workplace-health/mto-and-drivers-medical-examinations/
+2024-11-24 09:12:42,311 - INFO - 59. https://appletreemedicalgroup.com/medical-services/workplace-health/travel-medicine-and-vaccinations/
+2024-11-24 09:12:42,311 - INFO - 60. https://appletreemedicalgroup.com/medical-services/workplace-health/wsib-management-program/
+2024-11-24 09:12:42,311 - INFO - 61. https://appletreemedicalgroup.com/patient-resources/
+2024-11-24 09:12:42,312 - INFO - 62. https://appletreemedicalgroup.com/about-us/
+2024-11-24 09:12:42,312 - INFO - 63. https://appletreemedicalgroup.com/practice-with-us/
+2024-11-24 09:12:42,312 - INFO - 64. https://appletreemedicalgroup.com/partner-with-us/
+2024-11-24 09:12:42,312 - INFO - 65. https://appletreemedicalgroup.com/contact/
+2024-11-24 09:12:42,312 - INFO - 66. https://appletreemedicalgroup.com/clinic-locations/
+2024-11-24 09:12:42,312 - INFO - 67. https://appletreemedicalgroup.com/clinic-locations/368-slater-street-ottawa/
+2024-11-24 09:12:42,312 - INFO - 68. https://appletreemedicalgroup.com/clinic-locations/10-earlsbridge-brampton/
+2024-11-24 09:12:42,312 - INFO - 69. http://appletreemedicalgroup.com/about-us/
+2024-11-24 09:12:42,312 - INFO - 70. https://appletreemedicalgroup.com/#tab-1
+2024-11-24 09:12:42,312 - INFO - 71. https://appletreemedicalgroup.com/#tab-2
+2024-11-24 09:12:42,312 - INFO - 72. https://appletreemedicalgroup.com/#tab-3
+2024-11-24 09:12:42,312 - INFO - 73. https://appletreemedicalgroup.com/#tab-4
+2024-11-24 09:12:42,312 - INFO - 74. https://appletreemedicalgroup.com/#tab-5
+2024-11-24 09:12:42,312 - INFO - 75. http://appletreemedicalgroup.com/medical-services/walk-in-clinic/
+2024-11-24 09:12:42,312 - INFO - 76. http://appletreemedicalgroup.com/medical-services/family-medicine/
+2024-11-24 09:12:42,312 - INFO - 77. http://appletreemedicalgroup.com/medical-services/virtual-care/
+2024-11-24 09:12:42,312 - INFO - 78. http://appletreemedicalgroup.com/medical-services/
+2024-11-24 09:12:42,312 - INFO - 79. http://appletreemedicalgroup.com/medical-services/programs-clinics/
+2024-11-24 09:12:42,312 - INFO - 80. http://appletreemedicalgroup.com/medical-services/specialists/
+2024-11-24 09:12:42,312 - INFO - 81. http://appletreemedicalgroup.com/practice-with-us/
+2024-11-24 09:12:42,312 - INFO - 82. http://appletreemedicalgroup.com/partner-with-us/
+2024-11-24 09:12:42,312 - INFO - 83. https://www.chsinc.ca/
+2024-11-24 09:12:42,312 - INFO - 84. https://www.linkedin.com/company/35581319
+2024-11-24 09:12:42,313 - INFO - 85. https://www.youtube.com/channel/UCb2TQ22f7CFDQoO5FJp-KdA
+2024-11-24 09:12:42,313 - INFO - 86. https://appletreemedicalgroup.com/privacy-policy/
+2024-11-24 09:12:42,313 - INFO - 87. https://appletreemedicalgroup.com/accessibility/
+2024-11-24 09:12:42,313 - INFO - 88. https://appletreemedicalgroup.com/code-of-conduct/
+2024-11-24 09:12:42,313 - INFO - 89. https://appletreemedicalgroup.com/sitemap/
+2024-11-24 09:12:42,313 - INFO - 90. https://www.majortom.com/
+2024-11-24 09:12:42,313 - INFO - ==================================================
+2024-11-24 09:14:27,842 - INFO - Received request to process links
+2024-11-24 09:14:27,843 - INFO - 
+==================================================
+2024-11-24 09:14:27,844 - INFO - Updated Browser Data:
+2024-11-24 09:14:27,844 - INFO - ==================================================
+2024-11-24 09:14:27,844 - INFO - Current URL: https://claude.ai/chat/eb71b581-a3f1-47d1-8d44-499bc5ab7b8c
+2024-11-24 09:14:27,844 - INFO - Token: '0'
+2024-11-24 09:14:27,844 - INFO - URLs found: 15
+2024-11-24 09:14:27,844 - INFO - ==================================================
+
+2024-11-24 09:14:27,845 - INFO - 127.0.0.1 - - [24/Nov/2024 09:14:27] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 09:14:29,346 - INFO - Received request to process links
+2024-11-24 09:14:29,348 - INFO - 
+==================================================
+2024-11-24 09:14:29,348 - INFO - Updated Browser Data:
+2024-11-24 09:14:29,349 - INFO - ==================================================
+2024-11-24 09:14:29,350 - INFO - Current URL: https://claude.ai/new
+2024-11-24 09:14:29,350 - INFO - Token: '0'
+2024-11-24 09:14:29,350 - INFO - URLs found: 14
+2024-11-24 09:14:29,350 - INFO - ==================================================
+
+2024-11-24 09:14:29,352 - INFO - 127.0.0.1 - - [24/Nov/2024 09:14:29] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 09:15:07,444 - INFO - Voice assistant thread started
+2024-11-24 09:15:07,445 - INFO - 
+==================================================
+2024-11-24 09:15:07,445 - INFO - Server starting on http://localhost:50001
+2024-11-24 09:15:07,445 - INFO - ==================================================
+
+2024-11-24 09:15:07,445 - INFO - Voice Assistant initialized
+2024-11-24 09:15:07,445 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:15:07,455 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://192.168.13.149:50001
+2024-11-24 09:15:07,455 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 09:15:07,556 - INFO - Listening...
+2024-11-24 09:15:12,035 - INFO - Recognized: cancel it
+2024-11-24 09:15:12,275 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:15:12,404 - INFO - Listening...
+2024-11-24 09:15:16,983 - INFO - Could not understand audio
+2024-11-24 09:15:17,223 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:15:17,329 - INFO - Listening...
+2024-11-24 09:15:21,208 - INFO - Could not understand audio
+2024-11-24 09:15:21,446 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:15:21,582 - INFO - Listening...
+2024-11-24 09:15:25,218 - INFO - Could not understand audio
+2024-11-24 09:15:25,454 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:15:25,586 - INFO - Listening...
+2024-11-24 09:15:27,695 - INFO - Received request to process links
+2024-11-24 09:15:27,695 - INFO - 
+==================================================
+2024-11-24 09:15:27,695 - INFO - Updated Browser Data:
+2024-11-24 09:15:27,695 - INFO - ==================================================
+2024-11-24 09:15:27,695 - INFO - Current URL: https://www.yorkusmiles.ca/site/home
+2024-11-24 09:15:27,695 - INFO - Token: '1'
+2024-11-24 09:15:27,695 - INFO - URLs found: 38
+2024-11-24 09:15:27,695 - INFO - ==================================================
+
+2024-11-24 09:15:27,697 - INFO - 127.0.0.1 - - [24/Nov/2024 09:15:27] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 09:15:29,157 - INFO - Could not understand audio
+2024-11-24 09:15:29,390 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:15:29,512 - INFO - Listening...
+2024-11-24 09:15:30,736 - INFO - Received request to process links
+2024-11-24 09:15:30,737 - INFO - 
+==================================================
+2024-11-24 09:15:30,737 - INFO - Updated Browser Data:
+2024-11-24 09:15:30,737 - INFO - ==================================================
+2024-11-24 09:15:30,737 - INFO - Current URL: https://stackoverflow.com/questions/54178646/python-gtts-is-there-a-way-to-change-the-speed-of-the-speech
+2024-11-24 09:15:30,737 - INFO - Token: '0'
+2024-11-24 09:15:30,737 - INFO - URLs found: 144
+2024-11-24 09:15:30,737 - INFO - ==================================================
+
+2024-11-24 09:15:30,737 - INFO - 127.0.0.1 - - [24/Nov/2024 09:15:30] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 09:15:31,425 - INFO - Received request to process links
+2024-11-24 09:15:31,425 - INFO - 
+==================================================
+2024-11-24 09:15:31,425 - INFO - Updated Browser Data:
+2024-11-24 09:15:31,425 - INFO - ==================================================
+2024-11-24 09:15:31,425 - INFO - Current URL: https://www.yorkusmiles.ca/site/home
+2024-11-24 09:15:31,425 - INFO - Token: '0'
+2024-11-24 09:15:31,425 - INFO - URLs found: 38
+2024-11-24 09:15:31,426 - INFO - ==================================================
+
+2024-11-24 09:15:31,426 - INFO - 127.0.0.1 - - [24/Nov/2024 09:15:31] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 09:15:33,290 - INFO - Could not understand audio
+2024-11-24 09:15:33,532 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:15:33,655 - INFO - Listening...
+2024-11-24 09:15:36,543 - INFO - Recognized: create
+2024-11-24 09:15:36,783 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:15:36,904 - INFO - Listening...
+2024-11-24 09:15:40,231 - INFO - Recognized: 38 websites
+2024-11-24 09:15:40,471 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:15:40,590 - INFO - Listening...
+2024-11-24 09:15:45,250 - INFO - Recognized: hi vista
+2024-11-24 09:15:45,387 - INFO - Wake word detected!
+2024-11-24 09:15:48,352 - INFO - Listening for command...
+2024-11-24 09:15:48,475 - INFO - Listening...
+2024-11-24 09:15:52,405 - INFO - Recognized: send me the contact information on this website
+2024-11-24 09:15:52,545 - INFO - Retrieving Data. Please be patient
+2024-11-24 09:15:55,766 - INFO - Command received: send me the contact information on this website
+2024-11-24 09:15:55,766 - INFO - 
+==================================================
+2024-11-24 09:15:55,766 - INFO - DATA SENT TO BACKEND:
+2024-11-24 09:15:55,766 - INFO - ==================================================
+2024-11-24 09:15:55,766 - INFO - COMMAND: send me the contact information on this website
+2024-11-24 09:15:55,767 - INFO - TOKEN: '0'
+2024-11-24 09:15:55,767 - INFO - CURRENT URL: https://www.yorkusmiles.ca/site/home
+2024-11-24 09:15:55,767 - INFO - 
+ALL URLS:
+2024-11-24 09:15:55,767 - INFO - 1. https://www.yorkusmiles.ca/site/about-dentist-north-york-toronto
+2024-11-24 09:15:55,767 - INFO - 2. https://www.yorkusmiles.ca/site/dental-clinic-north-york-toronto
+2024-11-24 09:15:55,767 - INFO - 3. https://www.yorkusmiles.ca/site/dentists-north-york-toronto
+2024-11-24 09:15:55,767 - INFO - 4. https://www.yorkusmiles.ca/site/dental-team-north-york-toronto
+2024-11-24 09:15:55,767 - INFO - 5. https://www.yorkusmiles.ca/site/dental-technology-north-york
+2024-11-24 09:15:55,767 - INFO - 6. https://www.yorkusmiles.ca/site/home#
+2024-11-24 09:15:55,767 - INFO - 7. https://www.yorkusmiles.ca/site/dental-services-north-york-toronto
+2024-11-24 09:15:55,767 - INFO - 8. https://www.yorkusmiles.ca/site/general-dentistry-services-north-york
+2024-11-24 09:15:55,767 - INFO - 9. https://www.yorkusmiles.ca/site/cosmetic-dental-services-north-york
+2024-11-24 09:15:55,767 - INFO - 10. https://www.yorkusmiles.ca/site/oral-surgery-north-york-toronto
+2024-11-24 09:15:55,767 - INFO - 11. https://www.yorkusmiles.ca/site/dental-appliances-north-york
+2024-11-24 09:15:55,767 - INFO - 12. https://www.yorkusmiles.ca/site/periodontal-gum-therapy-north-york-toronto
+2024-11-24 09:15:55,768 - INFO - 13. https://www.yorkusmiles.ca/site/children-dental-care-north-york-toronto
+2024-11-24 09:15:55,768 - INFO - 14. https://www.yorkusmiles.ca/site/emergency-dental-care-north-york-toronto
+2024-11-24 09:15:55,768 - INFO - 15. https://www.yorkusmiles.ca/site/myofunctional-therapy-north-york-toronto
+2024-11-24 09:15:55,768 - INFO - 16. https://www.yorkusmiles.ca/site/invisalign-clear-aligners-north-york-toronto
+2024-11-24 09:15:55,768 - INFO - 17. https://www.yorkusmiles.ca/site/invisalign-clear-aligners-teen-north-york
+2024-11-24 09:15:55,768 - INFO - 18. https://www.yorkusmiles.ca/site/invisalign-process-north-york
+2024-11-24 09:15:55,768 - INFO - 19. https://www.yorkusmiles.ca/site/invisalign-treatable-cases-north-york
+2024-11-24 09:15:55,768 - INFO - 20. https://www.yorkusmiles.ca/site/invisalign-clear-aligners-faqs-north-york
+2024-11-24 09:15:55,768 - INFO - 21. https://www.yorkusmiles.ca/site/dental-sedation-north-york-toronto
+2024-11-24 09:15:55,768 - INFO - 22. https://www.yorkusmiles.ca/site/healthy-start
+2024-11-24 09:15:55,768 - INFO - 23. https://www.yorkusmiles.ca/site/patients-york-university-north-york
+2024-11-24 09:15:55,768 - INFO - 24. https://www.yorkusmiles.ca/site/york-university-students-north-york
+2024-11-24 09:15:55,768 - INFO - 25. https://www.yorkusmiles.ca/site/york-university-faculty-staff-north-york
+2024-11-24 09:15:55,768 - INFO - 26. https://www.yorkusmiles.ca/site/patient-information-north-york
+2024-11-24 09:15:55,768 - INFO - 27. https://www.yorkusmiles.ca/site/dental-blog
+2024-11-24 09:15:55,768 - INFO - 28. https://www.yorkusmiles.ca/site/career-opportunities
+2024-11-24 09:15:55,768 - INFO - 29. https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist
+2024-11-24 09:15:55,768 - INFO - 30. https://www.facebook.com/YorkUsmiles/
+2024-11-24 09:15:55,768 - INFO - 31. https://www.instagram.com/yorklanesdental/
+2024-11-24 09:15:55,768 - INFO - 32. https://www.yorkusmiles.ca/site/home#emergencyAlert
+2024-11-24 09:15:55,769 - INFO - 33. https://www.yorkusmiles.ca/site/home
+2024-11-24 09:15:55,769 - INFO - 34. https://www.yorkusmiles.ca/site/canadian-dental-care-plan
+2024-11-24 09:15:55,769 - INFO - 35. https://www.yorkusmiles.ca/site/privacy-policy
+2024-11-24 09:15:55,769 - INFO - 36. https://www.yorkusmiles.ca/site/website-accessibility
+2024-11-24 09:15:55,769 - INFO - 37. https://www.yorkusmiles.ca/site/search
+2024-11-24 09:15:55,769 - INFO - 38. https://www.yorkusmiles.ca/site/home#top
+2024-11-24 09:15:55,769 - INFO - ==================================================
+2024-11-24 09:16:18,405 - INFO - Received request to process links
+2024-11-24 09:16:18,407 - INFO - 
+==================================================
+2024-11-24 09:16:18,407 - INFO - Updated Browser Data:
+2024-11-24 09:16:18,407 - INFO - ==================================================
+2024-11-24 09:16:18,407 - INFO - Current URL: https://claude.ai/new
+2024-11-24 09:16:18,407 - INFO - Token: '0'
+2024-11-24 09:16:18,407 - INFO - URLs found: 14
+2024-11-24 09:16:18,407 - INFO - ==================================================
+
+2024-11-24 09:16:18,409 - INFO - 127.0.0.1 - - [24/Nov/2024 09:16:18] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 09:17:59,132 - INFO - Received request to process links
+2024-11-24 09:17:59,134 - INFO - 
+==================================================
+2024-11-24 09:17:59,134 - INFO - Updated Browser Data:
+2024-11-24 09:17:59,134 - INFO - ==================================================
+2024-11-24 09:17:59,134 - INFO - Current URL: https://claude.ai/chat/d98d8a75-43c6-44d1-a531-5a71cbf42e9e
+2024-11-24 09:17:59,134 - INFO - Token: '0'
+2024-11-24 09:17:59,134 - INFO - URLs found: 16
+2024-11-24 09:17:59,134 - INFO - ==================================================
+
+2024-11-24 09:17:59,135 - INFO - 127.0.0.1 - - [24/Nov/2024 09:17:59] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 09:18:44,153 - INFO - 
+==================================================
+2024-11-24 09:18:44,154 - INFO - BACKEND RESPONSE:
+2024-11-24 09:18:44,154 - INFO - ==================================================
+2024-11-24 09:18:44,154 - INFO - Based on the provided text, here are the contact details of York Lanes Dental Office:
+
+* Address: 80 York Blvd North York ON M3J 1P3 CA
+* Phone Number: (437) 886-9035
+* Email/Facebook/Instagram links not available in the provided text, but you can try searching for them on their official website or social media pages.
+* Hours of Operation:
+	+ Monday: 08:00 am - 06:00 pm
+	+ Tuesday: 08:00 am - 08:00 pm
+	+ Wednesday: 08:00 am - 06:30 pm
+	+ Thursday: 08:00 am - 08:00 pm
+	+ Friday: 08:00 am - 06:00 pm
+	+ Saturday: 08:00 am - 04:00 pm
+	+ Sunday: Closed
+2024-11-24 09:18:44,154 - INFO - ==================================================
+
+2024-11-24 09:19:32,835 - INFO - Received request to process links
+2024-11-24 09:19:32,837 - INFO - 
+==================================================
+2024-11-24 09:19:32,837 - INFO - Updated Browser Data:
+2024-11-24 09:19:32,837 - INFO - ==================================================
+2024-11-24 09:19:32,837 - INFO - Current URL: https://www.yorkusmiles.ca/site/home
+2024-11-24 09:19:32,837 - INFO - Token: '0'
+2024-11-24 09:19:32,837 - INFO - URLs found: 38
+2024-11-24 09:19:32,837 - INFO - ==================================================
+
+2024-11-24 09:19:32,838 - INFO - 127.0.0.1 - - [24/Nov/2024 09:19:32] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 09:19:52,841 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:19:52,977 - INFO - Listening...
+2024-11-24 09:19:55,656 - INFO - Received request to process links
+2024-11-24 09:19:55,657 - INFO - 
+==================================================
+2024-11-24 09:19:55,657 - INFO - Updated Browser Data:
+2024-11-24 09:19:55,657 - INFO - ==================================================
+2024-11-24 09:19:55,657 - INFO - Current URL: https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist
+2024-11-24 09:19:55,657 - INFO - Token: '0'
+2024-11-24 09:19:55,657 - INFO - URLs found: 38
+2024-11-24 09:19:55,657 - INFO - ==================================================
+
+2024-11-24 09:19:55,658 - INFO - 127.0.0.1 - - [24/Nov/2024 09:19:55] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 09:19:56,090 - INFO - Could not understand audio
+2024-11-24 09:19:56,327 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:19:56,455 - INFO - Listening...
+2024-11-24 09:20:00,210 - INFO - Recognized: haitian music station
+2024-11-24 09:20:00,443 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:20:00,581 - INFO - Listening...
+2024-11-24 09:20:04,224 - INFO - Could not understand audio
+2024-11-24 09:20:04,466 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:20:04,597 - INFO - Listening...
+2024-11-24 09:20:07,678 - INFO - Could not understand audio
+2024-11-24 09:20:07,916 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:20:08,030 - INFO - Listening...
+2024-11-24 09:20:13,124 - INFO - Could not understand audio
+2024-11-24 09:20:13,362 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:20:13,483 - INFO - Listening...
+2024-11-24 09:20:18,859 - INFO - Recognized: pandora new york
+2024-11-24 09:20:19,099 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:20:19,202 - INFO - Listening...
+2024-11-24 09:20:22,150 - INFO - Could not understand audio
+2024-11-24 09:20:22,391 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:20:22,513 - INFO - Listening...
+2024-11-24 09:20:26,440 - INFO - Could not understand audio
+2024-11-24 09:20:26,683 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:20:26,808 - INFO - Listening...
+2024-11-24 09:20:29,919 - INFO - Could not understand audio
+2024-11-24 09:20:30,161 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:20:30,279 - INFO - Listening...
+2024-11-24 09:20:33,503 - INFO - Could not understand audio
+2024-11-24 09:20:33,741 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:20:33,861 - INFO - Listening...
+2024-11-24 09:20:37,097 - INFO - Could not understand audio
+2024-11-24 09:20:37,340 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:20:37,459 - INFO - Listening...
+2024-11-24 09:20:41,901 - INFO - Could not understand audio
+2024-11-24 09:20:42,140 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:20:42,269 - INFO - Listening...
+2024-11-24 09:20:42,795 - INFO - Received request to process links
+2024-11-24 09:20:42,796 - INFO - 
+==================================================
+2024-11-24 09:20:42,796 - INFO - Updated Browser Data:
+2024-11-24 09:20:42,796 - INFO - ==================================================
+2024-11-24 09:20:42,797 - INFO - Current URL: https://www.yorkusmiles.ca/site/home
+2024-11-24 09:20:42,797 - INFO - Token: '0'
+2024-11-24 09:20:42,797 - INFO - URLs found: 38
+2024-11-24 09:20:42,797 - INFO - ==================================================
+
+2024-11-24 09:20:42,798 - INFO - 127.0.0.1 - - [24/Nov/2024 09:20:42] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 09:20:45,125 - INFO - Could not understand audio
+2024-11-24 09:20:45,359 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:20:45,484 - INFO - Listening...
+2024-11-24 09:20:48,452 - INFO - Could not understand audio
+2024-11-24 09:20:48,695 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:20:48,817 - INFO - Listening...
+2024-11-24 09:20:51,935 - INFO - Recognized: hi vista
+2024-11-24 09:20:52,070 - INFO - Wake word detected!
+2024-11-24 09:20:55,113 - INFO - Listening for command...
+2024-11-24 09:20:55,229 - INFO - Listening...
+2024-11-24 09:21:00,025 - INFO - Recognized: can you tell me the telephone information on this website
+2024-11-24 09:21:00,161 - INFO - Retrieving Data. Please be patient
+2024-11-24 09:21:03,338 - INFO - Command received: can you tell me the telephone information on this website
+2024-11-24 09:21:03,339 - INFO - 
+==================================================
+2024-11-24 09:21:03,339 - INFO - DATA SENT TO BACKEND:
+2024-11-24 09:21:03,339 - INFO - ==================================================
+2024-11-24 09:21:03,339 - INFO - COMMAND: can you tell me the telephone information on this website
+2024-11-24 09:21:03,339 - INFO - TOKEN: '0'
+2024-11-24 09:21:03,339 - INFO - CURRENT URL: https://www.yorkusmiles.ca/site/home
+2024-11-24 09:21:03,339 - INFO - 
+ALL URLS:
+2024-11-24 09:21:03,340 - INFO - 1. https://www.yorkusmiles.ca/site/about-dentist-north-york-toronto
+2024-11-24 09:21:03,340 - INFO - 2. https://www.yorkusmiles.ca/site/dental-clinic-north-york-toronto
+2024-11-24 09:21:03,340 - INFO - 3. https://www.yorkusmiles.ca/site/dentists-north-york-toronto
+2024-11-24 09:21:03,340 - INFO - 4. https://www.yorkusmiles.ca/site/dental-team-north-york-toronto
+2024-11-24 09:21:03,340 - INFO - 5. https://www.yorkusmiles.ca/site/dental-technology-north-york
+2024-11-24 09:21:03,340 - INFO - 6. https://www.yorkusmiles.ca/site/home#
+2024-11-24 09:21:03,340 - INFO - 7. https://www.yorkusmiles.ca/site/dental-services-north-york-toronto
+2024-11-24 09:21:03,340 - INFO - 8. https://www.yorkusmiles.ca/site/general-dentistry-services-north-york
+2024-11-24 09:21:03,340 - INFO - 9. https://www.yorkusmiles.ca/site/cosmetic-dental-services-north-york
+2024-11-24 09:21:03,340 - INFO - 10. https://www.yorkusmiles.ca/site/oral-surgery-north-york-toronto
+2024-11-24 09:21:03,340 - INFO - 11. https://www.yorkusmiles.ca/site/dental-appliances-north-york
+2024-11-24 09:21:03,340 - INFO - 12. https://www.yorkusmiles.ca/site/periodontal-gum-therapy-north-york-toronto
+2024-11-24 09:21:03,340 - INFO - 13. https://www.yorkusmiles.ca/site/children-dental-care-north-york-toronto
+2024-11-24 09:21:03,340 - INFO - 14. https://www.yorkusmiles.ca/site/emergency-dental-care-north-york-toronto
+2024-11-24 09:21:03,340 - INFO - 15. https://www.yorkusmiles.ca/site/myofunctional-therapy-north-york-toronto
+2024-11-24 09:21:03,340 - INFO - 16. https://www.yorkusmiles.ca/site/invisalign-clear-aligners-north-york-toronto
+2024-11-24 09:21:03,340 - INFO - 17. https://www.yorkusmiles.ca/site/invisalign-clear-aligners-teen-north-york
+2024-11-24 09:21:03,340 - INFO - 18. https://www.yorkusmiles.ca/site/invisalign-process-north-york
+2024-11-24 09:21:03,340 - INFO - 19. https://www.yorkusmiles.ca/site/invisalign-treatable-cases-north-york
+2024-11-24 09:21:03,340 - INFO - 20. https://www.yorkusmiles.ca/site/invisalign-clear-aligners-faqs-north-york
+2024-11-24 09:21:03,340 - INFO - 21. https://www.yorkusmiles.ca/site/dental-sedation-north-york-toronto
+2024-11-24 09:21:03,340 - INFO - 22. https://www.yorkusmiles.ca/site/healthy-start
+2024-11-24 09:21:03,340 - INFO - 23. https://www.yorkusmiles.ca/site/patients-york-university-north-york
+2024-11-24 09:21:03,340 - INFO - 24. https://www.yorkusmiles.ca/site/york-university-students-north-york
+2024-11-24 09:21:03,341 - INFO - 25. https://www.yorkusmiles.ca/site/york-university-faculty-staff-north-york
+2024-11-24 09:21:03,341 - INFO - 26. https://www.yorkusmiles.ca/site/patient-information-north-york
+2024-11-24 09:21:03,341 - INFO - 27. https://www.yorkusmiles.ca/site/dental-blog
+2024-11-24 09:21:03,341 - INFO - 28. https://www.yorkusmiles.ca/site/career-opportunities
+2024-11-24 09:21:03,341 - INFO - 29. https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist
+2024-11-24 09:21:03,341 - INFO - 30. https://www.facebook.com/YorkUsmiles/
+2024-11-24 09:21:03,341 - INFO - 31. https://www.instagram.com/yorklanesdental/
+2024-11-24 09:21:03,341 - INFO - 32. https://www.yorkusmiles.ca/site/home#emergencyAlert
+2024-11-24 09:21:03,341 - INFO - 33. https://www.yorkusmiles.ca/site/home
+2024-11-24 09:21:03,341 - INFO - 34. https://www.yorkusmiles.ca/site/canadian-dental-care-plan
+2024-11-24 09:21:03,341 - INFO - 35. https://www.yorkusmiles.ca/site/privacy-policy
+2024-11-24 09:21:03,341 - INFO - 36. https://www.yorkusmiles.ca/site/website-accessibility
+2024-11-24 09:21:03,341 - INFO - 37. https://www.yorkusmiles.ca/site/search
+2024-11-24 09:21:03,341 - INFO - 38. https://www.yorkusmiles.ca/site/home#top
+2024-11-24 09:21:03,341 - INFO - ==================================================
+2024-11-24 09:22:27,569 - INFO - Received request to process links
+2024-11-24 09:22:27,570 - INFO - 
+==================================================
+2024-11-24 09:22:27,570 - INFO - Updated Browser Data:
+2024-11-24 09:22:27,570 - INFO - ==================================================
+2024-11-24 09:22:27,570 - INFO - Current URL: https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist
+2024-11-24 09:22:27,570 - INFO - Token: '0'
+2024-11-24 09:22:27,570 - INFO - URLs found: 38
+2024-11-24 09:22:27,570 - INFO - ==================================================
+
+2024-11-24 09:22:27,572 - INFO - 127.0.0.1 - - [24/Nov/2024 09:22:27] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 09:22:42,070 - INFO - Received request to process links
+2024-11-24 09:22:42,071 - INFO - 
+==================================================
+2024-11-24 09:22:42,071 - INFO - Updated Browser Data:
+2024-11-24 09:22:42,071 - INFO - ==================================================
+2024-11-24 09:22:42,071 - INFO - Current URL: https://claude.ai/chat/d98d8a75-43c6-44d1-a531-5a71cbf42e9e
+2024-11-24 09:22:42,071 - INFO - Token: '0'
+2024-11-24 09:22:42,071 - INFO - URLs found: 15
+2024-11-24 09:22:42,071 - INFO - ==================================================
+
+2024-11-24 09:22:42,072 - INFO - 127.0.0.1 - - [24/Nov/2024 09:22:42] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 09:23:39,668 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:23:39,797 - INFO - Listening...
+2024-11-24 09:23:43,581 - INFO - Recognized: i mean if you want we can just load it
+2024-11-24 09:23:43,821 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:23:43,953 - INFO - Listening...
+2024-11-24 09:23:49,166 - INFO - Could not understand audio
+2024-11-24 09:23:49,265 - INFO - Received request to process links
+2024-11-24 09:23:49,265 - INFO - 
+==================================================
+2024-11-24 09:23:49,265 - INFO - Updated Browser Data:
+2024-11-24 09:23:49,265 - INFO - ==================================================
+2024-11-24 09:23:49,265 - INFO - Current URL: https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist
+2024-11-24 09:23:49,265 - INFO - Token: '0'
+2024-11-24 09:23:49,265 - INFO - URLs found: 38
+2024-11-24 09:23:49,265 - INFO - ==================================================
+
+2024-11-24 09:23:49,266 - INFO - 127.0.0.1 - - [24/Nov/2024 09:23:49] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 09:23:49,408 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:23:49,520 - INFO - Listening...
+2024-11-24 09:23:54,852 - INFO - Could not understand audio
+2024-11-24 09:23:55,093 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:23:55,213 - INFO - Listening...
+2024-11-24 09:23:58,498 - INFO - Could not understand audio
+2024-11-24 09:23:58,736 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:23:58,853 - INFO - Listening...
+2024-11-24 09:24:01,897 - INFO - Could not understand audio
+2024-11-24 09:24:02,136 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:24:02,265 - INFO - Listening...
+2024-11-24 09:24:05,281 - INFO - Recognized: lemonade medical
+2024-11-24 09:24:05,518 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:24:05,650 - INFO - Listening...
+2024-11-24 09:24:09,305 - INFO - Recognized: go to area book
+2024-11-24 09:24:09,539 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:24:09,682 - INFO - Listening...
+2024-11-24 09:24:10,044 - INFO - Received request to process links
+2024-11-24 09:24:10,044 - INFO - 
+==================================================
+2024-11-24 09:24:10,044 - INFO - Updated Browser Data:
+2024-11-24 09:24:10,044 - INFO - ==================================================
+2024-11-24 09:24:10,044 - INFO - Current URL: https://www.google.com/search?q=promenade+medical&oq=promenade+medical&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQLhhA0gEINTQ5MGowajSoAgCwAgA&sourceid=chrome&ie=UTF-8
+2024-11-24 09:24:10,045 - INFO - Token: '0'
+2024-11-24 09:24:10,045 - INFO - URLs found: 67
+2024-11-24 09:24:10,045 - INFO - ==================================================
+
+2024-11-24 09:24:10,057 - INFO - 127.0.0.1 - - [24/Nov/2024 09:24:10] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 09:24:12,847 - INFO - Could not understand audio
+2024-11-24 09:24:13,086 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:24:13,229 - INFO - Listening...
+2024-11-24 09:24:16,603 - INFO - Recognized: which website called
+2024-11-24 09:24:16,841 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:24:16,970 - INFO - Listening...
+2024-11-24 09:24:20,533 - INFO - Received request to process links
+2024-11-24 09:24:20,533 - INFO - 
+==================================================
+2024-11-24 09:24:20,533 - INFO - Updated Browser Data:
+2024-11-24 09:24:20,533 - INFO - ==================================================
+2024-11-24 09:24:20,533 - INFO - Current URL: https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist
+2024-11-24 09:24:20,534 - INFO - Token: '0'
+2024-11-24 09:24:20,534 - INFO - URLs found: 38
+2024-11-24 09:24:20,534 - INFO - ==================================================
+
+2024-11-24 09:24:20,535 - INFO - 127.0.0.1 - - [24/Nov/2024 09:24:20] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 09:24:21,604 - INFO - Recognized: milky smiles
+2024-11-24 09:24:21,844 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:24:22,003 - INFO - Listening...
+2024-11-24 09:24:25,031 - INFO - Could not understand audio
+2024-11-24 09:24:25,288 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:24:25,381 - INFO - Listening...
+2024-11-24 09:24:29,425 - INFO - Could not understand audio
+2024-11-24 09:24:29,666 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:24:29,786 - INFO - Listening...
+2024-11-24 09:24:33,984 - INFO - Recognized: you want to do the different
+2024-11-24 09:24:34,228 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:24:34,348 - INFO - Listening...
+2024-11-24 09:24:38,145 - INFO - Recognized: this one
+2024-11-24 09:24:38,381 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:24:38,512 - INFO - Listening...
+2024-11-24 09:24:42,487 - INFO - Could not understand audio
+2024-11-24 09:24:42,725 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:24:42,829 - INFO - Listening...
+2024-11-24 09:24:45,612 - INFO - Recognized: travis scott
+2024-11-24 09:24:45,856 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:24:45,977 - INFO - Listening...
+2024-11-24 09:24:49,233 - INFO - Recognized: hi vist
+2024-11-24 09:24:49,470 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:24:49,590 - INFO - Listening...
+2024-11-24 09:24:54,146 - INFO - Recognized: time to
+2024-11-24 09:24:54,387 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:24:54,506 - INFO - Listening...
+2024-11-24 09:24:58,131 - INFO - Recognized: how do you spell
+2024-11-24 09:24:58,376 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:24:58,496 - INFO - Listening...
+2024-11-24 09:25:01,806 - INFO - Recognized: hi vista
+2024-11-24 09:25:01,938 - INFO - Wake word detected!
+2024-11-24 09:25:05,013 - INFO - Listening for command...
+2024-11-24 09:25:05,129 - INFO - Listening...
+2024-11-24 09:25:09,594 - INFO - Recognized: can you tell me the telephone information on this website
+2024-11-24 09:25:09,731 - INFO - Retrieving Data. Please be patient
+2024-11-24 09:25:12,971 - INFO - Command received: can you tell me the telephone information on this website
+2024-11-24 09:25:12,971 - INFO - 
+==================================================
+2024-11-24 09:25:12,972 - INFO - DATA SENT TO BACKEND:
+2024-11-24 09:25:12,972 - INFO - ==================================================
+2024-11-24 09:25:12,972 - INFO - COMMAND: can you tell me the telephone information on this website
+2024-11-24 09:25:12,972 - INFO - TOKEN: '0'
+2024-11-24 09:25:12,972 - INFO - CURRENT URL: https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist
+2024-11-24 09:25:12,972 - INFO - 
+ALL URLS:
+2024-11-24 09:25:12,972 - INFO - 1. https://www.yorkusmiles.ca/site/about-dentist-north-york-toronto
+2024-11-24 09:25:12,972 - INFO - 2. https://www.yorkusmiles.ca/site/dental-clinic-north-york-toronto
+2024-11-24 09:25:12,972 - INFO - 3. https://www.yorkusmiles.ca/site/dentists-north-york-toronto
+2024-11-24 09:25:12,972 - INFO - 4. https://www.yorkusmiles.ca/site/dental-team-north-york-toronto
+2024-11-24 09:25:12,972 - INFO - 5. https://www.yorkusmiles.ca/site/dental-technology-north-york
+2024-11-24 09:25:12,972 - INFO - 6. https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist#
+2024-11-24 09:25:12,972 - INFO - 7. https://www.yorkusmiles.ca/site/dental-services-north-york-toronto
+2024-11-24 09:25:12,972 - INFO - 8. https://www.yorkusmiles.ca/site/general-dentistry-services-north-york
+2024-11-24 09:25:12,972 - INFO - 9. https://www.yorkusmiles.ca/site/cosmetic-dental-services-north-york
+2024-11-24 09:25:12,972 - INFO - 10. https://www.yorkusmiles.ca/site/oral-surgery-north-york-toronto
+2024-11-24 09:25:12,972 - INFO - 11. https://www.yorkusmiles.ca/site/dental-appliances-north-york
+2024-11-24 09:25:12,972 - INFO - 12. https://www.yorkusmiles.ca/site/periodontal-gum-therapy-north-york-toronto
+2024-11-24 09:25:12,972 - INFO - 13. https://www.yorkusmiles.ca/site/children-dental-care-north-york-toronto
+2024-11-24 09:25:12,973 - INFO - 14. https://www.yorkusmiles.ca/site/emergency-dental-care-north-york-toronto
+2024-11-24 09:25:12,973 - INFO - 15. https://www.yorkusmiles.ca/site/myofunctional-therapy-north-york-toronto
+2024-11-24 09:25:12,973 - INFO - 16. https://www.yorkusmiles.ca/site/invisalign-clear-aligners-north-york-toronto
+2024-11-24 09:25:12,973 - INFO - 17. https://www.yorkusmiles.ca/site/invisalign-clear-aligners-teen-north-york
+2024-11-24 09:25:12,973 - INFO - 18. https://www.yorkusmiles.ca/site/invisalign-process-north-york
+2024-11-24 09:25:12,973 - INFO - 19. https://www.yorkusmiles.ca/site/invisalign-treatable-cases-north-york
+2024-11-24 09:25:12,973 - INFO - 20. https://www.yorkusmiles.ca/site/invisalign-clear-aligners-faqs-north-york
+2024-11-24 09:25:12,973 - INFO - 21. https://www.yorkusmiles.ca/site/dental-sedation-north-york-toronto
+2024-11-24 09:25:12,973 - INFO - 22. https://www.yorkusmiles.ca/site/healthy-start
+2024-11-24 09:25:12,973 - INFO - 23. https://www.yorkusmiles.ca/site/patients-york-university-north-york
+2024-11-24 09:25:12,973 - INFO - 24. https://www.yorkusmiles.ca/site/york-university-students-north-york
+2024-11-24 09:25:12,973 - INFO - 25. https://www.yorkusmiles.ca/site/york-university-faculty-staff-north-york
+2024-11-24 09:25:12,973 - INFO - 26. https://www.yorkusmiles.ca/site/patient-information-north-york
+2024-11-24 09:25:12,973 - INFO - 27. https://www.yorkusmiles.ca/site/dental-blog
+2024-11-24 09:25:12,973 - INFO - 28. https://www.yorkusmiles.ca/site/career-opportunities
+2024-11-24 09:25:12,973 - INFO - 29. https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist
+2024-11-24 09:25:12,973 - INFO - 30. https://www.facebook.com/YorkUsmiles/
+2024-11-24 09:25:12,973 - INFO - 31. https://www.instagram.com/yorklanesdental/
+2024-11-24 09:25:12,973 - INFO - 32. https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist#emergencyAlert
+2024-11-24 09:25:12,974 - INFO - 33. https://www.yorkusmiles.ca/site/home
+2024-11-24 09:25:12,974 - INFO - 34. https://www.yorkusmiles.ca/site/canadian-dental-care-plan
+2024-11-24 09:25:12,974 - INFO - 35. https://www.yorkusmiles.ca/site/privacy-policy
+2024-11-24 09:25:12,974 - INFO - 36. https://www.yorkusmiles.ca/site/website-accessibility
+2024-11-24 09:25:12,974 - INFO - 37. https://www.yorkusmiles.ca/site/search
+2024-11-24 09:25:12,974 - INFO - 38. https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist#top
+2024-11-24 09:25:12,974 - INFO - ==================================================
+2024-11-24 09:28:00,931 - INFO - 
+==================================================
+2024-11-24 09:28:00,933 - INFO - BACKEND RESPONSE:
+2024-11-24 09:28:00,933 - INFO - ==================================================
+2024-11-24 09:28:00,933 - INFO - The phone number listed on this website is:
+
+(437) 886-9305
+2024-11-24 09:28:00,933 - INFO - ==================================================
+
+2024-11-24 09:28:14,240 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:28:14,363 - INFO - Listening...
+2024-11-24 09:28:17,605 - INFO - Could not understand audio
+2024-11-24 09:28:17,846 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:28:17,966 - INFO - Listening...
+2024-11-24 09:28:21,304 - INFO - Recognized: harvester
+2024-11-24 09:28:21,545 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:28:21,666 - INFO - Listening...
+2024-11-24 09:28:25,171 - INFO - Recognized: hi vista
+2024-11-24 09:28:25,306 - INFO - Wake word detected!
+2024-11-24 09:28:28,406 - INFO - Listening for command...
+2024-11-24 09:28:28,521 - INFO - Listening...
+2024-11-24 09:28:34,196 - INFO - Recognized: can you please tell me what are the sedation options on this website
+2024-11-24 09:28:34,335 - INFO - Command received: can you please tell me what are the sedation options on this website
+2024-11-24 09:28:34,335 - INFO - 
+==================================================
+2024-11-24 09:28:34,335 - INFO - DATA SENT TO BACKEND:
+2024-11-24 09:28:34,335 - INFO - ==================================================
+2024-11-24 09:28:34,335 - INFO - COMMAND: can you please tell me what are the sedation options on this website
+2024-11-24 09:28:34,335 - INFO - TOKEN: '1'
+2024-11-24 09:28:34,335 - INFO - CURRENT URL: https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist
+2024-11-24 09:28:34,336 - INFO - 
+ALL URLS:
+2024-11-24 09:28:34,336 - INFO - 1. https://www.yorkusmiles.ca/site/about-dentist-north-york-toronto
+2024-11-24 09:28:34,336 - INFO - 2. https://www.yorkusmiles.ca/site/dental-clinic-north-york-toronto
+2024-11-24 09:28:34,336 - INFO - 3. https://www.yorkusmiles.ca/site/dentists-north-york-toronto
+2024-11-24 09:28:34,336 - INFO - 4. https://www.yorkusmiles.ca/site/dental-team-north-york-toronto
+2024-11-24 09:28:34,336 - INFO - 5. https://www.yorkusmiles.ca/site/dental-technology-north-york
+2024-11-24 09:28:34,336 - INFO - 6. https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist#
+2024-11-24 09:28:34,336 - INFO - 7. https://www.yorkusmiles.ca/site/dental-services-north-york-toronto
+2024-11-24 09:28:34,336 - INFO - 8. https://www.yorkusmiles.ca/site/general-dentistry-services-north-york
+2024-11-24 09:28:34,336 - INFO - 9. https://www.yorkusmiles.ca/site/cosmetic-dental-services-north-york
+2024-11-24 09:28:34,336 - INFO - 10. https://www.yorkusmiles.ca/site/oral-surgery-north-york-toronto
+2024-11-24 09:28:34,336 - INFO - 11. https://www.yorkusmiles.ca/site/dental-appliances-north-york
+2024-11-24 09:28:34,336 - INFO - 12. https://www.yorkusmiles.ca/site/periodontal-gum-therapy-north-york-toronto
+2024-11-24 09:28:34,336 - INFO - 13. https://www.yorkusmiles.ca/site/children-dental-care-north-york-toronto
+2024-11-24 09:28:34,336 - INFO - 14. https://www.yorkusmiles.ca/site/emergency-dental-care-north-york-toronto
+2024-11-24 09:28:34,336 - INFO - 15. https://www.yorkusmiles.ca/site/myofunctional-therapy-north-york-toronto
+2024-11-24 09:28:34,337 - INFO - 16. https://www.yorkusmiles.ca/site/invisalign-clear-aligners-north-york-toronto
+2024-11-24 09:28:34,337 - INFO - 17. https://www.yorkusmiles.ca/site/invisalign-clear-aligners-teen-north-york
+2024-11-24 09:28:34,337 - INFO - 18. https://www.yorkusmiles.ca/site/invisalign-process-north-york
+2024-11-24 09:28:34,337 - INFO - 19. https://www.yorkusmiles.ca/site/invisalign-treatable-cases-north-york
+2024-11-24 09:28:34,337 - INFO - 20. https://www.yorkusmiles.ca/site/invisalign-clear-aligners-faqs-north-york
+2024-11-24 09:28:34,337 - INFO - 21. https://www.yorkusmiles.ca/site/dental-sedation-north-york-toronto
+2024-11-24 09:28:34,337 - INFO - 22. https://www.yorkusmiles.ca/site/healthy-start
+2024-11-24 09:28:34,337 - INFO - 23. https://www.yorkusmiles.ca/site/patients-york-university-north-york
+2024-11-24 09:28:34,337 - INFO - 24. https://www.yorkusmiles.ca/site/york-university-students-north-york
+2024-11-24 09:28:34,337 - INFO - 25. https://www.yorkusmiles.ca/site/york-university-faculty-staff-north-york
+2024-11-24 09:28:34,337 - INFO - 26. https://www.yorkusmiles.ca/site/patient-information-north-york
+2024-11-24 09:28:34,337 - INFO - 27. https://www.yorkusmiles.ca/site/dental-blog
+2024-11-24 09:28:34,337 - INFO - 28. https://www.yorkusmiles.ca/site/career-opportunities
+2024-11-24 09:28:34,337 - INFO - 29. https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist
+2024-11-24 09:28:34,337 - INFO - 30. https://www.facebook.com/YorkUsmiles/
+2024-11-24 09:28:34,337 - INFO - 31. https://www.instagram.com/yorklanesdental/
+2024-11-24 09:28:34,337 - INFO - 32. https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist#emergencyAlert
+2024-11-24 09:28:34,337 - INFO - 33. https://www.yorkusmiles.ca/site/home
+2024-11-24 09:28:34,337 - INFO - 34. https://www.yorkusmiles.ca/site/canadian-dental-care-plan
+2024-11-24 09:28:34,337 - INFO - 35. https://www.yorkusmiles.ca/site/privacy-policy
+2024-11-24 09:28:34,337 - INFO - 36. https://www.yorkusmiles.ca/site/website-accessibility
+2024-11-24 09:28:34,338 - INFO - 37. https://www.yorkusmiles.ca/site/search
+2024-11-24 09:28:34,338 - INFO - 38. https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist#top
+2024-11-24 09:28:34,338 - INFO - ==================================================
+2024-11-24 09:28:36,764 - INFO - 
+==================================================
+2024-11-24 09:28:36,765 - INFO - BACKEND RESPONSE:
+2024-11-24 09:28:36,765 - INFO - ==================================================
+2024-11-24 09:28:36,765 - INFO - The text does not mention "sedation options" but rather a page titled "Sedation" which is not explicitly mentioned in the provided text. However, based on the context and the presence of a dedicated page for it, I can infer that York Lanes Dental offers sedation as an option.
+
+If you're looking for specific information about sedation options offered by York Lanes Dental, I would recommend visiting their website directly or contacting them to inquire about available services.
+2024-11-24 09:28:36,765 - INFO - ==================================================
+
+2024-11-24 09:29:19,774 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:29:19,894 - INFO - Listening...
+2024-11-24 09:29:22,989 - INFO - Recognized: play my
+2024-11-24 09:29:23,231 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:29:23,351 - INFO - Listening...
+2024-11-24 09:29:26,368 - INFO - Recognized: hi vista
+2024-11-24 09:29:26,506 - INFO - Wake word detected!
+2024-11-24 09:29:29,783 - INFO - Listening for command...
+2024-11-24 09:29:29,904 - INFO - Listening...
+2024-11-24 09:29:36,564 - INFO - Recognized: can you tell me about the treatment processes on the new york lanes dental office
+2024-11-24 09:29:36,700 - INFO - Command received: can you tell me about the treatment processes on the new york lanes dental office
+2024-11-24 09:29:36,701 - INFO - 
+==================================================
+2024-11-24 09:29:36,701 - INFO - DATA SENT TO BACKEND:
+2024-11-24 09:29:36,701 - INFO - ==================================================
+2024-11-24 09:29:36,701 - INFO - COMMAND: can you tell me about the treatment processes on the new york lanes dental office
+2024-11-24 09:29:36,701 - INFO - TOKEN: '1'
+2024-11-24 09:29:36,701 - INFO - CURRENT URL: https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist
+2024-11-24 09:29:36,701 - INFO - 
+ALL URLS:
+2024-11-24 09:29:36,701 - INFO - 1. https://www.yorkusmiles.ca/site/about-dentist-north-york-toronto
+2024-11-24 09:29:36,701 - INFO - 2. https://www.yorkusmiles.ca/site/dental-clinic-north-york-toronto
+2024-11-24 09:29:36,701 - INFO - 3. https://www.yorkusmiles.ca/site/dentists-north-york-toronto
+2024-11-24 09:29:36,701 - INFO - 4. https://www.yorkusmiles.ca/site/dental-team-north-york-toronto
+2024-11-24 09:29:36,701 - INFO - 5. https://www.yorkusmiles.ca/site/dental-technology-north-york
+2024-11-24 09:29:36,701 - INFO - 6. https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist#
+2024-11-24 09:29:36,701 - INFO - 7. https://www.yorkusmiles.ca/site/dental-services-north-york-toronto
+2024-11-24 09:29:36,702 - INFO - 8. https://www.yorkusmiles.ca/site/general-dentistry-services-north-york
+2024-11-24 09:29:36,702 - INFO - 9. https://www.yorkusmiles.ca/site/cosmetic-dental-services-north-york
+2024-11-24 09:29:36,702 - INFO - 10. https://www.yorkusmiles.ca/site/oral-surgery-north-york-toronto
+2024-11-24 09:29:36,702 - INFO - 11. https://www.yorkusmiles.ca/site/dental-appliances-north-york
+2024-11-24 09:29:36,702 - INFO - 12. https://www.yorkusmiles.ca/site/periodontal-gum-therapy-north-york-toronto
+2024-11-24 09:29:36,702 - INFO - 13. https://www.yorkusmiles.ca/site/children-dental-care-north-york-toronto
+2024-11-24 09:29:36,702 - INFO - 14. https://www.yorkusmiles.ca/site/emergency-dental-care-north-york-toronto
+2024-11-24 09:29:36,702 - INFO - 15. https://www.yorkusmiles.ca/site/myofunctional-therapy-north-york-toronto
+2024-11-24 09:29:36,702 - INFO - 16. https://www.yorkusmiles.ca/site/invisalign-clear-aligners-north-york-toronto
+2024-11-24 09:29:36,702 - INFO - 17. https://www.yorkusmiles.ca/site/invisalign-clear-aligners-teen-north-york
+2024-11-24 09:29:36,702 - INFO - 18. https://www.yorkusmiles.ca/site/invisalign-process-north-york
+2024-11-24 09:29:36,702 - INFO - 19. https://www.yorkusmiles.ca/site/invisalign-treatable-cases-north-york
+2024-11-24 09:29:36,703 - INFO - 20. https://www.yorkusmiles.ca/site/invisalign-clear-aligners-faqs-north-york
+2024-11-24 09:29:36,703 - INFO - 21. https://www.yorkusmiles.ca/site/dental-sedation-north-york-toronto
+2024-11-24 09:29:36,703 - INFO - 22. https://www.yorkusmiles.ca/site/healthy-start
+2024-11-24 09:29:36,703 - INFO - 23. https://www.yorkusmiles.ca/site/patients-york-university-north-york
+2024-11-24 09:29:36,703 - INFO - 24. https://www.yorkusmiles.ca/site/york-university-students-north-york
+2024-11-24 09:29:36,703 - INFO - 25. https://www.yorkusmiles.ca/site/york-university-faculty-staff-north-york
+2024-11-24 09:29:36,703 - INFO - 26. https://www.yorkusmiles.ca/site/patient-information-north-york
+2024-11-24 09:29:36,703 - INFO - 27. https://www.yorkusmiles.ca/site/dental-blog
+2024-11-24 09:29:36,703 - INFO - 28. https://www.yorkusmiles.ca/site/career-opportunities
+2024-11-24 09:29:36,703 - INFO - 29. https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist
+2024-11-24 09:29:36,703 - INFO - 30. https://www.facebook.com/YorkUsmiles/
+2024-11-24 09:29:36,703 - INFO - 31. https://www.instagram.com/yorklanesdental/
+2024-11-24 09:29:36,703 - INFO - 32. https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist#emergencyAlert
+2024-11-24 09:29:36,703 - INFO - 33. https://www.yorkusmiles.ca/site/home
+2024-11-24 09:29:36,703 - INFO - 34. https://www.yorkusmiles.ca/site/canadian-dental-care-plan
+2024-11-24 09:29:36,703 - INFO - 35. https://www.yorkusmiles.ca/site/privacy-policy
+2024-11-24 09:29:36,703 - INFO - 36. https://www.yorkusmiles.ca/site/website-accessibility
+2024-11-24 09:29:36,703 - INFO - 37. https://www.yorkusmiles.ca/site/search
+2024-11-24 09:29:36,704 - INFO - 38. https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist#top
+2024-11-24 09:29:36,704 - INFO - ==================================================
+2024-11-24 09:29:40,124 - INFO - 
+==================================================
+2024-11-24 09:29:40,125 - INFO - BACKEND RESPONSE:
+2024-11-24 09:29:40,125 - INFO - ==================================================
+2024-11-24 09:29:40,125 - INFO - Based on the text, here's an overview of the treatment process for Invisalign at York Lanes Dental Office:
+
+1. **Medical History Review**: The dentist will review your medical and dental history to determine if you're a good candidate for Invisalign.
+2. **Oral Examination**: A thorough oral examination will be conducted to identify any issues that may not have been apparent in your records. This includes digital impressions and x-rays.
+3. **Treatment Planning**: Based on the results of the medical history review and oral examination, the dentist will determine if Invisalign is a suitable treatment option for you. If so, they'll discuss your treatment plan with you.
+4. **Initial Fitting**: You'll schedule an appointment to have your initial aligner fitting, which may take anywhere from 30 to 60 minutes.
+
+Note that this is specific to Invisalign treatment and may not represent the full range of dental services offered at York Lanes Dental Office. If you have any further questions or would like more information on other treatment processes, feel free to ask!
+2024-11-24 09:29:40,125 - INFO - ==================================================
+
+2024-11-24 09:31:09,857 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:31:09,985 - INFO - Listening...
+2024-11-24 09:31:13,007 - INFO - Recognized: dental plan for students
+2024-11-24 09:31:13,250 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:31:13,368 - INFO - Listening...
+2024-11-24 09:31:16,306 - INFO - Recognized: hi vista
+2024-11-24 09:31:16,444 - INFO - Wake word detected!
+2024-11-24 09:31:19,778 - INFO - Listening for command...
+2024-11-24 09:31:19,894 - INFO - Listening...
+2024-11-24 09:31:26,418 - INFO - Recognized: can you please tell me about the dental plans for students at the auckland center
+2024-11-24 09:31:26,555 - INFO - Command received: can you please tell me about the dental plans for students at the auckland center
+2024-11-24 09:31:26,556 - INFO - 
+==================================================
+2024-11-24 09:31:26,556 - INFO - DATA SENT TO BACKEND:
+2024-11-24 09:31:26,556 - INFO - ==================================================
+2024-11-24 09:31:26,556 - INFO - COMMAND: can you please tell me about the dental plans for students at the auckland center
+2024-11-24 09:31:26,556 - INFO - TOKEN: '1'
+2024-11-24 09:31:26,556 - INFO - CURRENT URL: https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist
+2024-11-24 09:31:26,556 - INFO - 
+ALL URLS:
+2024-11-24 09:31:26,556 - INFO - 1. https://www.yorkusmiles.ca/site/about-dentist-north-york-toronto
+2024-11-24 09:31:26,556 - INFO - 2. https://www.yorkusmiles.ca/site/dental-clinic-north-york-toronto
+2024-11-24 09:31:26,556 - INFO - 3. https://www.yorkusmiles.ca/site/dentists-north-york-toronto
+2024-11-24 09:31:26,556 - INFO - 4. https://www.yorkusmiles.ca/site/dental-team-north-york-toronto
+2024-11-24 09:31:26,556 - INFO - 5. https://www.yorkusmiles.ca/site/dental-technology-north-york
+2024-11-24 09:31:26,556 - INFO - 6. https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist#
+2024-11-24 09:31:26,557 - INFO - 7. https://www.yorkusmiles.ca/site/dental-services-north-york-toronto
+2024-11-24 09:31:26,557 - INFO - 8. https://www.yorkusmiles.ca/site/general-dentistry-services-north-york
+2024-11-24 09:31:26,557 - INFO - 9. https://www.yorkusmiles.ca/site/cosmetic-dental-services-north-york
+2024-11-24 09:31:26,557 - INFO - 10. https://www.yorkusmiles.ca/site/oral-surgery-north-york-toronto
+2024-11-24 09:31:26,557 - INFO - 11. https://www.yorkusmiles.ca/site/dental-appliances-north-york
+2024-11-24 09:31:26,557 - INFO - 12. https://www.yorkusmiles.ca/site/periodontal-gum-therapy-north-york-toronto
+2024-11-24 09:31:26,557 - INFO - 13. https://www.yorkusmiles.ca/site/children-dental-care-north-york-toronto
+2024-11-24 09:31:26,557 - INFO - 14. https://www.yorkusmiles.ca/site/emergency-dental-care-north-york-toronto
+2024-11-24 09:31:26,557 - INFO - 15. https://www.yorkusmiles.ca/site/myofunctional-therapy-north-york-toronto
+2024-11-24 09:31:26,557 - INFO - 16. https://www.yorkusmiles.ca/site/invisalign-clear-aligners-north-york-toronto
+2024-11-24 09:31:26,557 - INFO - 17. https://www.yorkusmiles.ca/site/invisalign-clear-aligners-teen-north-york
+2024-11-24 09:31:26,557 - INFO - 18. https://www.yorkusmiles.ca/site/invisalign-process-north-york
+2024-11-24 09:31:26,557 - INFO - 19. https://www.yorkusmiles.ca/site/invisalign-treatable-cases-north-york
+2024-11-24 09:31:26,557 - INFO - 20. https://www.yorkusmiles.ca/site/invisalign-clear-aligners-faqs-north-york
+2024-11-24 09:31:26,557 - INFO - 21. https://www.yorkusmiles.ca/site/dental-sedation-north-york-toronto
+2024-11-24 09:31:26,557 - INFO - 22. https://www.yorkusmiles.ca/site/healthy-start
+2024-11-24 09:31:26,557 - INFO - 23. https://www.yorkusmiles.ca/site/patients-york-university-north-york
+2024-11-24 09:31:26,557 - INFO - 24. https://www.yorkusmiles.ca/site/york-university-students-north-york
+2024-11-24 09:31:26,557 - INFO - 25. https://www.yorkusmiles.ca/site/york-university-faculty-staff-north-york
+2024-11-24 09:31:26,557 - INFO - 26. https://www.yorkusmiles.ca/site/patient-information-north-york
+2024-11-24 09:31:26,557 - INFO - 27. https://www.yorkusmiles.ca/site/dental-blog
+2024-11-24 09:31:26,558 - INFO - 28. https://www.yorkusmiles.ca/site/career-opportunities
+2024-11-24 09:31:26,558 - INFO - 29. https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist
+2024-11-24 09:31:26,558 - INFO - 30. https://www.facebook.com/YorkUsmiles/
+2024-11-24 09:31:26,558 - INFO - 31. https://www.instagram.com/yorklanesdental/
+2024-11-24 09:31:26,558 - INFO - 32. https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist#emergencyAlert
+2024-11-24 09:31:26,558 - INFO - 33. https://www.yorkusmiles.ca/site/home
+2024-11-24 09:31:26,558 - INFO - 34. https://www.yorkusmiles.ca/site/canadian-dental-care-plan
+2024-11-24 09:31:26,558 - INFO - 35. https://www.yorkusmiles.ca/site/privacy-policy
+2024-11-24 09:31:26,558 - INFO - 36. https://www.yorkusmiles.ca/site/website-accessibility
+2024-11-24 09:31:26,558 - INFO - 37. https://www.yorkusmiles.ca/site/search
+2024-11-24 09:31:26,558 - INFO - 38. https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist#top
+2024-11-24 09:31:26,558 - INFO - ==================================================
+2024-11-24 09:31:28,875 - INFO - 
+==================================================
+2024-11-24 09:31:28,876 - INFO - BACKEND RESPONSE:
+2024-11-24 09:31:28,876 - INFO - ==================================================
+2024-11-24 09:31:28,876 - INFO - Based on the provided text, there is no information about a "Auckland Center" or dental plans specifically for students. The text appears to be from a dental practice in Toronto, Canada, and discusses their services, staff, and hours of operation. It also mentions welcoming new patients with Canadian Dental Care Plan (CDCP) coverage, but does not mention anything related to an Auckland center or student-specific dental plans.
+2024-11-24 09:31:28,876 - INFO - ==================================================
+
+2024-11-24 09:32:09,982 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:32:10,109 - INFO - Listening...
+2024-11-24 09:32:13,205 - INFO - Recognized: play lord of hazzard to change now
+2024-11-24 09:32:13,448 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:32:13,571 - INFO - Listening...
+2024-11-24 09:32:16,825 - INFO - Recognized: on the beach model
+2024-11-24 09:32:17,068 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:32:17,188 - INFO - Listening...
+2024-11-24 09:32:20,160 - INFO - Could not understand audio
+2024-11-24 09:32:20,402 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:32:20,520 - INFO - Listening...
+2024-11-24 09:32:24,276 - INFO - Could not understand audio
+2024-11-24 09:32:24,517 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:32:24,641 - INFO - Listening...
+2024-11-24 09:32:27,382 - INFO - Could not understand audio
+2024-11-24 09:32:27,619 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:32:27,739 - INFO - Listening...
+2024-11-24 09:32:30,816 - INFO - Could not understand audio
+2024-11-24 09:32:31,055 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:32:31,151 - INFO - Listening...
+2024-11-24 09:32:34,911 - INFO - Could not understand audio
+2024-11-24 09:32:35,156 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:32:35,291 - INFO - Listening...
+2024-11-24 09:32:39,316 - INFO - Recognized: connect to speech right
+2024-11-24 09:32:39,559 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:32:39,692 - INFO - Listening...
+2024-11-24 09:32:42,694 - INFO - Could not understand audio
+2024-11-24 09:32:42,930 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:32:43,052 - INFO - Listening...
+2024-11-24 09:32:46,381 - INFO - Recognized: what's the radio 150
+2024-11-24 09:32:46,621 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:32:46,742 - INFO - Listening...
+2024-11-24 09:32:49,732 - INFO - Could not understand audio
+2024-11-24 09:32:49,971 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:32:50,089 - INFO - Listening...
+2024-11-24 09:32:52,635 - INFO - Could not understand audio
+2024-11-24 09:32:52,874 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:32:52,992 - INFO - Listening...
+2024-11-24 09:32:56,148 - INFO - Could not understand audio
+2024-11-24 09:32:56,390 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:32:56,554 - INFO - Listening...
+2024-11-24 09:33:02,379 - INFO - Could not understand audio
+2024-11-24 09:33:02,615 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:33:02,733 - INFO - Listening...
+2024-11-24 09:33:06,872 - INFO - Could not understand audio
+2024-11-24 09:33:07,113 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:33:07,524 - INFO - Listening...
+2024-11-24 09:33:12,084 - INFO - Recognized: are you close it
+2024-11-24 09:33:12,322 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:33:12,441 - INFO - Listening...
+2024-11-24 09:33:15,455 - INFO - Could not understand audio
+2024-11-24 09:33:15,698 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:33:15,822 - INFO - Listening...
+2024-11-24 09:33:19,152 - INFO - Recognized: hi vista
+2024-11-24 09:33:19,291 - INFO - Wake word detected!
+2024-11-24 09:33:22,264 - INFO - Listening for command...
+2024-11-24 09:33:22,380 - INFO - Listening...
+2024-11-24 09:33:26,215 - INFO - Recognized: can you tell about the student dental plans
+2024-11-24 09:33:26,352 - INFO - Command received: can you tell about the student dental plans
+2024-11-24 09:33:26,353 - INFO - 
+==================================================
+2024-11-24 09:33:26,353 - INFO - DATA SENT TO BACKEND:
+2024-11-24 09:33:26,353 - INFO - ==================================================
+2024-11-24 09:33:26,353 - INFO - COMMAND: can you tell about the student dental plans
+2024-11-24 09:33:26,353 - INFO - TOKEN: '1'
+2024-11-24 09:33:26,353 - INFO - CURRENT URL: https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist
+2024-11-24 09:33:26,353 - INFO - 
+ALL URLS:
+2024-11-24 09:33:26,353 - INFO - 1. https://www.yorkusmiles.ca/site/about-dentist-north-york-toronto
+2024-11-24 09:33:26,353 - INFO - 2. https://www.yorkusmiles.ca/site/dental-clinic-north-york-toronto
+2024-11-24 09:33:26,353 - INFO - 3. https://www.yorkusmiles.ca/site/dentists-north-york-toronto
+2024-11-24 09:33:26,353 - INFO - 4. https://www.yorkusmiles.ca/site/dental-team-north-york-toronto
+2024-11-24 09:33:26,353 - INFO - 5. https://www.yorkusmiles.ca/site/dental-technology-north-york
+2024-11-24 09:33:26,354 - INFO - 6. https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist#
+2024-11-24 09:33:26,354 - INFO - 7. https://www.yorkusmiles.ca/site/dental-services-north-york-toronto
+2024-11-24 09:33:26,354 - INFO - 8. https://www.yorkusmiles.ca/site/general-dentistry-services-north-york
+2024-11-24 09:33:26,354 - INFO - 9. https://www.yorkusmiles.ca/site/cosmetic-dental-services-north-york
+2024-11-24 09:33:26,354 - INFO - 10. https://www.yorkusmiles.ca/site/oral-surgery-north-york-toronto
+2024-11-24 09:33:26,354 - INFO - 11. https://www.yorkusmiles.ca/site/dental-appliances-north-york
+2024-11-24 09:33:26,354 - INFO - 12. https://www.yorkusmiles.ca/site/periodontal-gum-therapy-north-york-toronto
+2024-11-24 09:33:26,354 - INFO - 13. https://www.yorkusmiles.ca/site/children-dental-care-north-york-toronto
+2024-11-24 09:33:26,354 - INFO - 14. https://www.yorkusmiles.ca/site/emergency-dental-care-north-york-toronto
+2024-11-24 09:33:26,354 - INFO - 15. https://www.yorkusmiles.ca/site/myofunctional-therapy-north-york-toronto
+2024-11-24 09:33:26,354 - INFO - 16. https://www.yorkusmiles.ca/site/invisalign-clear-aligners-north-york-toronto
+2024-11-24 09:33:26,354 - INFO - 17. https://www.yorkusmiles.ca/site/invisalign-clear-aligners-teen-north-york
+2024-11-24 09:33:26,354 - INFO - 18. https://www.yorkusmiles.ca/site/invisalign-process-north-york
+2024-11-24 09:33:26,354 - INFO - 19. https://www.yorkusmiles.ca/site/invisalign-treatable-cases-north-york
+2024-11-24 09:33:26,354 - INFO - 20. https://www.yorkusmiles.ca/site/invisalign-clear-aligners-faqs-north-york
+2024-11-24 09:33:26,354 - INFO - 21. https://www.yorkusmiles.ca/site/dental-sedation-north-york-toronto
+2024-11-24 09:33:26,354 - INFO - 22. https://www.yorkusmiles.ca/site/healthy-start
+2024-11-24 09:33:26,354 - INFO - 23. https://www.yorkusmiles.ca/site/patients-york-university-north-york
+2024-11-24 09:33:26,354 - INFO - 24. https://www.yorkusmiles.ca/site/york-university-students-north-york
+2024-11-24 09:33:26,354 - INFO - 25. https://www.yorkusmiles.ca/site/york-university-faculty-staff-north-york
+2024-11-24 09:33:26,355 - INFO - 26. https://www.yorkusmiles.ca/site/patient-information-north-york
+2024-11-24 09:33:26,355 - INFO - 27. https://www.yorkusmiles.ca/site/dental-blog
+2024-11-24 09:33:26,355 - INFO - 28. https://www.yorkusmiles.ca/site/career-opportunities
+2024-11-24 09:33:26,355 - INFO - 29. https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist
+2024-11-24 09:33:26,355 - INFO - 30. https://www.facebook.com/YorkUsmiles/
+2024-11-24 09:33:26,355 - INFO - 31. https://www.instagram.com/yorklanesdental/
+2024-11-24 09:33:26,355 - INFO - 32. https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist#emergencyAlert
+2024-11-24 09:33:26,355 - INFO - 33. https://www.yorkusmiles.ca/site/home
+2024-11-24 09:33:26,355 - INFO - 34. https://www.yorkusmiles.ca/site/canadian-dental-care-plan
+2024-11-24 09:33:26,355 - INFO - 35. https://www.yorkusmiles.ca/site/privacy-policy
+2024-11-24 09:33:26,355 - INFO - 36. https://www.yorkusmiles.ca/site/website-accessibility
+2024-11-24 09:33:26,355 - INFO - 37. https://www.yorkusmiles.ca/site/search
+2024-11-24 09:33:26,355 - INFO - 38. https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist#top
+2024-11-24 09:33:26,355 - INFO - ==================================================
+2024-11-24 09:33:28,981 - INFO - 
+==================================================
+2024-11-24 09:33:28,981 - INFO - BACKEND RESPONSE:
+2024-11-24 09:33:28,981 - INFO - ==================================================
+2024-11-24 09:33:28,982 - INFO - York Lanes Dental offers a student-friendly dental plan, specifically designed to accommodate students who have Canadian Dental Care Plan (CDCP) coverage. This means they welcome patients with CDCP coverage and are happy to discuss their dental needs with them.
+
+In particular, it seems that York Lanes Dental is equipped to handle the Invisalign process for students who may be good candidates. The process involves an assessment of your smile by a dentist, which includes reviewing medical and dental history, performing an oral examination, taking digital impressions and x-rays, and discussing treatment options.
+
+They also have information about HealthyStart, which appears to be a series of removable oral appliances that can help straighten teeth and promote healthy jaw development.
+2024-11-24 09:33:28,982 - INFO - ==================================================
+
+2024-11-24 09:34:35,295 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:34:35,430 - INFO - Listening...
+2024-11-24 09:34:38,211 - INFO - Could not understand audio
+2024-11-24 09:34:38,448 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:34:38,569 - INFO - Listening...
+2024-11-24 09:34:41,458 - INFO - Could not understand audio
+2024-11-24 09:34:41,699 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:34:41,818 - INFO - Listening...
+2024-11-24 09:34:44,655 - INFO - Recognized: hi vista
+2024-11-24 09:34:44,792 - INFO - Wake word detected!
+2024-11-24 09:34:47,768 - INFO - Listening for command...
+2024-11-24 09:34:47,887 - INFO - Listening...
+2024-11-24 09:34:51,683 - INFO - Recognized: open about healthy start please
+2024-11-24 09:34:51,819 - INFO - Command received: open about healthy start please
+2024-11-24 09:34:51,819 - INFO - 
+==================================================
+2024-11-24 09:34:51,820 - INFO - DATA SENT TO BACKEND:
+2024-11-24 09:34:51,820 - INFO - ==================================================
+2024-11-24 09:34:51,820 - INFO - COMMAND: open about healthy start please
+2024-11-24 09:34:51,820 - INFO - TOKEN: '1'
+2024-11-24 09:34:51,820 - INFO - CURRENT URL: https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist
+2024-11-24 09:34:51,820 - INFO - 
+ALL URLS:
+2024-11-24 09:34:51,820 - INFO - 1. https://www.yorkusmiles.ca/site/about-dentist-north-york-toronto
+2024-11-24 09:34:51,820 - INFO - 2. https://www.yorkusmiles.ca/site/dental-clinic-north-york-toronto
+2024-11-24 09:34:51,820 - INFO - 3. https://www.yorkusmiles.ca/site/dentists-north-york-toronto
+2024-11-24 09:34:51,820 - INFO - 4. https://www.yorkusmiles.ca/site/dental-team-north-york-toronto
+2024-11-24 09:34:51,820 - INFO - 5. https://www.yorkusmiles.ca/site/dental-technology-north-york
+2024-11-24 09:34:51,820 - INFO - 6. https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist#
+2024-11-24 09:34:51,820 - INFO - 7. https://www.yorkusmiles.ca/site/dental-services-north-york-toronto
+2024-11-24 09:34:51,820 - INFO - 8. https://www.yorkusmiles.ca/site/general-dentistry-services-north-york
+2024-11-24 09:34:51,820 - INFO - 9. https://www.yorkusmiles.ca/site/cosmetic-dental-services-north-york
+2024-11-24 09:34:51,820 - INFO - 10. https://www.yorkusmiles.ca/site/oral-surgery-north-york-toronto
+2024-11-24 09:34:51,820 - INFO - 11. https://www.yorkusmiles.ca/site/dental-appliances-north-york
+2024-11-24 09:34:51,820 - INFO - 12. https://www.yorkusmiles.ca/site/periodontal-gum-therapy-north-york-toronto
+2024-11-24 09:34:51,820 - INFO - 13. https://www.yorkusmiles.ca/site/children-dental-care-north-york-toronto
+2024-11-24 09:34:51,820 - INFO - 14. https://www.yorkusmiles.ca/site/emergency-dental-care-north-york-toronto
+2024-11-24 09:34:51,820 - INFO - 15. https://www.yorkusmiles.ca/site/myofunctional-therapy-north-york-toronto
+2024-11-24 09:34:51,820 - INFO - 16. https://www.yorkusmiles.ca/site/invisalign-clear-aligners-north-york-toronto
+2024-11-24 09:34:51,820 - INFO - 17. https://www.yorkusmiles.ca/site/invisalign-clear-aligners-teen-north-york
+2024-11-24 09:34:51,820 - INFO - 18. https://www.yorkusmiles.ca/site/invisalign-process-north-york
+2024-11-24 09:34:51,820 - INFO - 19. https://www.yorkusmiles.ca/site/invisalign-treatable-cases-north-york
+2024-11-24 09:34:51,820 - INFO - 20. https://www.yorkusmiles.ca/site/invisalign-clear-aligners-faqs-north-york
+2024-11-24 09:34:51,820 - INFO - 21. https://www.yorkusmiles.ca/site/dental-sedation-north-york-toronto
+2024-11-24 09:34:51,820 - INFO - 22. https://www.yorkusmiles.ca/site/healthy-start
+2024-11-24 09:34:51,820 - INFO - 23. https://www.yorkusmiles.ca/site/patients-york-university-north-york
+2024-11-24 09:34:51,820 - INFO - 24. https://www.yorkusmiles.ca/site/york-university-students-north-york
+2024-11-24 09:34:51,820 - INFO - 25. https://www.yorkusmiles.ca/site/york-university-faculty-staff-north-york
+2024-11-24 09:34:51,820 - INFO - 26. https://www.yorkusmiles.ca/site/patient-information-north-york
+2024-11-24 09:34:51,820 - INFO - 27. https://www.yorkusmiles.ca/site/dental-blog
+2024-11-24 09:34:51,820 - INFO - 28. https://www.yorkusmiles.ca/site/career-opportunities
+2024-11-24 09:34:51,820 - INFO - 29. https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist
+2024-11-24 09:34:51,820 - INFO - 30. https://www.facebook.com/YorkUsmiles/
+2024-11-24 09:34:51,820 - INFO - 31. https://www.instagram.com/yorklanesdental/
+2024-11-24 09:34:51,820 - INFO - 32. https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist#emergencyAlert
+2024-11-24 09:34:51,820 - INFO - 33. https://www.yorkusmiles.ca/site/home
+2024-11-24 09:34:51,820 - INFO - 34. https://www.yorkusmiles.ca/site/canadian-dental-care-plan
+2024-11-24 09:34:51,820 - INFO - 35. https://www.yorkusmiles.ca/site/privacy-policy
+2024-11-24 09:34:51,820 - INFO - 36. https://www.yorkusmiles.ca/site/website-accessibility
+2024-11-24 09:34:51,820 - INFO - 37. https://www.yorkusmiles.ca/site/search
+2024-11-24 09:34:51,820 - INFO - 38. https://www.yorkusmiles.ca/site/contact-north-york-toronto-dentist#top
+2024-11-24 09:34:51,820 - INFO - ==================================================
+2024-11-24 09:34:54,074 - INFO - 
+==================================================
+2024-11-24 09:34:54,074 - INFO - BACKEND RESPONSE:
+2024-11-24 09:34:54,075 - INFO - ==================================================
+2024-11-24 09:34:54,075 - INFO - HealthyStart at York Lanes Dental:
+
+Straightening Teeth Without Braces
+
+Does your child snore, mouth breathe, or have crooked teeth? HealthyStart may help.
+
+HealthyStart is a series of removable oral appliances designed to straighten teeth and promote healthy jaw development. Contact us today to learn if HealthyStart is right for your child.
+2024-11-24 09:34:54,075 - INFO - ==================================================
+
+2024-11-24 09:35:25,684 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:35:25,808 - INFO - Listening...
+2024-11-24 09:35:48,646 - INFO - Voice assistant thread started
+2024-11-24 09:35:48,647 - INFO - 
+==================================================
+2024-11-24 09:35:48,647 - INFO - Server starting on http://localhost:50001
+2024-11-24 09:35:48,647 - INFO - ==================================================
+
+2024-11-24 09:35:48,648 - INFO - Voice Assistant initialized
+2024-11-24 09:35:48,648 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:35:48,660 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://192.168.13.149:50001
+2024-11-24 09:35:48,660 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 09:35:48,747 - INFO - Listening...
+2024-11-24 09:35:52,196 - INFO - Could not understand audio
+2024-11-24 09:35:52,435 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:35:52,577 - INFO - Listening...
+2024-11-24 09:35:55,618 - INFO - Recognized: era medical.com
+2024-11-24 09:35:55,854 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:35:55,987 - INFO - Listening...
+2024-11-24 09:35:58,588 - INFO - Recognized: play kcr
+2024-11-24 09:35:58,827 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:35:58,960 - INFO - Listening...
+2024-11-24 09:36:01,298 - INFO - Received request to process links
+2024-11-24 09:36:01,298 - INFO - 
+==================================================
+2024-11-24 09:36:01,299 - INFO - Updated Browser Data:
+2024-11-24 09:36:01,299 - INFO - ==================================================
+2024-11-24 09:36:01,299 - INFO - Current URL: https://www.google.com/search?q=disera+medical&oq=disera+medical&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQLhhA0gEINzYxMWowajGoAgCwAgA&sourceid=chrome&ie=UTF-8
+2024-11-24 09:36:01,299 - INFO - Token: '0'
+2024-11-24 09:36:01,299 - INFO - URLs found: 77
+2024-11-24 09:36:01,299 - INFO - ==================================================
+
+2024-11-24 09:36:01,300 - INFO - 127.0.0.1 - - [24/Nov/2024 09:36:01] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 09:36:03,630 - INFO - Could not understand audio
+2024-11-24 09:36:03,872 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:36:04,014 - INFO - Listening...
+2024-11-24 09:36:05,641 - INFO - Received request to process links
+2024-11-24 09:36:05,641 - INFO - 
+==================================================
+2024-11-24 09:36:05,641 - INFO - Updated Browser Data:
+2024-11-24 09:36:05,641 - INFO - ==================================================
+2024-11-24 09:36:05,641 - INFO - Current URL: https://www.diseramedical.com/
+2024-11-24 09:36:05,641 - INFO - Token: '0'
+2024-11-24 09:36:05,641 - INFO - URLs found: 18
+2024-11-24 09:36:05,641 - INFO - ==================================================
+
+2024-11-24 09:36:05,641 - INFO - 127.0.0.1 - - [24/Nov/2024 09:36:05] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 09:36:08,419 - INFO - Recognized: 718
+2024-11-24 09:36:08,658 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:36:08,768 - INFO - Listening...
+2024-11-24 09:36:11,695 - INFO - Recognized: hi vista
+2024-11-24 09:36:11,829 - INFO - Wake word detected!
+2024-11-24 09:36:14,789 - INFO - Listening for command...
+2024-11-24 09:36:14,944 - INFO - Listening...
+2024-11-24 09:36:26,749 - INFO - Recognized: can you give me the telephone information on this website please
+2024-11-24 09:36:26,882 - INFO - Retrieving Data. Please be patient
+2024-11-24 09:36:30,065 - INFO - Command received: can you give me the telephone information on this website please
+2024-11-24 09:36:30,065 - INFO - 
+==================================================
+2024-11-24 09:36:30,065 - INFO - DATA SENT TO BACKEND:
+2024-11-24 09:36:30,065 - INFO - ==================================================
+2024-11-24 09:36:30,065 - INFO - COMMAND: can you give me the telephone information on this website please
+2024-11-24 09:36:30,065 - INFO - TOKEN: '0'
+2024-11-24 09:36:30,065 - INFO - CURRENT URL: https://www.diseramedical.com/
+2024-11-24 09:36:30,065 - INFO - 
+ALL URLS:
+2024-11-24 09:36:30,066 - INFO - 1. https://www.diseramedical.com/
+2024-11-24 09:36:30,066 - INFO - 2. https://www.diseramedical.com/services
+2024-11-24 09:36:30,066 - INFO - 3. https://www.diseramedical.com/patients-info
+2024-11-24 09:36:30,066 - INFO - 4. https://patient.medeohealth.com/booking/disera-medical-center-inc
+2024-11-24 09:36:30,066 - INFO - 5. https://ocean.cognisantmd.com/online-booking/d26eecd6-a4e9-4bce-ac8f-dee07ca0a3ca
+2024-11-24 09:36:30,066 - INFO - 6. https://docs.google.com/spreadsheets/d/1DUu1JwLrcL5FKeuX1Omj9bkaYcUCR8LW6uIn-lzG1h4/edit?usp=sharing
+2024-11-24 09:36:30,066 - INFO - 7. https://www.ontario.ca/page/2019-novel-coronavirus
+2024-11-24 09:36:30,066 - INFO - 8. http://bayviewfamilypractice.ourmd.ca/Doctor/secem-att-store.nsf/fa/DSGO-BMQQ2S/$FILE/factsheet-covid-19-how-to-self-isolate.pdf
+2024-11-24 09:36:30,066 - INFO - 9. http://bayviewfamilypractice.ourmd.ca/Doctor/secem-att-store.nsf/fa/DSGO-BMQPYK/$FILE/factsheet-covid-19-self-monitor.pdf
+2024-11-24 09:36:30,066 - INFO - 10. http://bayviewfamilypractice.ourmd.ca/Doctor/secem-att-store.nsf/fa/DSGO-BMQQ3F/$FILE/Guidelines-Social-Distancing-OMA.pdf
+2024-11-24 09:36:30,066 - INFO - 11. https://www.diseramedical.com/book-appointment
+2024-11-24 09:36:30,066 - INFO - 12. https://www.yellowpages.ca/search/si/1/Hospitals+%26+Medical+Centres/Toronto+ON
+2024-11-24 09:36:30,066 - INFO - 13. https://www.diseramedical.com/#
+2024-11-24 09:36:30,066 - INFO - 14. https://goo.gl/maps/8shcGkRfvJy8X1X86
+2024-11-24 09:36:30,066 - INFO - 15. https://www.facebook.com/DiseraMedicalCentre/
+2024-11-24 09:36:30,066 - INFO - 16. https://instagram.com/disera.medical
+2024-11-24 09:36:30,066 - INFO - 17. https://www.dnovykov.com/
+2024-11-24 09:36:30,066 - INFO - 18. https://smith.ai/?utm_campaign=powered_by_smith&utm_medium=chat_widget&utm_source=5d369575-f35f-441d-953a-92d234a8a80b
+2024-11-24 09:36:30,066 - INFO - ==================================================
+2024-11-24 09:37:33,820 - INFO - 
+==================================================
+2024-11-24 09:37:33,822 - INFO - BACKEND RESPONSE:
+2024-11-24 09:37:33,822 - INFO - ==================================================
+2024-11-24 09:37:33,822 - INFO - The provided text appears to be a mixture of HTML and text, likely from a web browser or spreadsheet. It contains a list of links and options but does not directly provide a phone number.
+
+However, looking through the content, there is a line that might be relevant: "To apply, please email your C.V." This implies that application for something (likely a job) should be done via email rather than over the phone. There's no direct mention of a phone contact method or number on this page.
+
+If you're looking for specific telephone information from this website and I missed it, could you please provide more context or specify what kind of "telephone information" you are seeking (e.g., a customer service number, main office number)?
+2024-11-24 09:37:33,822 - INFO - ==================================================
+
+2024-11-24 09:38:35,801 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:38:35,928 - INFO - Listening...
+2024-11-24 09:41:07,119 - INFO - Voice assistant thread started
+2024-11-24 09:41:07,119 - INFO - 
+==================================================
+2024-11-24 09:41:07,119 - INFO - Server starting on http://localhost:50001
+2024-11-24 09:41:07,120 - INFO - ==================================================
+
+2024-11-24 09:41:07,120 - INFO - Voice Assistant initialized
+2024-11-24 09:41:07,120 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:41:07,129 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://192.168.13.149:50001
+2024-11-24 09:41:07,129 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-24 09:41:07,438 - INFO - Listening...
+2024-11-24 09:41:09,799 - INFO - Received request to process links
+2024-11-24 09:41:09,800 - INFO - 
+==================================================
+2024-11-24 09:41:09,800 - INFO - Updated Browser Data:
+2024-11-24 09:41:09,800 - INFO - ==================================================
+2024-11-24 09:41:09,800 - INFO - Current URL: https://www.diseramedical.com/
+2024-11-24 09:41:09,800 - INFO - Token: '0'
+2024-11-24 09:41:09,800 - INFO - URLs found: 18
+2024-11-24 09:41:09,800 - INFO - ==================================================
+
+2024-11-24 09:41:09,800 - INFO - 127.0.0.1 - - [24/Nov/2024 09:41:09] "POST /process-links HTTP/1.1" 200 -
+2024-11-24 09:41:12,371 - INFO - Could not understand audio
+2024-11-24 09:41:12,611 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:41:12,735 - INFO - Listening...
+2024-11-24 09:41:17,053 - INFO - Recognized: hi
+2024-11-24 09:41:17,293 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:41:17,415 - INFO - Listening...
+2024-11-24 09:41:21,148 - INFO - Recognized: hi vista
+2024-11-24 09:41:21,286 - INFO - Wake word detected!
+2024-11-24 09:41:24,277 - INFO - Listening for command...
+2024-11-24 09:41:24,388 - INFO - Listening...
+2024-11-24 09:41:31,172 - INFO - Recognized: can you tell me the telephone information on this website
+2024-11-24 09:41:31,310 - INFO - Retrieving Data. Please be patient
+2024-11-24 09:41:34,491 - INFO - Command received: can you tell me the telephone information on this website
+2024-11-24 09:41:34,492 - INFO - 
+==================================================
+2024-11-24 09:41:34,492 - INFO - DATA SENT TO BACKEND:
+2024-11-24 09:41:34,492 - INFO - ==================================================
+2024-11-24 09:41:34,492 - INFO - COMMAND: can you tell me the telephone information on this website
+2024-11-24 09:41:34,492 - INFO - TOKEN: '0'
+2024-11-24 09:41:34,492 - INFO - CURRENT URL: https://www.diseramedical.com/
+2024-11-24 09:41:34,492 - INFO - CURRENT DOMAIN: www.diseramedical.com
+2024-11-24 09:41:34,492 - INFO - 
+FILTERED URLS:
+2024-11-24 09:41:34,493 - INFO - 1. https://www.diseramedical.com/
+2024-11-24 09:41:34,493 - INFO - 2. https://www.diseramedical.com/services
+2024-11-24 09:41:34,493 - INFO - 3. https://www.diseramedical.com/patients-info
+2024-11-24 09:41:34,493 - INFO - 4. https://www.diseramedical.com/book-appointment
+2024-11-24 09:41:34,493 - INFO - 5. https://www.diseramedical.com/#
+2024-11-24 09:41:34,493 - INFO - (Filtered from 18 to 5 URLs)
+2024-11-24 09:41:34,493 - INFO - ==================================================
+2024-11-24 09:41:52,329 - INFO - 
+==================================================
+2024-11-24 09:41:52,331 - INFO - BACKEND RESPONSE:
+2024-11-24 09:41:52,331 - INFO - ==================================================
+2024-11-24 09:41:52,331 - INFO - According to the text, you can contact Disera Medical Centre by calling:
+
+(905) 771-7755 (tel:+19057717755)
+
+You can also book an appointment online using their website (/book-appointment).
+2024-11-24 09:41:52,331 - INFO - ==================================================
+
+2024-11-24 09:42:21,337 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:42:21,455 - INFO - Listening...
+2024-11-24 09:42:24,253 - INFO - Could not understand audio
+2024-11-24 09:42:24,487 - INFO - Listening for wake words: hey vista, hi vista, hello vista
+2024-11-24 09:42:24,608 - INFO - Listening...

@@ -4,6 +4,17 @@ let previousUrl = null;
 
 console.log("Service worker loaded");
 
+// Function to get base domain from URL
+function getBaseDomain(url) {
+    try {
+        const urlObj = new URL(url);
+        return urlObj.hostname;
+    } catch (error) {
+        console.error('Error parsing URL:', error);
+        return null;
+    }
+}
+
 // Function to check if a tabId is valid
 async function isValidTab(tabId) {
     if (!tabId) return false;
@@ -47,16 +58,33 @@ async function processTab(tabId, url) {
 
         console.log("Processing tab:", tabId, url);
         
-        // Execute script to extract links
+        // Execute script to extract links with domain filtering
         const results = await chrome.scripting.executeScript({
             target: { tabId },
             function: function() {
+                // Helper function to get base domain
+                function getBaseDomain(url) {
+                    try {
+                        const urlObj = new URL(url);
+                        return urlObj.hostname;
+                    } catch (error) {
+                        return null;
+                    }
+                }
+
+                const currentUrl = window.location.href;
+                const currentBaseDomain = getBaseDomain(currentUrl);
+                
                 const links = Array.from(document.querySelectorAll('a'))
                     .map(a => a.href)
-                    .filter(url => url && url.startsWith('http'));
+                    .filter(url => {
+                        if (!url || !url.startsWith('http')) return false;
+                        const linkBaseDomain = getBaseDomain(url);
+                        return linkBaseDomain === currentBaseDomain;
+                    });
                 
                 return {
-                    currentUrl: window.location.href,
+                    currentUrl: currentUrl,
                     allUrls: Array.from(new Set(links))
                 };
             }

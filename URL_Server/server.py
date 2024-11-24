@@ -168,7 +168,8 @@ class VoiceAssistant:
 
 def send_command_to_backend(command, voice_assistant=None):
     """
-    Send command to backend and wait for response
+    Send command to backend and wait for response. Only includes URLs from the same domain
+    as the current URL.
     
     Args:
         command (str): Command to send to backend
@@ -179,6 +180,7 @@ def send_command_to_backend(command, voice_assistant=None):
     """
     try:
         import random
+        from urllib.parse import urlparse
         
         # List of varied waiting messages
         waiting_messages = [
@@ -198,10 +200,19 @@ def send_command_to_backend(command, voice_assistant=None):
             "please wait a bit longer"
         ]
         
+        # Extract base domain from current URL
+        current_domain = urlparse(browser_data['current_url']).netloc
+        
+        # Filter URLs to only include those from the same domain
+        filtered_urls = [
+            url for url in browser_data['urls']
+            if urlparse(url).netloc == current_domain
+        ]
+        
         payload = {
             'token': browser_data['token'],
             'command': command,
-            'urls': browser_data['urls']
+            'urls': filtered_urls  # Use filtered URLs instead of all URLs
         }
         
         logging.info("\n" + "="*50)
@@ -210,9 +221,11 @@ def send_command_to_backend(command, voice_assistant=None):
         logging.info(f"COMMAND: {command}")
         logging.info(f"TOKEN: '{browser_data['token']}'")
         logging.info(f"CURRENT URL: {browser_data['current_url']}")
-        logging.info("\nALL URLS:")
-        for idx, url in enumerate(browser_data['urls'], 1):
+        logging.info(f"CURRENT DOMAIN: {current_domain}")
+        logging.info("\nFILTERED URLS:")
+        for idx, url in enumerate(filtered_urls, 1):
             logging.info(f"{idx}. {url}")
+        logging.info(f"(Filtered from {len(browser_data['urls'])} to {len(filtered_urls)} URLs)")
         logging.info("="*50)
         
         # Create a daemon thread for the randomized waiting messages

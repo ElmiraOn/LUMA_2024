@@ -1,12 +1,20 @@
 // URL_Server/background.js
+// Track only the previous URL
+let previousUrl = null;
+
 chrome.tabs.onUpdated.addListener(async (tabId, changeInfo, tab) => {
-  // Check if the page has finished loading
   if (changeInfo.status === 'complete') {
     try {
-      // Extract links from the current tab
       const links = await extractLinksFromTab(tabId);
-      // Send links to the server
-      await sendLinksToServer(links);
+      // Check if current URL matches the previous request
+      const token = (links.currentUrl === previousUrl) ? 1 : 0;
+      
+      // Update previous URL
+      previousUrl = links.currentUrl;
+      
+      // Send links to the server with token
+      await sendLinksToServer(links, token);
+      
       // Store the links in local storage (optional)
       chrome.storage.local.set({ 'links': links });
     } catch (error) {
@@ -30,14 +38,18 @@ async function extractLinksFromTab(tabId) {
   });
 }
 
-async function sendLinksToServer(links) {
+async function sendLinksToServer(links, token) {
   try {
     const response = await fetch('http://localhost:5000/process-links', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ currentUrl: links.currentUrl, allUrls: links.allUrls })
+      body: JSON.stringify({ 
+        token: token,
+        currentUrl: links.currentUrl, 
+        allUrls: links.allUrls 
+      })
     });
     
     if (!response.ok) {
@@ -53,15 +65,14 @@ async function sendLinksToServer(links) {
   }
 }
 
-// Function to extract URLs from the page
 function extractUrls() {
   const linkElements = document.querySelectorAll('a');
   const urls = Array.from(linkElements)
     .map(a => a.href)
-    .filter(url => url && url.startsWith('http')); // Filter valid URLs only
+    .filter(url => url && url.startsWith('http'));
 
   return {
     currentUrl: window.location.href,
-    allUrls: Array.from(new Set(urls)) // Remove duplicates
+    allUrls: Array.from(new Set(urls))
   };
 }

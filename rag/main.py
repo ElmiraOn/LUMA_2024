@@ -97,8 +97,8 @@ class Chat:
         prompt = PromptTemplate.from_template(
             """You are an expert on giving information of a website based on the context.
 
-            - Understand the question then let's step by step.
-            - Provide a clear, detailed, and descriptive information about the website ONLY based on the context.
+            - Understand the question then let's think step by step.
+            - Output a clear and concise response without loosing any relevant information ONLY based on the context.
             - The response will be given to a speech-to-text model to read, therefore maintain the tone.
             `{context}`
 

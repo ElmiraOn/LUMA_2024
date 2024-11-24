@@ -3,7 +3,7 @@
 let previousUrl = null;
 
 chrome.tabs.onUpdated.addListener(async (tabId, changeInfo, tab) => {
-    if (changeInfo.status === 'complete') {
+    if (changeInfo.status === 'complete' && tab.active) {
         try {
             const links = await extractLinksFromTab(tabId);
             // Explicitly use string tokens '0' or '1'

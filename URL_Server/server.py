@@ -71,8 +71,9 @@ class VoiceAssistant:
             
             pygame.mixer.music.load(filename)
             pygame.mixer.music.play()
+            clock = pygame.time.Clock()
             while pygame.mixer.music.get_busy():
-                pygame.timeck().tick(10)
+                clock.tick(10)
             
             pygame.mixer.music.unload()
             os.remove(filename)
@@ -82,7 +83,7 @@ class VoiceAssistant:
 
     def play_acknowledgment(self):
         """Play a short acknowledgment sound"""
-        self.text_to_speech("mm hmm", os.path.join(self.temp_dir, 'ack.mp3'))
+        self.text_to_speech("Hi! How can I help you today?", os.path.join(self.temp_dir, 'ack.mp3'))
 
     def speech_to_text(self, timeout=None, phrase_time_limit=None):
         """Listen for speech and convert to text"""

@@ -1,6 +1,8 @@
+// Declare as a service worker
+const worker = self;
 let previousUrl = null;
 
-console.log("Background script loaded");
+console.log("Service worker loaded");
 
 // Function to check if a tabId is valid
 async function isValidTab(tabId) {
@@ -11,6 +13,17 @@ async function isValidTab(tabId) {
     } catch (error) {
         console.error('Error checking tab validity:', error);
         return false;
+    }
+}
+
+// Load previousUrl from storage when service worker starts
+async function loadPreviousUrl() {
+    try {
+        const data = await chrome.storage.local.get(['previousUrl']);
+        previousUrl = data.previousUrl || null;
+        console.log('Loaded previousUrl from storage:', previousUrl);
+    } catch (error) {
+        console.error('Error loading previousUrl:', error);
     }
 }
 
@@ -55,12 +68,16 @@ async function processTab(tabId, url) {
 
         const result = results[0].result;
         const token = (result.currentUrl === previousUrl) ? '1' : '0';
+        
+        // Save previousUrl to storage before updating it
+        await chrome.storage.local.set({ previousUrl: result.currentUrl });
         previousUrl = result.currentUrl;
 
         console.log("Extracted data:", {
             token,
             currentUrl: result.currentUrl,
-            urlCount: result.allUrls.length
+            urlCount: result.allUrls.length,
+            previousUrl
         });
 
         // Enhanced error handling for fetch
@@ -135,11 +152,26 @@ chrome.tabs.onActivated.addListener(async (activeInfo) => {
     }
 });
 
+// Service worker install handler
+worker.addEventListener('install', (event) => {
+    console.log('Service worker installed');
+    worker.skipWaiting();
+});
+
+// Service worker activation handler
+worker.addEventListener('activate', (event) => {
+    console.log('Service worker activated');
+    event.waitUntil(initializeExtension());
+});
+
 // Initial processing of current tab when extension loads
 async function initializeExtension() {
     console.log('Initializing extension...');
     
     try {
+        // Load previousUrl from storage first
+        await loadPreviousUrl();
+        
         const tabs = await chrome.tabs.query({ active: true, currentWindow: true });
         console.log('Initial tabs:', tabs);
         
@@ -151,5 +183,8 @@ async function initializeExtension() {
     }
 }
 
-// Call initialization
-initializeExtension();
+// Handle messages from content scripts or popup if needed
+worker.addEventListener('message', (event) => {
+    console.log('Message received in service worker:', event.data);
+    // Handle any messages here if needed
+});

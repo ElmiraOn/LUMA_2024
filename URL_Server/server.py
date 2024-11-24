@@ -72,7 +72,7 @@ class VoiceAssistant:
             pygame.mixer.music.load(filename)
             pygame.mixer.music.play()
             while pygame.mixer.music.get_busy():
-                pygame.time.Clock().tick(10)
+                pygame.timeck().tick(10)
             
             pygame.mixer.music.unload()
             os.remove(filename)
@@ -155,6 +155,9 @@ def send_command_to_backend(command):
             logging.info(response_data.get('response', 'Response not received'))
             logging.info("="*50 + "\n")
             print(response_data)
+            
+            # Set token to '1' after successful request
+            browser_data['token'] = '1'
             
             return response_data.get('response', 'Response not received')
         return "Response not received"
@@ -243,7 +246,7 @@ def start_server():
     logging.info("\n" + "="*50)
     logging.info("Server starting on http://localhost:50001")
     logging.info("="*50 + "\n")
-    app.run(host='0.0.0.0', port=50001, debug=True)
+    app.run(host='0.0.0.0', port=50001, debug=False)
 
 if __name__ == '__main__':
     try:

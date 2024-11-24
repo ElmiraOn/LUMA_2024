@@ -9,6 +9,7 @@ import os
 import requests
 import time
 import logging
+import re
 
 
 
@@ -282,6 +283,28 @@ def send_command_to_backend(command, voice_assistant=None):
         logging.error(f"Error sending command to backend: {str(e)}")
         return "Response not received"
 
+
+def clean_response(text):
+    """
+    Remove all special characters from text except @ symbol.
+    
+    Args:
+        text (str): Input text to be cleaned
+        
+    Returns:
+        str: Cleaned text with only alphanumeric characters and @ symbols
+    """
+    # First preserve @ symbols by replacing them temporarily
+    text = text.replace('@', 'TEMP_AT_SYMBOL')
+    
+    # Remove all special characters except alphanumeric and spaces
+    cleaned_text = re.sub(r'[^a-zA-Z0-9\s]', '', text)
+    
+    # Restore @ symbols
+    cleaned_text = cleaned_text.replace('TEMP_AT_SYMBOL', '@')
+    
+    return cleaned_text
+
 def run_voice_assistant():
     """Main function to run the voice assistant"""
     assistant = VoiceAssistant()
@@ -307,7 +330,8 @@ def run_voice_assistant():
                     
                     if browser_data['urls']:
                         backend_response = send_command_to_backend(command, voice_assistant=assistant)
-                        assistant.text_to_speech(backend_response)
+                        cleaned_response = clean_response(backend_response)
+                        assistant.text_to_speech(cleaned_response)
                         assistant.text_to_speech("Done. Please let me know if you have more questions.")
                     else:
                         assistant.text_to_speech("No page data available. Please wait for a page to load.")
